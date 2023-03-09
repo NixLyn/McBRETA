@@ -1,0 +1,903 @@
+CeWL 5.5.2 (Grouping) Robin Wood (robin@digi.ninja) (https://digi.ninja/)
+Starting at http://www.nutrimedah.co.za
+Visiting: https://www.nutrimedah.co.za/ referred from http://www.nutrimedah.co.za, got response code 200
+Attribute text found:
+   
+
+Visiting: https://www.nutrimedah.co.za:443/index.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+   
+
+Visiting: https://www.nutrimedah.co.za:443/about-us.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+  
+
+Found 0873marko@nutrimedah.co.za on page https://www.nutrimedah.co.za:443/about-us.html
+
+Unable to connect to the site (https://www.nutrimedah.co.za:443/why-nutrimed.html)
+
+The following error may help:
+Net::OpenTimeout
+/usr/lib/ruby/3.1.0/net/protocol.rb:43:in `ssl_socket_connect'
+/usr/lib/ruby/3.1.0/net/http.rb:1048:in `connect'
+/usr/lib/ruby/3.1.0/net/http.rb:976:in `do_start'
+/usr/lib/ruby/3.1.0/net/http.rb:965:in `start'
+/usr/lib/ruby/3.1.0/net/http.rb:1530:in `request'
+/usr/bin/cewl:247:in `get_page'
+/usr/bin/cewl:177:in `block (2 levels) in start!'
+/usr/bin/cewl:175:in `each'
+/usr/bin/cewl:175:in `block in start!'
+/usr/bin/cewl:163:in `each'
+/usr/bin/cewl:163:in `start!'
+/usr/bin/cewl:115:in `start_at'
+/usr/bin/cewl:776:in `block in <main>'
+/usr/bin/cewl:766:in `catch'
+/usr/bin/cewl:766:in `<main>'
+
+Caller
+/usr/bin/cewl:199:in `get_page'
+/usr/bin/cewl:177:in `block (2 levels) in start!'
+/usr/bin/cewl:175:in `each'
+/usr/bin/cewl:175:in `block in start!'
+/usr/bin/cewl:163:in `each'
+/usr/bin/cewl:163:in `start!'
+/usr/bin/cewl:115:in `start_at'
+/usr/bin/cewl:776:in `block in <main>'
+/usr/bin/cewl:766:in `catch'
+/usr/bin/cewl:766:in `<main>'
+
+
+Visiting: https://www.nutrimedah.co.za:443/joint-support-range.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+        
+
+Visiting: https://www.nutrimedah.co.za:443/skin-coat-range.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+     
+
+Visiting: https://www.nutrimedah.co.za:443/digestive-care-range.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+    
+
+Visiting: https://www.nutrimedah.co.za:443/multi-vitamin-minerals-amino-acids-range.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+    
+
+Visiting: https://www.nutrimedah.co.za:443/calming-stress-relief-range.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+   
+
+Visiting: https://www.nutrimedah.co.za:443/oral-care-range.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+   
+
+Visiting: https://www.nutrimedah.co.za:443/electrolytes-recovery-range.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+    
+
+Visiting: https://www.nutrimedah.co.za:443/muscle-body-building-range.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+    
+
+Visiting: https://www.nutrimedah.co.za:443/parasite-control-deworming-range.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+   
+
+Visiting: https://www.nutrimedah.co.za:443/grooming-hygiene-range.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+    
+
+Visiting: https://www.nutrimedah.co.za:443/where-to-buy.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+           
+
+Found retha@nutrimedah.co.za on page https://www.nutrimedah.co.za:443/where-to-buy.html
+Found liana@nutrimedah.co.za on page https://www.nutrimedah.co.za:443/where-to-buy.html
+Found marko@nutrmedah.co.za on page https://www.nutrimedah.co.za:443/where-to-buy.html
+Visiting: https://www.nutrimedah.co.za:443/client-resources.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+  
+
+Visiting: https://www.nutrimedah.co.za:443/contact-us.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+           
+
+Found retha@nutrimedah.co.za on page https://www.nutrimedah.co.za:443/contact-us.html
+Found liana@nutrimedah.co.za on page https://www.nutrimedah.co.za:443/contact-us.html
+Found marko@nutrimedah.co.za on page https://www.nutrimedah.co.za:443/contact-us.html
+Visiting: https://www.nutrimedah.co.za:443/products.html referred from https://www.nutrimedah.co.za/, got response code 200
+Attribute text found:
+  
+
+Ignoring internal link or graphic: http://www.nutrimedah.co.za/product-catalogue.zip
+
+Unable to connect to the site (https://www.facebook.com:443/NutrimedAH/)
+
+The following error may help:
+SSL_read: unexpected eof while reading
+/usr/lib/ruby/3.1.0/openssl/buffering.rb:214:in `sysread_nonblock'
+/usr/lib/ruby/3.1.0/openssl/buffering.rb:214:in `read_nonblock'
+/usr/lib/ruby/3.1.0/net/protocol.rb:212:in `rbuf_fill'
+/usr/lib/ruby/3.1.0/net/protocol.rb:181:in `read_all'
+/usr/lib/ruby/3.1.0/net/http/response.rb:421:in `read_all'
+/usr/lib/ruby/3.1.0/net/http/response.rb:308:in `block in read_body_0'
+/usr/lib/ruby/3.1.0/net/http/response.rb:270:in `inflater'
+/usr/lib/ruby/3.1.0/net/http/response.rb:290:in `read_body_0'
+/usr/lib/ruby/3.1.0/net/http/response.rb:210:in `read_body'
+/usr/lib/ruby/3.1.0/net/http/response.rb:235:in `body'
+/usr/lib/ruby/3.1.0/net/http/response.rb:168:in `reading_body'
+/usr/lib/ruby/3.1.0/net/http.rb:1583:in `transport_request'
+/usr/lib/ruby/3.1.0/net/http.rb:1539:in `request'
+/usr/lib/ruby/3.1.0/net/http.rb:1532:in `block in request'
+/usr/lib/ruby/3.1.0/net/http.rb:966:in `start'
+/usr/lib/ruby/3.1.0/net/http.rb:1530:in `request'
+/usr/bin/cewl:247:in `get_page'
+/usr/bin/cewl:177:in `block (2 levels) in start!'
+/usr/bin/cewl:175:in `each'
+/usr/bin/cewl:175:in `block in start!'
+/usr/bin/cewl:163:in `each'
+/usr/bin/cewl:163:in `start!'
+/usr/bin/cewl:115:in `start_at'
+/usr/bin/cewl:776:in `block in <main>'
+/usr/bin/cewl:766:in `catch'
+/usr/bin/cewl:766:in `<main>'
+
+Caller
+/usr/bin/cewl:199:in `get_page'
+/usr/bin/cewl:177:in `block (2 levels) in start!'
+/usr/bin/cewl:175:in `each'
+/usr/bin/cewl:175:in `block in start!'
+/usr/bin/cewl:163:in `each'
+/usr/bin/cewl:163:in `start!'
+/usr/bin/cewl:115:in `start_at'
+/usr/bin/cewl:776:in `block in <main>'
+/usr/bin/cewl:766:in `catch'
+/usr/bin/cewl:766:in `<main>'
+
+
+
+Unable to connect to the site (https://www.instagram.com:443/nutrimedah/)
+
+The following error may help:
+SSL_read: unexpected eof while reading
+/usr/lib/ruby/3.1.0/openssl/buffering.rb:214:in `sysread_nonblock'
+/usr/lib/ruby/3.1.0/openssl/buffering.rb:214:in `read_nonblock'
+/usr/lib/ruby/3.1.0/net/protocol.rb:212:in `rbuf_fill'
+/usr/lib/ruby/3.1.0/net/protocol.rb:181:in `read_all'
+/usr/lib/ruby/3.1.0/net/http/response.rb:421:in `read_all'
+/usr/lib/ruby/3.1.0/net/http/response.rb:308:in `block in read_body_0'
+/usr/lib/ruby/3.1.0/net/http/response.rb:270:in `inflater'
+/usr/lib/ruby/3.1.0/net/http/response.rb:290:in `read_body_0'
+/usr/lib/ruby/3.1.0/net/http/response.rb:210:in `read_body'
+/usr/lib/ruby/3.1.0/net/http/response.rb:235:in `body'
+/usr/lib/ruby/3.1.0/net/http/response.rb:168:in `reading_body'
+/usr/lib/ruby/3.1.0/net/http.rb:1583:in `transport_request'
+/usr/lib/ruby/3.1.0/net/http.rb:1539:in `request'
+/usr/lib/ruby/3.1.0/net/http.rb:1532:in `block in request'
+/usr/lib/ruby/3.1.0/net/http.rb:966:in `start'
+/usr/lib/ruby/3.1.0/net/http.rb:1530:in `request'
+/usr/bin/cewl:247:in `get_page'
+/usr/bin/cewl:177:in `block (2 levels) in start!'
+/usr/bin/cewl:175:in `each'
+/usr/bin/cewl:175:in `block in start!'
+/usr/bin/cewl:163:in `each'
+/usr/bin/cewl:163:in `start!'
+/usr/bin/cewl:115:in `start_at'
+/usr/bin/cewl:776:in `block in <main>'
+/usr/bin/cewl:766:in `catch'
+/usr/bin/cewl:766:in `<main>'
+
+Caller
+/usr/bin/cewl:199:in `get_page'
+/usr/bin/cewl:177:in `block (2 levels) in start!'
+/usr/bin/cewl:175:in `each'
+/usr/bin/cewl:175:in `block in start!'
+/usr/bin/cewl:163:in `each'
+/usr/bin/cewl:163:in `start!'
+/usr/bin/cewl:115:in `start_at'
+/usr/bin/cewl:776:in `block in <main>'
+/usr/bin/cewl:766:in `catch'
+/usr/bin/cewl:766:in `<main>'
+
+
+Words found
+and, 192
+the, 112
+Range, 92
+Nutrimed, 87
+Care, 79
+with, 76
+See, 52
+range, 49
+for, 46
+Relief, 42
+Oral, 41
+Electrolytes, 41
+health, 41
+Vitamin, 39
+Products, 38
+Joint, 38
+Support, 38
+Skin, 38
+Coat, 38
+Digestive, 38
+Minerals, 38
+Calming, 38
+Stress, 38
+Recovery, 38
+Muscle, 38
+Body, 38
+Building, 38
+Parasite, 38
+Control, 38
+Deworming, 38
+Grooming, 38
+Hygiene, 38
+Where, 36
+About, 35
+Client, 35
+Resources, 35
+Contact, 35
+Why, 34
+whole, 32
+supplements, 28
+your, 27
+products, 27
+aid, 27
+pets, 26
+assist, 24
+Animal, 23
+Health, 23
+formulated, 23
+our, 22
+South, 22
+based, 22
+best, 22
+Details, 22
+African, 21
+international, 20
+possible, 20
+buy, 19
+manufacturer, 19
+market, 19
+are, 18
+Facebook, 18
+started, 18
+Supplement, 18
+main, 18
+focus, 18
+supplying, 18
+scientifically, 18
+proven, 18
+medicines, 18
+provide, 18
+This, 17
+site, 17
+was, 17
+created, 17
+Webflow, 17
+https, 17
+www, 17
+webflow, 17
+com, 17
+Last, 17
+Published, 17
+Tue, 17
+Jan, 17
+GMT, 17
+Coordinated, 17
+Universal, 17
+Time, 17
+Buy, 17
+Catergories, 17
+Follow, 17
+Instagram, 17
+Terms, 17
+Use, 17
+Design, 17
+Branding, 17
+illustrated, 17
+Creative, 17
+Studio, 17
+lte, 17
+conditions, 16
+dogs, 15
+that, 14
+cats, 14
+all, 13
+skin, 13
+Download, 13
+MaxiJoint, 12
+recovery, 12
+after, 12
+joint, 11
+very, 11
+related, 10
+pet, 9
+nutritional, 9
+inflammatory, 8
+boosting, 8
+MaxiFlora, 8
+digestive, 8
+care, 8
+MaxiMulti, 8
+events, 8
+effective, 8
+have, 8
+oil, 8
+muscle, 7
+MaxiCoat, 7
+MaxiShine, 7
+Omega, 7
+hair, 7
+quality, 7
+can, 7
+assists, 7
+The, 7
+blend, 7
+animal, 6
+from, 6
+specifically, 6
+great, 6
+levels, 6
+unique, 6
+general, 6
+scenario, 6
+made, 6
+these, 6
+ingredients, 6
+get, 6
+internal, 6
+parasites, 6
+like, 6
+hygiene, 6
+nutrimedah, 6
+management, 6
+powerful, 6
+support, 5
+MSM, 5
+pain, 5
+coat, 5
+high, 5
+probiotic, 5
+Moringa, 5
+overall, 5
+help, 5
+Kelp, 5
+working, 5
+also, 5
+keep, 5
+MaxiWorm, 5
+latest, 5
+product, 5
+botanical, 5
+other, 5
+topical, 5
+May, 5
+joints, 5
+wide, 4
+body, 4
+FlexiJoint, 4
+Ultra, 4
+uniquely, 4
+DHA, 4
+EPA, 4
+shiny, 4
+Plus, 4
+pre, 4
+Multi, 4
+Amino, 4
+RAW, 4
+longevity, 4
+anxiety, 4
+MaxiCalm, 4
+MaxiDental, 4
+MaxiLyte, 4
+heart, 4
+back, 4
+MaxiBulk, 4
+focused, 4
+control, 4
+worms, 4
+affordable, 4
+treat, 4
+Product, 4
+Catalogue, 4
+catalogue, 4
+convenient, 4
+offline, 4
+view, 4
+equipment, 4
+you, 4
+will, 4
+With, 4
+most, 4
+including, 4
+helps, 4
+may, 4
+must, 4
+Inflameze, 4
+anti, 4
+cooling, 4
+gel, 4
+herbs, 4
+ease, 4
+painful, 4
+tendons, 4
+muscles, 4
+used, 4
+before, 4
+during, 4
+Itch, 4
+Eeze, 4
+dry, 4
+Sales, 4
+beloved, 3
+offers, 3
+healthcare, 3
+more, 3
+down, 3
+amazing, 3
+protection, 3
+relief, 3
+Each, 3
+specific, 3
+lifestages, 3
+activity, 3
+scenarios, 3
+helping, 3
+lustrous, 3
+colourful, 3
+blends, 3
+Acid, 3
+tailor, 3
+every, 3
+feeding, 3
+Even, 3
+small, 3
+dosages, 3
+natural, 3
+Numerous, 3
+suffer, 3
+stress, 3
+environmental, 3
+factors, 3
+alleviate, 3
+manage, 3
+symptoms, 3
+first, 3
+nutraceuticals, 3
+species, 3
+crucial, 3
+playing, 3
+excercise, 3
+Specially, 3
+shape, 3
+Protein, 3
+Fat, 3
+Regular, 3
+deworming, 3
+extremely, 3
+important, 3
+way, 3
+grooming, 3
+injury, 3
+entire, 3
+art, 3
+Africa, 3
+any, 3
+healthy, 3
+ultimate, 3
+Marko, 3
+marko, 3
+using, 3
+cream, 3
+etc, 3
+Proudly, 3
+source, 3
+essential, 3
+mobility, 3
+actives, 3
+cartilage, 3
+relieve, 3
+active, 3
+oils, 3
+proprietary, 3
+use, 3
+Healthcare, 2
+Browse, 2
+ranging, 2
+building, 2
+plus, 2
+lot, 2
+Scroll, 2
+further, 2
+see, 2
+Director, 2
+team, 2
+beneficial, 2
+without, 2
+safe, 2
+state, 2
+facility, 2
+steel, 2
+exceptional, 2
+production, 2
+aim, 2
+HACCP, 2
+GMP, 2
+one, 2
+Southern, 2
+contract, 2
+manufacturing, 2
+proud, 2
+new, 2
+future, 2
+powder, 2
+utmost, 2
+machinery, 2
+science, 2
+highly, 2
+trained, 2
+communities, 2
+over, 2
+their, 2
+Added, 2
+State, 2
+family, 2
+owned, 2
+nutrition, 2
+business, 2
+Quality, 2
+some, 2
+High, 2
+pure, 2
+naturally, 2
+occuring, 2
+food, 2
+growth, 2
+maintenance, 2
+connective, 2
+tissues, 2
+proper, 2
+lubrication, 2
+better, 2
+due, 2
+showing, 2
+white, 2
+moisturise, 2
+itchy, 2
+caused, 2
+insect, 2
+bites, 2
+chaffing, 2
+moisturing, 2
+soothing, 2
+extracts, 2
+Aloe, 2
+vera, 2
+buchu, 2
+German, 2
+chamomile, 2
+neem, 2
+lavender, 2
+tea, 2
+tree, 2
+marine, 2
+carotene, 2
+Also, 2
+stressful, 2
+event, 2
+issues, 2
+treatment, 2
+beta, 2
+balanced, 2
+vitamins, 2
+minerals, 2
+amino, 2
+acids, 2
+trace, 2
+elements, 2
+immune, 2
+system, 2
+oral, 2
+brand, 2
+purchase, 2
+Retha, 2
+Uys, 2
+Key, 2
+Accounts, 2
+Manager, 2
+Groups, 2
+retha, 2
+Liana, 2
+Munnik, 2
+Representative, 2
+National, 2
+liana, 2
+Operations, 2
+Botha, 2
+Executive, 2
+Management, 2
+Exports, 2
+Letter, 1
+From, 1
+Dear, 1
+FamilyNutrimed, 1
+primarily, 1
+doing, 1
+much, 1
+research, 1
+search, 1
+those, 1
+key, 1
+effect, 1
+long, 1
+term, 1
+side, 1
+effects, 1
+Nature, 1
+variety, 1
+herbal, 1
+setup, 1
+only, 1
+stainless, 1
+processes, 1
+ISO, 1
+Veterinary, 1
+approved, 1
+facilities, 1
+certifications, 1
+ultimately, 1
+manufacturers, 1
+offer, 1
+companies, 1
+well, 1
+please, 1
+touch, 1
+needs, 1
+bring, 1
+professional, 1
+scientific, 1
+Keep, 1
+eye, 1
+page, 1
+website, 1
+continuously, 1
+launch, 1
+thenear, 1
+Best, 1
+regards, 1
+BothaBSc, 1
+Mission, 1
+where, 1
+mix, 1
+almost, 1
+liquid, 1
+precision, 1
+pharma, 1
+grade, 1
+formulas, 1
+natures, 1
+resources, 1
+staff, 1
+follow, 1
+protocols, 1
+strive, 1
+plan, 1
+install, 1
+such, 1
+tabletting, 1
+makers, 1
+order, 1
+compete, 1
+segments, 1
+add, 1
+true, 1
+value, 1
+Vision, 1
+always, 1
+adhere, 1
+standards, 1
+set, 1
+protect, 1
+manufacture, 1
+respect, 1
+mind, 1
+uses, 1
+nature, 1
+create, 1
+currently, 1
+own, 1
+various, 1
+envisions, 1
+vast, 1
+array, 1
+day, 1
+hopefully, 1
+able, 1
+cure, 1
+ailments, 1
+which, 1
+encounter, 1
+want, 1
+who, 1
+cannot, 1
+afford, 1
+expensive, 1
+yet, 1
+alternative, 1
+Our, 1
+Values, 1
+Art, 1
+Equipment, 1
+ensure, 1
+throughout, 1
+Ingredients, 1
+highest, 1
+World, 1
+Class, 1
+Facility, 1
+locally, 1
+produced, 1
+markets, 1
+Enhances, 1
+inflammation, 1
+optimises, 1
+pefromance, 1
+prohibited, 1
+substanes, 1
+contains, 1
+prevent, 1
+early, 1
+DJD, 1
+lubricate, 1
+manages, 1
+damaged, 1
+aged, 1
+combination, 1
+especially, 1
+older, 1
+Senior, 1
+prevention, 1
+Over, 1
+strenuous, 1
+decrease, 1
+allergies, 1
+excessive, 1
+loss, 1
+soft, 1
+folicales, 1
+ensures, 1
+beautiful, 1
+Beta, 1
+optimal, 1
+colour, 1
+shine, 1
+show, 1
+suffered, 1
+cause, 1
+upset, 1
+Perfect, 1
+managing, 1
+sensitivities, 1
+large, 1
+amount, 1
+kennels, 1
+multi, 1
+strain, 1
+added, 1
+prebiotics, 1
+Formulated, 1
+post, 1
+surgery, 1
+antibiotic, 1
+course, 1
+glucans, 1
+immunity, 1
+Acids, 1
+lifestyle, 1
+Higher, 1
+folic, 1
+acid, 1
+supports, 1
+Raw, 1
+whilst, 1
+assisting, 1
+Specifically, 1
+meet, 1
+daily, 1
+intake, 1
+requirements, 1
+being, 1
+fed, 1
+meat, 1
+diet, 1
+travelling, 1
+moving, 1
+kenneling, 1
+retardation, 1
+dental, 1
+Ascophyllum, 1
+nodosum, 1
+has, 1
+enzymes, 1
+break, 1
+tartar, 1
+build, 1
+mint, 1
+fresh, 1
+breath, 1
+salts, 1
+sugars, 1
+rehydrating, 1
+condition, 1
+Carnitine, 1
+Taurine, 1
+Whole, 1
+eggs, 1
+Whey, 1
+isolate, 1
+combined, 1
+give, 1
+maximum, 1
+protein, 1
+fat, 1
+concentrate, 1
+along, 1
+sickly, 1
+neglected, 1
+ideal, 1
+weight, 1
+broad, 1
+spectrum, 1
+anthelmintic, 1
+tablet, 1
+canine, 1
+hookworms, 1
+tapeworms, 1
+roundworms, 1
+growing, 1
+directly, 1
+Alternatively, 1
+direct, 1
+nearest, 1
+supplier, 1
+Please, 1
+below, 1
+contact, 1
+information, 1
+reach, 1
+nutrmedah, 1
+Logos, 1
+Badges, 1
+For, 1
+collaboration, 1
+Usage, 1
+assets, 1
+subject, 1
+strict, 1
+usage, 1
+guidelines, 1
+Packaging, 1
+Photos, 1
+packaging, 1
+shots, 1
+resolution, 1
+photography, 1
+images, 1
+incredibly, 1
+andMSM, 1
+injoint, 1
+both, 1
+though, 1
+Dumping email addresses to file
+
+Email addresses found
+---------------------
+0873marko@nutrimedah.co.za
+liana@nutrimedah.co.za
+marko@nutrimedah.co.za
+marko@nutrmedah.co.za
+retha@nutrimedah.co.za
+No meta data found

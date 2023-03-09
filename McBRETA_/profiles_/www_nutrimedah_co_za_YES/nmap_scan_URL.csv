@@ -1,0 +1,104 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-03-09 22:10 SAST
+Nmap scan report for www.nutrimedah.co.za (197.221.14.11)
+Host is up (0.20s latency).
+rDNS record for 197.221.14.11: www11.cpt3.host-h.net
+Not shown: 988 filtered tcp ports (no-response)
+PORT     STATE SERVICE    VERSION
+21/tcp   open  ftp        ProFTPD
+22/tcp   open  ssh        (protocol 2.0)
+| fingerprint-strings: 
+|   NULL: 
+|     SSH-2.0-FTP Service
+|     ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group14-sha256,diffie-hellman-group-exchange-sha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,rsa1024-sha1
+|     ssh-rsa
+|     _aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,cast128-cbc,3des-ctr,3des-cbc
+|     _aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,cast128-cbc,3des-ctr,3des-cbc
+|     Fhmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,umac-64@openssh.com
+|     Fhmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha1-96,umac-64@openssh.com
+|     zlib@openssh.com,zlib,none
+|_    zlib@openssh.com,zlib,none
+25/tcp   open  smtp       Cisco PIX sanitized smtpd
+| smtp-commands: www11.cpt3.host-h.net Hello 8ta-145-193-134.telkomadsl.co.za [41.145.193.134], SIZE 31457280, 8BITMIME, ETRN, PIPELINING, AUTH LOGIN PLAIN, XXXXXXXA, STARTTLS, XXXB
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP ETRN
+|_smtp-ntlm-info: ERROR: Script execution failed (use -d to debug)
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=nutrimedah.co.za
+| Subject Alternative Name: DNS:mail.nutrimedah.co.za, DNS:nutrimedah.co.za, DNS:pop.nutrimedah.co.za, DNS:smtp.nutrimedah.co.za, DNS:www.nutrimedah.co.za
+| Not valid before: 2023-02-13T09:44:20
+|_Not valid after:  2023-05-14T09:44:19
+80/tcp   open  http       Apache httpd
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to https://www.nutrimedah.co.za/
+110/tcp  open  pop3       Dovecot pop3d
+| ssl-cert: Subject: commonName=*.cpt3.host-h.net
+| Subject Alternative Name: DNS:*.cpt3.host-h.net, DNS:cpt3.host-h.net
+| Not valid before: 2022-06-20T00:00:00
+|_Not valid after:  2023-07-10T23:59:59
+|_pop3-capabilities: PIPELINING UIDL TOP RESP-CODES AUTH-RESP-CODE USER STLS CAPA SASL(PLAIN LOGIN)
+143/tcp  open  imap       Dovecot imapd
+|_imap-capabilities: Pre-login IDLE capabilities STARTTLS LOGIN-REFERRALS SASL-IR IMAP4rev1 have AUTH=LOGINA0001 more ENABLE OK listed post-login ID LITERAL+ AUTH=PLAIN
+| ssl-cert: Subject: commonName=*.cpt3.host-h.net
+| Subject Alternative Name: DNS:*.cpt3.host-h.net, DNS:cpt3.host-h.net
+| Not valid before: 2022-06-20T00:00:00
+|_Not valid after:  2023-07-10T23:59:59
+|_ssl-date: TLS randomness does not represent time
+443/tcp  open  ssl/http   Apache httpd
+| ssl-cert: Subject: commonName=nutrimedah.co.za
+| Subject Alternative Name: DNS:mail.nutrimedah.co.za, DNS:nutrimedah.co.za, DNS:pop.nutrimedah.co.za, DNS:smtp.nutrimedah.co.za, DNS:www.nutrimedah.co.za
+| Not valid before: 2023-02-13T09:44:20
+|_Not valid after:  2023-05-14T09:44:19
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+|_http-server-header: Apache
+|_http-title: 400 Bad Request
+465/tcp  open  ssl/smtps?
+| ssl-cert: Subject: commonName=nutrimedah.co.za
+| Subject Alternative Name: DNS:mail.nutrimedah.co.za, DNS:nutrimedah.co.za, DNS:pop.nutrimedah.co.za, DNS:smtp.nutrimedah.co.za, DNS:www.nutrimedah.co.za
+| Not valid before: 2023-02-13T09:44:20
+|_Not valid after:  2023-05-14T09:44:19
+|_ssl-date: TLS randomness does not represent time
+|_smtp-commands: Couldn't establish connection on port 465
+587/tcp  open  smtp       Exim smtpd
+|_smtp-ntlm-info: ERROR: Script execution failed (use -d to debug)
+| ssl-cert: Subject: commonName=nutrimedah.co.za
+| Subject Alternative Name: DNS:mail.nutrimedah.co.za, DNS:nutrimedah.co.za, DNS:pop.nutrimedah.co.za, DNS:smtp.nutrimedah.co.za, DNS:www.nutrimedah.co.za
+| Not valid before: 2023-02-13T09:44:20
+|_Not valid after:  2023-05-14T09:44:19
+|_ssl-date: TLS randomness does not represent time
+| smtp-commands: www11.cpt3.host-h.net Hello 8ta-145-193-152.telkomadsl.co.za [41.145.193.152], SIZE 31457280, 8BITMIME, ETRN, PIPELINING, AUTH LOGIN PLAIN, CHUNKING, STARTTLS, HELP
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP ETRN
+993/tcp  open  ssl/imaps?
+| ssl-cert: Subject: commonName=*.cpt3.host-h.net
+| Subject Alternative Name: DNS:*.cpt3.host-h.net, DNS:cpt3.host-h.net
+| Not valid before: 2022-06-20T00:00:00
+|_Not valid after:  2023-07-10T23:59:59
+|_ssl-date: TLS randomness does not represent time
+|_imap-capabilities: more post-login Pre-login have IDLE ID listed capabilities AUTH=LOGINA0001 ENABLE OK AUTH=PLAIN LOGIN-REFERRALS SASL-IR LITERAL+ IMAP4rev1
+995/tcp  open  ssl/pop3   Dovecot pop3d
+| ssl-cert: Subject: commonName=*.cpt3.host-h.net
+| Subject Alternative Name: DNS:*.cpt3.host-h.net, DNS:cpt3.host-h.net
+| Not valid before: 2022-06-20T00:00:00
+|_Not valid after:  2023-07-10T23:59:59
+|_ssl-date: TLS randomness does not represent time
+2222/tcp open  ssh        OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port22-TCP:V=7.93%I=7%D=3/9%Time=640A3E39%P=x86_64-pc-linux-gnu%r(NULL,
+SF:2E5,"SSH-2\.0-FTP\x20Service\r\n\0\0\x02\xcc\x05\x14\xae-\xe6n7\xe97\xa
+SF:2;\x11\xdb\|\x0fR\^\xee\0\0\x01\x03ecdh-sha2-nistp521,ecdh-sha2-nistp38
+SF:4,ecdh-sha2-nistp256,diffie-hellman-group18-sha512,diffie-hellman-group
+SF:16-sha512,diffie-hellman-group14-sha256,diffie-hellman-group-exchange-s
+SF:ha256,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,rs
+SF:a1024-sha1\0\0\0\x07ssh-rsa\0\0\0_aes256-ctr,aes192-ctr,aes128-ctr,aes2
+SF:56-cbc,aes192-cbc,aes128-cbc,cast128-cbc,3des-ctr,3des-cbc\0\0\0_aes256
+SF:-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,cast128-cbc
+SF:,3des-ctr,3des-cbc\0\0\0Fhmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-sha
+SF:1-96,umac-64@openssh\.com\0\0\0Fhmac-sha2-256,hmac-sha2-512,hmac-sha1,h
+SF:mac-sha1-96,umac-64@openssh\.com\0\0\0\x1azlib@openssh\.com,zlib,none\0
+SF:\0\0\x1azlib@openssh\.com,zlib,none\0\0\0\0\0\0\0\0\0\0\0\0\0{-\x85\x84
+SF:_");
+Service Info: OS: Linux; Device: firewall; CPE: cpe:/o:cisco:pix_firewall_software, cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 347.36 seconds

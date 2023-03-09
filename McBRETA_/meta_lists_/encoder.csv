@@ -1,0 +1,45 @@
+encoder/x86/add_sub                                    manual     No     Add/Sub Encoder
+encoder/x86/alpha_mixed                                low        No     Alpha2 Alphanumeric Mixedcase Encoder
+encoder/x86/unicode_mixed                              manual     No     Alpha2 Alphanumeric Unicode Mixedcase Encoder
+encoder/x86/unicode_upper                              manual     No     Alpha2 Alphanumeric Unicode Uppercase Encoder
+encoder/x86/alpha_upper                                low        No     Alpha2 Alphanumeric Uppercase Encoder
+encoder/x86/avoid_utf8_tolower                         manual     No     Avoid UTF8/tolower
+encoder/x86/avoid_underscore_tolower                   manual     No     Avoid underscore/tolower
+encoder/x86/bmp_polyglot                               manual     No     BMP Polyglot
+encoder/cmd/brace                                      low        No     Bash Brace Expansion Command Encoder
+encoder/x86/bloxor                                     manual     No     BloXor - A Metamorphic Block Based XOR Encoder
+encoder/cmd/ifs                                        low        No     Bourne ${IFS} Substitution Command Encoder
+encoder/mipsbe/byte_xori                               normal     No     Byte XORi Encoder
+encoder/mipsle/byte_xori                               normal     No     Byte XORi Encoder
+encoder/x86/context_cpuid                              manual     No     CPUID-based Context Keyed Payload Encoder
+encoder/x86/call4_dword_xor                            normal     No     Call+4 Dword XOR Encoder
+encoder/x64/xor_dynamic                                normal     No     Dynamic key XOR Encoder
+encoder/x86/xor_dynamic                                normal     No     Dynamic key XOR Encoder
+encoder/cmd/echo                                       good       No     Echo Command Encoder
+encoder/cmd/generic_sh                                 manual     No     Generic Shell Variable Substitution Command Encoder
+encoder/x64/xor_context                                normal     No     Hostname-based Context Keyed Payload Encoder
+encoder/x86/jmp_call_additive                          normal     No     Jump/Call XOR Additive Feedback Encoder
+encoder/x86/nonalpha                                   low        No     Non-Alpha Encoder
+encoder/x86/nonupper                                   low        No     Non-Upper Encoder
+encoder/php/base64                                     great      No     PHP Base64 Encoder
+encoder/ppc/longxor                                    normal     No     PPC LongXOR Encoder
+encoder/ppc/longxor_tag                                normal     No     PPC LongXOR Encoder
+encoder/cmd/perl                                       normal     No     Perl Command Encoder
+encoder/x86/shikata_ga_nai                             excellent  No     Polymorphic XOR Additive Feedback Encoder
+encoder/cmd/powershell_base64                          excellent  No     Powershell Base64 Command Encoder
+encoder/x86/service                                    manual     No     Register Service
+encoder/ruby/base64                                    great      No     Ruby Base64 Encoder
+encoder/sparc/longxor_tag                              normal     No     SPARC DWORD XOR Encoder
+encoder/x86/single_static_bit                          manual     No     Single Static Bit
+encoder/x86/countdown                                  normal     No     Single-byte XOR Countdown Encoder
+encoder/x86/opt_sub                                    manual     No     Sub Encoder (optimised)
+encoder/generic/none                                   normal     No     The "none" Encoder
+encoder/generic/eicar                                  manual     No     The EICAR Encoder
+encoder/x86/fnstenv_mov                                normal     No     Variable-length Fnstenv/mov Dword XOR Encoder
+encoder/mipsbe/longxor                                 normal     No     XOR Encoder
+encoder/mipsle/longxor                                 normal     No     XOR Encoder
+encoder/x64/xor                                        normal     No     XOR Encoder
+encoder/x64/zutto_dekiru                               manual     No     Zutto Dekiru
+encoder/cmd/printf_php_mq                              manual     No     printf(1) via PHP magic_quotes Utility Command Encoder
+encoder/x86/context_stat                               manual     No     stat(2)-based Context Keyed Payload Encoder
+encoder/x86/context_time                               manual     No     time(2)-based Context Keyed Payload Encoder

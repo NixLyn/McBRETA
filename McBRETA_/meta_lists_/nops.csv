@@ -1,0 +1,3 @@
+exploit/windows/http/mdaemon_worldclient_form2raw  2003-12-29       great   Yes    MDaemon WorldClient form2raw.cgi Stack Buffer Overflow
+exploit/windows/http/sambar6_search_results        2003-06-21       normal  Yes    Sambar 6 Search Results Buffer Overflow
+

@@ -1,0 +1,1207 @@
+auxiliary/dos/http/cable_haunt_websocket_dos                             2020-01-07       normal     No     "Cablehaunt" Cable Modem WebSocket DoS
+auxiliary/admin/2wire/xslt_password_reset                                2007-08-15       normal     No     2Wire Cross-Site Request Forgery Password Reset Vulnerability
+auxiliary/dos/http/3com_superstack_switch                                2004-06-24       normal     No     3Com SuperStack Switch Denial of Service
+auxiliary/dos/scada/igss9_dataserver                                     2011-12-20       normal     No     7-Technologies IGSS 9 IGSSdataServer.exe DoS
+auxiliary/scanner/http/a10networks_ax_directory_traversal                2014-01-28       normal     No     A10 Networks AX Loadbalancer Directory Traversal
+auxiliary/scanner/snmp/aix_version                                                        normal     No     AIX SNMP Scanner Auxiliary Module
+auxiliary/spoof/arp/arp_poisoning                                        1999-12-22       normal     No     ARP Spoof
+auxiliary/scanner/discovery/arp_sweep                                                     normal     No     ARP Sweep Local Network Discovery
+auxiliary/scanner/snmp/sbg6580_enum                                                       normal     No     ARRIS / Motorola SBG6580 Cable Modem SNMP Enumeration Module
+auxiliary/gather/avtech744_dvr_accounts                                                   normal     No     AVTECH 744 DVR Account Information Retrieval
+auxiliary/scanner/http/wp_abandoned_cart_sqli                            2020-11-05       normal     No     Abandoned Cart for WooCommerce SQLi Scanner
+auxiliary/scanner/http/accellion_fta_statecode_file_read                 2015-07-10       normal     No     Accellion FTA 'statecode' Cookie Arbitrary File Read
+auxiliary/admin/dcerpc/cve_2022_26923_certifried                                          normal     No     Active Directory Certificate Services (ADCS) privilege escalation (Certifried)
+auxiliary/scanner/http/adobe_xml_inject                                                   normal     No     Adobe XML External Entity Injection
+auxiliary/gather/advantech_webaccess_creds                               2017-01-21       normal     No     Advantech WebAccess 8.1 Post Authentication Credential Collector
+auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli                 2014-04-08       normal     Yes    Advantech WebAccess DBVisitor.dll ChartThemeConfig SQL Injection
+auxiliary/scanner/http/advantech_webaccess_login                                          normal     No     Advantech WebAccess Login
+auxiliary/gather/alienvault_iso27001_sqli                                2014-03-30       normal     No     AlienVault Authenticated SQL Injection Arbitrary File Read
+auxiliary/gather/alienvault_newpolicyform_sqli                           2014-05-09       normal     No     AlienVault Authenticated SQL Injection Arbitrary File Read
+auxiliary/admin/http/allegro_rompager_auth_bypass                        2014-12-17       normal     No     Allegro Software RomPager 'Misfortune Cookie' (CVE-2014-9222) Authentication Bypass
+auxiliary/scanner/http/allegro_rompager_misfortune_cookie                2014-12-17       normal     Yes    Allegro Software RomPager 'Misfortune Cookie' (CVE-2014-9222) Scanner
+auxiliary/admin/scada/multi_cip_command                                  2012-01-19       normal     No     Allen-Bradley/Rockwell Automation EtherNet/IP CIP Commands
+auxiliary/admin/firetv/firetv_youtube                                                     normal     No     Amazon Fire TV YouTube Remote Control
+auxiliary/cloud/aws/enum_ec2                                                              normal     No     Amazon Web Services EC2 instance enumeration
+auxiliary/cloud/aws/enum_iam                                                              normal     No     Amazon Web Services IAM credential enumeration
+auxiliary/cloud/aws/enum_s3                                                               normal     No     Amazon Web Services S3 instance enumeration
+auxiliary/gather/android_browser_new_tab_cookie_theft                                     normal     No     Android Browser "Open in New Tab" Cookie Theft
+auxiliary/gather/android_browser_file_theft                                               normal     No     Android Browser File Theft
+auxiliary/admin/android/google_play_store_uxss_xframe_rce                                 normal     No     Android Browser RCE Through Google Play Store XFO
+auxiliary/gather/android_htmlfileprovider                                                 normal     No     Android Content Provider File Disclosure
+auxiliary/server/android_mercury_parseuri                                                 normal     No     Android Mercury Browser Intent URI Scheme and Directory Traversal Vulnerability
+auxiliary/server/android_browsable_msf_launch                                             normal     No     Android Meterpreter Browsable Launcher
+auxiliary/gather/android_object_tag_webview_uxss                         2014-10-04       normal     No     Android Open Source Platform (AOSP) Browser UXSS
+auxiliary/gather/android_stock_browser_uxss                                               normal     No     Android Open Source Platform (AOSP) Browser UXSS
+auxiliary/dos/android/android_stock_browser_iframe                       2012-12-01       normal     No     Android Stock Browser Iframe DOS
+auxiliary/scanner/ftp/anonymous                                                           normal     No     Anonymous FTP Access Detection
+auxiliary/scanner/http/apache_userdir_enum                                                normal     No     Apache "mod_userdir" User Enumeration
+auxiliary/scanner/http/apache_normalize_path                             2021-05-10       normal     No     Apache 2.4.49/2.4.50 Traversal RCE scanner
+auxiliary/scanner/http/apache_activemq_traversal                                          normal     No     Apache ActiveMQ Directory Traversal
+auxiliary/scanner/http/apache_activemq_source_disclosure                                  normal     No     Apache ActiveMQ JSP Files Source Disclosure
+auxiliary/scanner/http/axis_login                                                         normal     No     Apache Axis2 Brute Force Utility
+auxiliary/scanner/http/axis_local_file_include                                            normal     No     Apache Axis2 v1.4.1 Local File Inclusion
+auxiliary/dos/http/apache_commons_fileupload_dos                         2014-02-06       normal     No     Apache Commons FileUpload and Apache Tomcat DoS
+auxiliary/scanner/http/apache_flink_jobmanager_traversal                 2021-01-05       normal     Yes    Apache Flink JobManager Traversal
+auxiliary/scanner/http/mod_negotiation_brute                                              normal     No     Apache HTTPD mod_negotiation Filename Bruter
+auxiliary/scanner/http/mod_negotiation_scanner                                            normal     No     Apache HTTPD mod_negotiation Scanner
+auxiliary/scanner/ssh/apache_karaf_command_execution                     2016-02-09       normal     No     Apache Karaf Default Credentials Command Execution
+auxiliary/scanner/ssh/karaf_login                                                         normal     No     Apache Karaf Login Utility
+auxiliary/scanner/http/apache_optionsbleed                               2017-09-18       normal     No     Apache Optionsbleed Scanner
+auxiliary/dos/http/apache_range_dos                                      2011-08-19       normal     No     Apache Range Header DoS (Apache Killer)
+auxiliary/gather/apache_rave_creds                                                        normal     No     Apache Rave User Information Disclosure
+auxiliary/scanner/http/rewrite_proxy_bypass                                               normal     No     Apache Reverse Proxy Bypass Vulnerability Scanner
+auxiliary/gather/cve_2021_27850_apache_tapestry_hmac_key                 2021-04-15       normal     Yes    Apache Tapestry HMAC secret key leak
+auxiliary/admin/http/tomcat_ghostcat                                     2020-02-20       normal     Yes    Apache Tomcat AJP File Read
+auxiliary/dos/http/apache_tomcat_transfer_encoding                       2010-07-09       normal     No     Apache Tomcat Transfer-Encoding Information Disclosure and DoS
+auxiliary/scanner/http/tomcat_enum                                                        normal     No     Apache Tomcat User Enumeration
+auxiliary/gather/zookeeper_info_disclosure                               2020-10-14       normal     No     Apache ZooKeeper Information Disclosure
+auxiliary/scanner/http/apache_mod_cgi_bash_env                           2014-09-24       normal     Yes    Apache mod_cgi Bash Environment Variable Injection (Shellshock) Scanner
+auxiliary/dos/http/apache_mod_isapi                                      2010-03-05       normal     No     Apache mod_isapi Dangling Pointer
+auxiliary/dos/windows/appian/appian_bpm                                  2007-12-17       normal     No     Appian Enterprise Business Suite 5.6 SP1 DoS
+auxiliary/scanner/acpp/login                                                              normal     No     Apple Airport ACPP Authentication Scanner
+auxiliary/admin/vxworks/apple_airport_extreme_password                                    normal     No     Apple Airport Extreme Password Extraction (WDBRPC)
+auxiliary/scanner/afp/afp_server_info                                                     normal     No     Apple Filing Protocol Info Enumerator
+auxiliary/scanner/afp/afp_login                                                           normal     No     Apple Filing Protocol Login Utility
+auxiliary/gather/apple_safari_ftp_url_cookie_theft                       2015-04-08       normal     No     Apple OSX/iOS/Windows Safari Non-HTTPOnly Cookie Theft
+auxiliary/scanner/vnc/ard_root_pw                                                         normal     No     Apple Remote Desktop Root Vulnerability
+auxiliary/admin/appletv/appletv_display_image                                             normal     No     Apple TV Image Remote Control
+auxiliary/admin/appletv/appletv_display_video                                             normal     No     Apple TV Video Remote Control
+auxiliary/scanner/http/appletv_login                                                      normal     No     AppleTV AirPlay Login Utility
+auxiliary/analyze/apply_pot                                                               normal     No     Apply Pot File To Hashes
+auxiliary/scanner/http/enum_wayback                                                       normal     No     Archive.org Stored Domain URLs
+auxiliary/admin/networking/arista_config                                                  normal     No     Arista Configuration Importer
+auxiliary/admin/http/arris_motorola_surfboard_backdoor_xss               2015-04-08       normal     No     Arris / Motorola Surfboard SBG6580 Web Interface Takeover
+auxiliary/scanner/snmp/arris_dg950                                                        normal     No     Arris DG950A Cable Modem Wifi Enumeration
+auxiliary/gather/asterisk_creds                                                           normal     No     Asterisk Gather Credentials
+auxiliary/voip/asterisk_login                                                             normal     No     Asterisk Manager Login Utility
+auxiliary/scanner/http/atlassian_crowd_fileaccess                                         normal     No     Atlassian Crowd XML Entity Expansion Remote File Access
+auxiliary/server/capture/drda                                                             normal     No     Authentication Capture: DRDA (DB2, Informix, Derby)
+auxiliary/server/capture/ftp                                                              normal     No     Authentication Capture: FTP
+auxiliary/server/capture/http                                                             normal     No     Authentication Capture: HTTP
+auxiliary/server/capture/imap                                                             normal     No     Authentication Capture: IMAP
+auxiliary/server/capture/mssql                                                            normal     No     Authentication Capture: MSSQL
+auxiliary/server/capture/mysql                                                            normal     No     Authentication Capture: MySQL
+auxiliary/server/capture/pop3                                                             normal     No     Authentication Capture: POP3
+auxiliary/server/capture/postgresql                                                       normal     No     Authentication Capture: PostgreSQL
+auxiliary/server/capture/sip                                                              normal     No     Authentication Capture: SIP
+auxiliary/server/capture/smb                                                              normal     No     Authentication Capture: SMB
+auxiliary/server/capture/smtp                                                             normal     No     Authentication Capture: SMTP
+auxiliary/server/capture/telnet                                                           normal     No     Authentication Capture: Telnet
+auxiliary/server/capture/vnc                                                              normal     No     Authentication Capture: VNC
+auxiliary/parser/unattend                                                                 normal     No     Auxilliary Parser Windows Unattend Passwords
+auxiliary/dos/mdns/avahi_portzero                                        2008-11-14       normal     No     Avahi Source Port 0 DoS
+auxiliary/admin/http/axigen_file_access                                  2012-10-31       normal     No     Axigen Arbitrary File Read and Delete
+auxiliary/scanner/scada/bacnet_l3                                                         normal     No     BACnet Scanner
+auxiliary/fileformat/badpdf                                                               normal     No     BADPDF Malicious PDF Creator
+auxiliary/scanner/http/bavision_cam_login                                                 normal     No     BAVision IP Camera Web Server Login
+auxiliary/dos/dns/bind_tkey                                              2015-07-28       normal     No     BIND TKEY Query Denial of Service
+auxiliary/dos/dns/bind_tsig_badtime                                      2020-05-19       normal     No     BIND TSIG Badtime Query Denial of Service
+auxiliary/dos/dns/bind_tsig                                              2016-09-27       normal     No     BIND TSIG Query Denial of Service
+auxiliary/gather/trackit_sql_domain_creds                                2014-10-07       normal     No     BMC / Numara Track-It! Domain Administrator and SQL Server User Password Disclosure
+auxiliary/scanner/http/bmc_trackit_passwd_reset                          2014-12-09       normal     Yes    BMC TrackIt! Unauthenticated Arbitrary User Password Change
+auxiliary/bnat/bnat_router                                                                normal     No     BNAT Router
+auxiliary/bnat/bnat_scan                                                                  normal     No     BNAT Scanner
+auxiliary/scanner/http/barracuda_directory_traversal                     2010-10-08       normal     No     Barracuda Multiple Product "locale" Directory Traversal
+auxiliary/dos/scada/beckhoff_twincat                                     2011-09-13       normal     No     Beckhoff TwinCAT SCADA PLC 2.11.0.2004 DoS
+auxiliary/admin/wemo/crockpot                                                             normal     Yes    Belkin Wemo-Enabled Crock-Pot Remote Control
+auxiliary/gather/billquick_txtid_sqli                                    2021-10-22       normal     Yes    BillQuick Web Suite txtID SQLi
+auxiliary/scanner/http/binom3_login_config_pass_dump                                      normal     No     Binom3 Web Management Login Scanner, Config and Password File Dump
+auxiliary/scanner/ftp/bison_ftp_traversal                                2015-09-28       normal     Yes    BisonWare BisonFTP Server 3.5 Directory Traversal Information Disclosure
+auxiliary/scanner/http/bitweaver_overlay_type_traversal                  2012-10-23       normal     No     Bitweaver overlay_type Directory Traversal
+auxiliary/scanner/misc/ib_service_mgr_info                                                normal     No     Borland InterBase Services Manager Information
+auxiliary/admin/networking/brocade_config                                                 normal     No     Brocade Configuration Importer
+auxiliary/scanner/telnet/brocade_enable_login                                             normal     No     Brocade Enable Login Check Scanner
+auxiliary/scanner/snmp/brocade_enumhash                                                   normal     No     Brocade Password Hash Enumeration
+auxiliary/dos/http/brother_debut_dos                                     2017-11-02       normal     No     Brother Debut http Denial Of Service
+auxiliary/scanner/http/buffalo_login                                                      normal     No     Buffalo NAS Login Utility
+auxiliary/gather/c2s_dvr_password_disclosure                             2016-08-19       normal     No     C2S DVR Management Password Disclosure
+auxiliary/scanner/misc/cctv_dvr_login                                                     normal     No     CCTV DVR Login Scanning Utility
+auxiliary/scanner/rdp/cve_2019_0708_bluekeep                             2019-05-14       normal     Yes    CVE-2019-0708 BlueKeep Microsoft Remote Desktop RCE Check
+auxiliary/admin/http/cnpilot_r_cmd_exec                                                   normal     No     Cambium cnPilot r200/r201 Command Execution as 'root'
+auxiliary/admin/http/cnpilot_r_fpt                                                        normal     No     Cambium cnPilot r200/r201 File Path Traversal
+auxiliary/scanner/http/cnpilot_r_web_login_loot                                           normal     No     Cambium cnPilot r200/r201 Login Scanner and Config Dump
+auxiliary/scanner/snmp/cnpilot_r_snmp_loot                                                normal     No     Cambium cnPilot r200/r201 SNMP Enumeration
+auxiliary/scanner/http/epmp1000_get_chart_cmd_exec                                        normal     No     Cambium ePMP 1000 'get_chart' Command Injection (v3.1-3.5-RC7)
+auxiliary/scanner/http/epmp1000_ping_cmd_exec                                             normal     No     Cambium ePMP 1000 'ping' Command Injection (up to v2.5)
+auxiliary/scanner/http/epmp1000_dump_hashes                                               normal     No     Cambium ePMP 1000 'ping' Password Hash Extractor (up to v2.5)
+auxiliary/scanner/http/epmp1000_reset_pass                                                normal     No     Cambium ePMP 1000 Account Password Reset
+auxiliary/scanner/http/epmp1000_dump_config                                               normal     No     Cambium ePMP 1000 Dump Device Config
+auxiliary/scanner/http/epmp1000_web_login                                                 normal     No     Cambium ePMP 1000 Login Scanner
+auxiliary/scanner/snmp/epmp1000_snmp_loot                                                 normal     No     Cambium ePMP 1000 SNMP Enumeration
+auxiliary/scanner/printer/canon_iradv_pwd_extract                                         normal     No     Canon IR-Adv Password Extractor
+auxiliary/scanner/http/canon_wireless                                    2013-06-18       normal     No     Canon Printer Wireless Configuration Disclosure
+auxiliary/dos/http/canon_wireless_printer                                2013-06-18       normal     No     Canon Wireless Printer Denial Of Service
+auxiliary/server/capture/http_javascript_keylogger                                        normal     No     Capture: HTTP JavaScript Keylogger
+auxiliary/scanner/http/gavazzi_em_login_loot                                              normal     No     Carlo Gavazzi Energy Meters - Login Brute Force, Extract Info and Dump Plant Database
+auxiliary/scanner/http/cassandra_web_file_read                                            normal     Yes    Cassandra Web File Read Vulnerability
+auxiliary/gather/censys_search                                                            normal     No     Censys Search
+auxiliary/scanner/ssh/cerberus_sftp_enumusers                            2014-05-27       normal     No     Cerberus FTP Server SFTP Username Enumeration
+auxiliary/gather/cerberus_helpdesk_hash_disclosure                       2016-03-07       normal     No     Cerberus Helpdesk User Hash Disclosure
+auxiliary/scanner/chargen/chargen_probe                                  1996-02-08       normal     No     Chargen Probe Utility
+auxiliary/gather/checkpoint_hostname                                     2011-12-14       normal     No     CheckPoint Firewall-1 SecuRemote Topology Service Hostname Disclosure
+auxiliary/scanner/http/chef_webui_login                                                   normal     No     Chef Web UI Brute Force Utility
+auxiliary/scanner/http/caidao_bruteforce_login                                            normal     No     Chinese Caidao Backdoor Bruteforce
+auxiliary/gather/chrome_debugger                                         2019-09-24       normal     No     Chrome Debugger Arbitrary File Read / Arbitrary Web Request
+auxiliary/admin/chromecast/chromecast_reset                                               normal     No     Chromecast Factory Reset DoS
+auxiliary/scanner/http/chromecast_webserver                                               normal     No     Chromecast Web Server Scanner
+auxiliary/scanner/http/chromecast_wifi                                                    normal     No     Chromecast Wifi Enumeration
+auxiliary/admin/chromecast/chromecast_youtube                                             normal     No     Chromecast YouTube Remote Control
+auxiliary/dos/cisco/cisco_7937g_dos                                      2020-06-02       normal     No     Cisco 7937G Denial-of-Service Attack
+auxiliary/dos/cisco/cisco_7937g_dos_reboot                               2020-06-02       normal     No     Cisco 7937G Denial-of-Service Reboot Attack
+auxiliary/admin/http/cisco_7937g_ssh_privesc                             2020-06-02       normal     No     Cisco 7937G SSH Privilege Escalation
+auxiliary/scanner/http/cisco_asa_asdm_bruteforce                                          normal     No     Cisco ASA ASDM Brute-force Login
+auxiliary/admin/networking/cisco_asa_extrabacon                                           normal     Yes    Cisco ASA Authentication Bypass (EXTRABACON)
+auxiliary/scanner/http/cisco_asa_clientless_vpn                                           normal     No     Cisco ASA Clientless SSL VPN (WebVPN) Brute-force Login Utility
+auxiliary/scanner/http/cisco_directory_traversal                         2018-06-06       normal     No     Cisco ASA Directory Traversal
+auxiliary/scanner/http/cisco_ssl_vpn_priv_esc                            2014-04-09       normal     No     Cisco ASA SSL VPN Privilege Escalation Vulnerability
+auxiliary/admin/networking/cisco_config                                                   normal     No     Cisco Configuration Importer
+auxiliary/admin/networking/cisco_dcnm_auth_bypass                        2020-06-01       normal     Yes    Cisco DCNM auth bypass
+auxiliary/scanner/dlsw/dlsw_leak_capture                                 2014-11-17       normal     Yes    Cisco DLSw Information Disclosure Scanner
+auxiliary/admin/networking/cisco_dcnm_download                           2019-06-26       normal     No     Cisco Data Center Network Manager Unauthenticated File Download
+auxiliary/scanner/http/cisco_device_manager                              2000-10-26       normal     No     Cisco Device HTTP Device Manager Access
+auxiliary/scanner/http/cisco_firepower_login                                              normal     No     Cisco Firepower Management Console 6.0 Login
+auxiliary/scanner/http/cisco_firepower_download                          2016-10-10       normal     No     Cisco Firepower Management Console 6.0 Post Auth Report Download Directory Traversal
+auxiliary/scanner/ike/cisco_ike_benigncertain                            2016-09-29       normal     No     Cisco IKE Information Disclosure
+auxiliary/dos/cisco/ios_http_percentpercent                              2000-04-26       normal     No     Cisco IOS HTTP GET /%% Request Denial of Service
+auxiliary/scanner/http/cisco_ios_auth_bypass                             2001-06-27       normal     No     Cisco IOS HTTP Unauthorized Administrative Access
+auxiliary/scanner/snmp/cisco_config_tftp                                                  normal     No     Cisco IOS SNMP Configuration Grabber (TFTP)
+auxiliary/scanner/snmp/cisco_upload_file                                                  normal     No     Cisco IOS SNMP File Upload (TFTP)
+auxiliary/dos/cisco/ios_telnet_rocem                                     2017-03-17       normal     No     Cisco IOS Telnet Denial of Service
+auxiliary/scanner/http/cisco_ironport_enum                                                normal     No     Cisco Ironport Bruteforce Login Utility
+auxiliary/scanner/http/cisco_nac_manager_traversal                                        normal     No     Cisco Network Access Manager Directory Traversal Vulnerability
+auxiliary/gather/cisco_pvc2300_download_config                           2013-07-12       normal     Yes    Cisco PVC2300 POE Video Camera configuration download
+auxiliary/gather/cisco_rv320_config                                      2019-01-24       normal     No     Cisco RV320/RV326 Configuration Disclosure
+auxiliary/scanner/http/cisco_ssl_vpn                                                      normal     No     Cisco SSL VPN Bruteforce Login Utility
+auxiliary/admin/networking/cisco_secure_acs_bypass                                        normal     No     Cisco Secure ACS Unauthorized Password Change
+auxiliary/admin/networking/cisco_vpn_3000_ftp_bypass                     2006-08-23       normal     No     Cisco VPN Concentrator 3000 FTP Unauthorized Administrative Access
+auxiliary/scanner/http/citrix_dir_traversal                              2019-12-17       normal     No     Citrix ADC (NetScaler) Directory Traversal Scanner
+auxiliary/gather/citrix_published_bruteforce                                              normal     No     Citrix MetaFrame ICA Published Applications Bruteforcer
+auxiliary/gather/citrix_published_applications                                            normal     No     Citrix MetaFrame ICA Published Applications Scanner
+auxiliary/scanner/misc/clamav_control                                    2016-06-08       normal     No     ClamAV Remote Command Transmitter
+auxiliary/scanner/http/clansphere_traversal                              2012-10-23       normal     No     ClanSphere 2011.3 Local File Inclusion Vulnerability
+auxiliary/dos/tcp/claymore_dos                                           2018-02-06       normal     No     Claymore Dual GPU Miner  Format String dos attack
+auxiliary/gather/cloud_lookup                                                             normal     No     Cloud Lookup (and Bypass)
+auxiliary/gather/coldfusion_pwd_props                                    2013-05-07       normal     Yes    ColdFusion 'password.properties' Hash Extraction
+auxiliary/scanner/http/coldfusion_locale_traversal                                        normal     No     ColdFusion Server Check
+auxiliary/scanner/http/coldfusion_version                                                 normal     No     ColdFusion Version Scanner
+auxiliary/scanner/ftp/colorado_ftp_traversal                             2016-08-11       normal     Yes    ColoradoFTP Server 1.3 Build 8 Directory Traversal Information Disclosure
+auxiliary/scanner/http/concrete5_member_list                                              normal     No     Concrete5 Member List Enumeration
+auxiliary/admin/http/contentkeeper_fileaccess                                             normal     No     ContentKeeper Web Appliance mimencode File Access
+auxiliary/gather/corpwatch_lookup_id                                                      normal     No     CorpWatch Company ID Information Search
+auxiliary/gather/corpwatch_lookup_name                                                    normal     No     CorpWatch Company Name Information Search
+auxiliary/scanner/couchdb/couchdb_enum                                                    normal     Yes    CouchDB Enum Utility
+auxiliary/scanner/couchdb/couchdb_login                                                   normal     No     CouchDB Login Utility
+auxiliary/server/webkit_xslt_dropper                                                      normal     No     Cross Platform Webkit File Dropper
+auxiliary/sqli/dlink/dlink_central_wifimanager_sqli                      2019-07-06       normal     Yes    D-Link Central WiFiManager SQL injection
+auxiliary/admin/http/dlink_dir_645_password_extractor                                     normal     No     D-Link DIR 645 Password Extractor
+auxiliary/scanner/http/dlink_dir_300_615_http_login                                       normal     No     D-Link DIR-300A / DIR-320 / DIR-615D HTTP Login Utility
+auxiliary/scanner/http/dlink_dir_session_cgi_http_login                                   normal     No     D-Link DIR-300B / DIR-600B / DIR-815 / DIR-645 HTTP Login Utility
+auxiliary/admin/http/dlink_dir_300_600_exec_noauth                       2013-02-04       normal     No     D-Link DIR-600 / DIR-300 Unauthenticated Remote Command Execution
+auxiliary/scanner/http/dlink_dir_615h_http_login                                          normal     No     D-Link DIR-615H HTTP Login Utility
+auxiliary/admin/http/dlink_dsl320b_password_extractor                                     normal     No     D-Link DSL 320B Password Extractor
+auxiliary/scanner/http/dlink_user_agent_backdoor                         2013-10-12       normal     No     D-Link User-Agent Backdoor Scanner
+auxiliary/admin/vxworks/dlink_i2eye_autoanswer                                            normal     No     D-Link i2eye Video Conference AutoAnswer (WDBRPC)
+auxiliary/scanner/db2/db2_auth                                                            normal     No     DB2 Authentication Brute Force Utility
+auxiliary/scanner/db2/discovery                                                           normal     No     DB2 Discovery Service Detection
+auxiliary/scanner/db2/db2_version                                                         normal     No     DB2 Probe Utility
+auxiliary/scanner/dcerpc/tcp_dcerpc_auditor                                               normal     No     DCERPC TCP Service Auditor
+auxiliary/scanner/smb/impacket/dcomexec                                  2018-03-19       normal     No     DCOM Exec
+auxiliary/scanner/smb/impacket/secretsdump                                                normal     No     DCOM Exec
+auxiliary/scanner/dect/station_scanner                                                    normal     No     DECT Base Station Scanner
+auxiliary/scanner/dect/call_scanner                                                       normal     No     DECT Call Scanner
+auxiliary/scanner/dcerpc/dfscoerce                                                        normal     No     DFSCoerce
+auxiliary/server/dhclient_bash_env                                       2014-09-24       normal     No     DHCP Client Bash Environment Variable Code Injection (Shellshock)
+auxiliary/server/dhcp                                                                     normal     No     DHCP Server
+auxiliary/scanner/dns/dns_amp                                                             normal     No     DNS Amplification Scanner
+auxiliary/spoof/dns/bailiwicked_domain                                   2008-07-21       normal     Yes    DNS BailiWicked Domain Attack
+auxiliary/spoof/dns/bailiwicked_host                                     2008-07-21       normal     Yes    DNS BailiWicked Host Attack
+auxiliary/spoof/dns/compare_results                                      2008-07-21       normal     No     DNS Lookup Result Comparison
+auxiliary/gather/enum_dns                                                                 normal     No     DNS Record Scanner and Enumerator
+auxiliary/admin/dns/dyn_dns_update                                                        normal     No     DNS Server Dynamic Update Record Injection
+auxiliary/server/dns/spoofhelper                                                          normal     No     DNS Spoofing Helper Service
+auxiliary/fuzzers/dns/dns_fuzzer                                                          normal     No     DNS and DNSSEC Fuzzer
+auxiliary/scanner/misc/dahua_dvr_auth_bypass                                              normal     No     Dahua DVR Auth Bypass Scanner
+auxiliary/gather/darkcomet_filedownloader                                2012-10-08       normal     No     DarkComet Server Remote File Download Exploit
+auxiliary/admin/citrix/citrix_netscaler_config_decrypt                   2022-05-19       normal     No     Decrypt Citrix NetScaler Config Secrets
+auxiliary/dos/http/dell_openmanage_post                                  2004-02-26       normal     No     Dell OpenManage POST Request Heap Overflow (win32)
+auxiliary/scanner/http/dell_idrac                                                         normal     No     Dell iDRAC Default Login
+auxiliary/scanner/http/dicoogle_traversal                                2018-07-11       normal     No     Dicoogle PACS Web Server Directory Traversal
+auxiliary/scanner/scada/digi_addp_version                                                 normal     No     Digi ADDP Information Discovery
+auxiliary/scanner/scada/digi_addp_reboot                                                  normal     No     Digi ADDP Remote Reboot Initiator
+auxiliary/scanner/scada/digi_realport_serialport_scan                                     normal     No     Digi RealPort Serial Server Port Scanner
+auxiliary/scanner/scada/digi_realport_version                                             normal     No     Digi RealPort Serial Server Version
+auxiliary/scanner/http/directadmin_login                                                  normal     No     DirectAdmin Web Control Panel Login Utility
+auxiliary/scanner/http/springcloud_directory_traversal                   2020-06-01       normal     No     Directory Traversal in Spring Cloud Config Server
+auxiliary/gather/external_ip                                                              normal     No     Discover External IP via Ifconfig.me
+auxiliary/scanner/http/dnalims_file_retrieve                             2017-03-08       normal     No     DnaLIMS Directory Traversal
+auxiliary/dos/scada/allen_bradley_pccc                                                    normal     Yes    DoS Exploitation of Allen-Bradley's Legacy Protocol (PCCC)
+auxiliary/scanner/http/docker_version                                                     normal     No     Docker Server Version Scanner
+auxiliary/gather/doliwamp_traversal_creds                                2014-01-12       normal     Yes    DoliWamp 'jqueryFileTree.php' Traversal Gather Credentials
+auxiliary/scanner/http/dolibarr_login                                                     normal     No     Dolibarr ERP/CRM Login Utility
+auxiliary/gather/dolibarr_creds_sqli                                     2018-05-30       normal     No     Dolibarr Gather Credentials via SQL Injection
+auxiliary/dos/misc/dopewars                                              2009-10-05       normal     No     Dopewars Denial of Service
+auxiliary/gather/drupal_openid_xxe                                       2012-10-17       normal     Yes    Drupal OpenID External Entity Injection
+auxiliary/scanner/http/drupal_views_user_enum                            2010-07-02       normal     Yes    Drupal Views Module Users Enumeration
+auxiliary/admin/emc/alphastor_devicemanager_exec                         2008-05-27       normal     No     EMC AlphaStor Device Manager Arbitrary Command Execution
+auxiliary/scanner/emc/alphastor_devicemanager                                             normal     No     EMC AlphaStor Device Manager Service
+auxiliary/admin/emc/alphastor_librarymanager_exec                        2008-05-27       normal     No     EMC AlphaStor Library Manager Arbitrary Command Execution
+auxiliary/scanner/emc/alphastor_librarymanager                                            normal     No     EMC AlphaStor Library Manager Service
+auxiliary/gather/emc_cta_xxe                                             2014-03-31       normal     No     EMC CTA v10.0 Unauthenticated XXE Arbitrary File Read
+auxiliary/scanner/http/es_file_explorer_open_port                        2019-01-16       normal     No     ES File Explorer Open Port
+auxiliary/scanner/ftp/easy_file_sharing_ftp                              2017-03-07       normal     Yes    Easy File Sharing FTP Server 3.6 Directory Traversal
+auxiliary/scanner/misc/easycafe_server_fileaccess                                         normal     No     EasyCafe Server Remote File Access
+auxiliary/scanner/ssh/eaton_xpert_backdoor                               2018-07-18       normal     No     Eaton Xpert Meter SSH Private Key Exposure Scanner
+auxiliary/scanner/http/ektron_cms400net                                                   normal     No     Ektron CMS400.NET Default Password Scanner
+auxiliary/scanner/elasticsearch/indices_enum                                              normal     No     ElasticSearch Indices Enumeration Utility
+auxiliary/scanner/http/elasticsearch_traversal                                            normal     Yes    ElasticSearch Snapshot API Directory Traversal
+auxiliary/scanner/http/goahead_traversal                                                  normal     No     Embedthis GoAhead Embedded Web Server Directory Traversal
+auxiliary/scanner/http/emby_ssrf_scanner                                                  normal     No     Emby SSRF HTTP Scanner
+auxiliary/scanner/http/emby_version_ssrf                                                  normal     No     Emby Version Scanner
+auxiliary/scanner/dcerpc/endpoint_mapper                                                  normal     No     Endpoint Mapper Service Discovery
+auxiliary/scanner/backdoor/energizer_duo_detect                                           normal     No     Energizer DUO Trojan Scanner
+auxiliary/scanner/etcd/open_key_scanner                                  2018-03-16       normal     No     Etcd Keys API Information Gathering
+auxiliary/scanner/etcd/version                                           2018-03-16       normal     No     Etcd Version Scanner
+auxiliary/scanner/http/etherpad_duo_login                                                 normal     No     EtherPAD Duo Login Bruteforce Utility
+auxiliary/scanner/msmail/exchange_enum                                   2018-11-06       normal     No     Exchange email enumeration
+auxiliary/analyze/modbus_zip                                                              normal     No     Extract zip from Modbus communication
+auxiliary/gather/f5_bigip_cookie_disclosure                                               normal     No     F5 BIG-IP Backend Cookie Disclosure
+auxiliary/dos/http/f5_bigip_apm_max_sessions                                              normal     No     F5 BigIP Access Policy Manager Session Exhaustion Denial of Service
+auxiliary/scanner/http/f5_bigip_virtual_server                                            normal     No     F5 BigIP HTTP Virtual Server Scanner
+auxiliary/admin/networking/f5_config                                                      normal     No     F5 Configuration Importer
+auxiliary/scanner/http/f5_mgmt_scanner                                                    normal     No     F5 Networks Devices Management Interface Scanner
+auxiliary/scanner/ftp/ftp_login                                                           normal     No     FTP Authentication Scanner
+auxiliary/scanner/portscan/ftpbounce                                                      normal     No     FTP Bounce Port Scanner
+auxiliary/server/ftp                                                                      normal     No     FTP File Server
+auxiliary/scanner/ftp/ftp_version                                                         normal     No     FTP Version Scanner
+auxiliary/server/fakedns                                                                  normal     No     Fake DNS Service
+auxiliary/dos/windows/ftp/filezilla_admin_user                           2005-11-07       normal     No     FileZilla FTP Server Admin Interface Denial of Service
+auxiliary/dos/windows/ftp/filezilla_server_port                          2006-12-11       normal     No     FileZilla FTP Server Malformed PORT Denial of Service
+auxiliary/scanner/finger/finger_users                                                     normal     No     Finger Service User Enumerator
+auxiliary/gather/firefox_pdfjs_file_theft                                                 normal     No     Firefox PDF.js Browser File Theft
+auxiliary/gather/flash_rosetta_jsonp_url_disclosure                      2014-07-08       normal     Yes    Flash "Rosetta" JSONP GET/POST Response Disclosure
+auxiliary/dos/http/flexense_http_server_dos                              2018-03-09       normal     Yes    Flexense HTTP Server Denial Of Service
+auxiliary/admin/http/foreman_openstack_satellite_priv_esc                2013-06-06       normal     No     Foreman (Red Hat OpenStack/Satellite) users/create Mass Assignment
+auxiliary/spoof/cisco/dtp                                                                 normal     No     Forge Cisco DTP Packets
+auxiliary/scanner/http/fortimail_login_bypass_detection                                   normal     No     FortiMail Unauthenticated Login Bypass Scanner
+auxiliary/gather/fortios_vpnssl_traversal_creds_leak                                      normal     No     FortiOS Path Traversal Credential Gatherer
+auxiliary/scanner/ssh/fortinet_backdoor                                  2016-01-09       normal     No     Fortinet SSH Backdoor Scanner
+auxiliary/scanner/http/fortinet_ssl_vpn                                                   normal     No     Fortinet SSL VPN Bruteforce Login Utility
+auxiliary/pdf/foxit/authbypass                                           2009-03-09       normal     No     Foxit Reader Authorization Bypass
+auxiliary/dos/freebsd/nfsd/nfsd_mount                                                     normal     No     FreeBSD Remote NFS RPC Request Denial of Service
+auxiliary/scanner/misc/freeswitch_event_socket_login                                      normal     Yes    FreeSWITCH Event Socket Login
+auxiliary/scanner/http/frontpage_credential_dump                                          normal     No     FrontPage .pwd File Credential Dump
+auxiliary/scanner/http/frontpage_login                                                    normal     No     FrontPage Server Extensions Anonymous Login Scanner
+auxiliary/admin/scada/ge_proficy_substitute_traversal                    2013-01-22       normal     No     GE Proficy Cimplicity WebView substitute.bcl Directory Traversal
+auxiliary/server/wget_symlink_file_write                                 2014-10-27       normal     No     GNU Wget FTP Symlink Arbitrary Filesystem Access
+auxiliary/scanner/gprs/gtp_echo                                                           normal     No     GTP Echo Scanner
+auxiliary/scanner/http/joomla_gallerywd_sqli_scanner                     2015-03-30       normal     No     Gallery WD for Joomla! Unauthenticated SQL Injection Scanner
+auxiliary/scanner/kademlia/server_info                                                    normal     No     Gather Kademlia Server Information
+auxiliary/gather/http_pdf_authors                                                         normal     No     Gather PDF Authors
+auxiliary/scanner/quake/server_info                                                       normal     No     Gather Quake Server Information
+auxiliary/scanner/steam/server_info                                                       normal     No     Gather Steam Server Information
+auxiliary/gather/get_user_spns                                           2014-09-27       normal     No     Gather Ticket Granting Service (TGS) tickets for User Service Principal Names (SPN)
+auxiliary/gather/d20pass                                                 2012-01-19       normal     No     General Electric D20 Password Recovery
+auxiliary/dos/scada/d20_tftp_overflow                                    2012-01-19       normal     No     General Electric D20ME TFTP Server Buffer Overflow DoS
+auxiliary/client/smtp/emailer                                                             normal     No     Generic Emailer (SMTP)
+auxiliary/scanner/http/http_traversal                                                     normal     No     Generic HTTP Directory Traversal Utility
+auxiliary/scanner/http/gitlab_graphql_user_enum                          2022-02-25       normal     No     GitLab GraphQL API User Enumeration
+auxiliary/scanner/http/gitlab_login                                                       normal     No     GitLab Login Utility
+auxiliary/scanner/http/gitlab_user_enum                                  2014-11-21       normal     No     GitLab User Enumeration
+auxiliary/admin/http/gitstack_rest                                       2018-01-15       normal     No     GitStack Unauthenticated REST API Requests
+auxiliary/scanner/http/glassfish_login                                                    normal     No     GlassFish Brute Force Utility
+auxiliary/scanner/gopher/gopher_gophermap                                                 normal     No     Gopher gophermap Scanner
+auxiliary/admin/http/grafana_auth_bypass                                 2019-08-14       normal     No     Grafana 2.0 through 5.2.2 authentication bypass for LDAP and OAuth
+auxiliary/scanner/http/grafana_plugin_traversal                                           normal     No     Grafana Plugin Path Traversal
+auxiliary/gather/grandstream_ucm62xx_sql_account_guess                   2020-03-30       normal     Yes    Grandstream UCM62xx IP PBX WebSocket Blind SQL Injection Credential Dump
+auxiliary/dos/windows/ftp/guildftp_cwdlist                               2008-10-12       normal     No     Guild FTPd 0.999.8.11/0.999.14 Heap Corruption
+auxiliary/dos/http/gzip_bomb_dos                                         2004-01-01       normal     No     Gzip Memory Bomb Denial Of Service
+auxiliary/scanner/h323/h323_version                                                       normal     No     H.323 Version Scanner
+auxiliary/admin/hp/hp_data_protector_cmd                                 2011-02-07       normal     No     HP Data Protector 6.1 EXEC_CMD Command Execution
+auxiliary/dos/hp/data_protector_rds                                      2011-01-08       normal     No     HP Data Protector Manager RDS DOS
+auxiliary/scanner/http/hp_imc_bims_downloadservlet_traversal                              normal     No     HP Intelligent Management BIMS DownloadServlet Directory Traversal
+auxiliary/scanner/http/hp_imc_faultdownloadservlet_traversal                              normal     No     HP Intelligent Management FaultDownloadServlet Directory Traversal
+auxiliary/scanner/http/hp_imc_ictdownloadservlet_traversal                                normal     No     HP Intelligent Management IctDownloadServlet Directory Traversal
+auxiliary/scanner/http/hp_imc_reportimgservlt_traversal                                   normal     No     HP Intelligent Management ReportImgServlt Directory Traversal
+auxiliary/admin/hp/hp_imc_som_create_account                             2013-10-08       normal     No     HP Intelligent Management SOM Account Creation
+auxiliary/scanner/http/hp_imc_som_file_download                                           normal     No     HP Intelligent Management SOM FileDownloadServlet Arbitrary Download
+auxiliary/scanner/snmp/snmp_enum_hp_laserjet                                              normal     No     HP LaserJet Printer SNMP Enumeration
+auxiliary/gather/hp_enum_perfd                                                            normal     No     HP Operations Manager Perfd Environment Scanner
+auxiliary/gather/hp_snac_domain_creds                                    2013-09-09       normal     No     HP ProCurve SNAC Domain Controller Credential Dumper
+auxiliary/scanner/http/hp_sitescope_getfileinternal_fileaccess                            normal     No     HP SiteScope SOAP Call getFileInternal Remote File Access
+auxiliary/scanner/http/hp_sitescope_getsitescopeconfiguration                             normal     No     HP SiteScope SOAP Call getSiteScopeConfiguration Configuration Access
+auxiliary/scanner/http/hp_sitescope_loadfilecontent_fileaccess                            normal     No     HP SiteScope SOAP Call loadFileContent Remote File Access
+auxiliary/scanner/http/hp_sys_mgmt_login                                                  normal     No     HP System Management Homepage Login Utility
+auxiliary/admin/http/hp_web_jetadmin_exec                                2004-04-27       normal     No     HP Web JetAdmin 6.5 Server Arbitrary Command Execution
+auxiliary/admin/hp/hp_ilo_create_admin_account                           2017-08-24       normal     Yes    HP iLO 4 1.00-2.50 Authentication Bypass Administrator Account Creation
+auxiliary/scanner/http/backup_file                                                        normal     No     HTTP Backup File Scanner
+auxiliary/scanner/http/blind_sql_query                                                    normal     No     HTTP Blind SQL Injection Scanner
+auxiliary/scanner/http/xpath                                                              normal     No     HTTP Blind XPATH 1.0 Injector
+auxiliary/server/browser_autopwn                                                          normal     No     HTTP Client Automatic Exploiter
+auxiliary/server/browser_autopwn2                                        2015-07-05       normal     No     HTTP Client Automatic Exploiter 2 (Browser Autopwn)
+auxiliary/server/capture/http_basic                                                       normal     No     HTTP Client Basic Authentication Credential Collector
+auxiliary/gather/browser_info                                            2016-03-22       normal     No     HTTP Client Information Gather
+auxiliary/gather/browser_lanipleak                                       2013-09-05       normal     No     HTTP Client LAN IP Address Gather
+auxiliary/server/capture/http_ntlm                                                        normal     No     HTTP Client MS Credential Catcher
+auxiliary/server/http_ntlmrelay                                                           normal     No     HTTP Client MS Credential Relayer
+auxiliary/scanner/http/copy_of_file                                                       normal     No     HTTP Copy File Scanner
+auxiliary/scanner/http/trace                                                              normal     No     HTTP Cross-Site Tracing Detection
+auxiliary/scanner/http/brute_dirs                                                         normal     No     HTTP Directory Brute Force Scanner
+auxiliary/scanner/http/dir_listing                                                        normal     No     HTTP Directory Listing Scanner
+auxiliary/scanner/http/dir_scanner                                                        normal     No     HTTP Directory Scanner
+auxiliary/scanner/http/error_sql_injection                                                normal     No     HTTP Error Based SQL Injection Scanner
+auxiliary/scanner/http/replace_ext                                                        normal     No     HTTP File Extension Scanner
+auxiliary/scanner/http/file_same_name_dir                                                 normal     No     HTTP File Same Name Directory Scanner
+auxiliary/fuzzers/http/http_form_field                                                    normal     No     HTTP Form Field Fuzzer
+auxiliary/fuzzers/http/http_get_uri_strings                                               normal     No     HTTP GET Request URI Fuzzer (Fuzzer Strings)
+auxiliary/fuzzers/http/http_get_uri_long                                                  normal     No     HTTP GET Request URI Fuzzer (Incrementing Lengths)
+auxiliary/scanner/http/git_scanner                                                        normal     No     HTTP Git Scanner
+auxiliary/scanner/http/title                                                              normal     No     HTTP HTML Title Tag Content Grabber
+auxiliary/scanner/http/http_header                                                        normal     No     HTTP Header Detection
+auxiliary/scanner/http/host_header_injection                                              normal     No     HTTP Host Header Injection Detection
+auxiliary/scanner/http/files_dir                                                          normal     No     HTTP Interesting File Scanner
+auxiliary/scanner/http/http_login                                                         normal     No     HTTP Login Utility
+auxiliary/scanner/http/lucky_punch                                                        normal     No     HTTP Microsoft SQL Injection Table XSS Infection
+auxiliary/scanner/http/open_proxy                                                         normal     No     HTTP Open Proxy Detection
+auxiliary/scanner/http/options                                                            normal     No     HTTP Options Detection
+auxiliary/scanner/http/scraper                                                            normal     No     HTTP Page Scraper
+auxiliary/scanner/http/prev_dir_same_name_file                                            normal     No     HTTP Previous Directory File Scanner
+auxiliary/scanner/http/robots_txt                                                         normal     No     HTTP Robots.txt Content Scanner
+auxiliary/scanner/http/soap_xml                                                           normal     No     HTTP SOAP Verb/Noun Brute Force Scanner
+auxiliary/scanner/http/cert                                                               normal     No     HTTP SSL Certificate Checker
+auxiliary/gather/impersonate_ssl                                                          normal     No     HTTP SSL Certificate Impersonation
+auxiliary/scanner/http/http_sickrage_password_leak                       2018-03-08       normal     No     HTTP SickRage Password Leak
+auxiliary/scanner/http/http_hsts                                                          normal     No     HTTP Strict Transport Security (HSTS) Detection
+auxiliary/scanner/http/svn_scanner                                                        normal     No     HTTP Subversion Scanner
+auxiliary/scanner/http/verb_auth_bypass                                                   normal     No     HTTP Verb Authentication Bypass Scanner
+auxiliary/scanner/http/http_version                                                       normal     No     HTTP Version Detection
+auxiliary/scanner/http/vhost_scanner                                                      normal     No     HTTP Virtual Host Brute Force Scanner
+auxiliary/scanner/http/web_vulndb                                                         normal     No     HTTP Vuln Scanner
+auxiliary/scanner/http/webdav_internal_ip                                                 normal     No     HTTP WebDAV Internal IP Scanner
+auxiliary/scanner/http/webdav_scanner                                                     normal     No     HTTP WebDAV Scanner
+auxiliary/scanner/http/webdav_website_content                                             normal     No     HTTP WebDAV Website Content Scanner
+auxiliary/scanner/http/http_put                                                           normal     No     HTTP Writable Path PUT/DELETE File Access
+auxiliary/scanner/http/trace_axd                                                          normal     No     HTTP trace.axd Content Scanner
+auxiliary/server/local_hwbridge                                                           normal     No     Hardware Bridge Server
+auxiliary/client/hwbridge/connect                                                         normal     No     Hardware Bridge Session Connector
+auxiliary/dos/http/hashcollision_dos                                     2011-12-28       normal     No     Hashtable Collisions
+auxiliary/scanner/dcerpc/hidden                                                           normal     No     Hidden DCERPC Service Discovery
+auxiliary/admin/http/hikvision_unauth_pwd_reset_cve_2017_7921            2017-09-23       normal     Yes    Hikvision IP Camera Unauthenticated Password Change Via Improper Authentication Logic
+auxiliary/scanner/http/ntlm_info_enumeration                                              normal     No     Host Information Enumeration via NTLM Authentication
+auxiliary/scanner/http/httpbl_lookup                                                      normal     No     Http:BL Lookup
+auxiliary/scanner/http/httpdasm_directory_traversal                                       normal     No     Httpdasm Directory Traversal
+auxiliary/gather/huawei_wifi_info                                        2013-11-11       normal     No     Huawei Datacard Information Disclosure Vulnerability
+auxiliary/gather/ibm_bigfix_sites_packages_enum                          2019-03-18       normal     No     IBM BigFix Relay Server Sites and Package Enum
+auxiliary/admin/db2/db2rcmd                                              2004-03-04       normal     No     IBM DB2 db2rcmd.exe Command Execution Vulnerability
+auxiliary/admin/http/ibm_drm_download                                    2020-04-21       normal     Yes    IBM Data Risk Manager Arbitrary File Download
+auxiliary/gather/ibm_sametime_room_brute                                 2013-12-27       normal     No     IBM Lotus Notes Sametime Room Name Bruteforce
+auxiliary/gather/ibm_sametime_enumerate_users                            2013-12-27       normal     No     IBM Lotus Notes Sametime User Enumeration
+auxiliary/gather/ibm_sametime_version                                    2013-12-27       normal     No     IBM Lotus Sametime Version Enumeration
+auxiliary/dos/misc/ibm_sametime_webplayer_dos                            2013-11-07       normal     No     IBM Lotus Sametime WebPlayer DoS
+auxiliary/dos/http/ibm_lotus_notes2                                      2017-08-31       normal     No     IBM Notes Denial Of Service
+auxiliary/dos/http/ibm_lotus_notes                                       2017-08-31       normal     No     IBM Notes encodeURI DOS
+auxiliary/dos/misc/ibm_tsm_dos                                           2015-12-15       normal     No     IBM Tivoli Storage Manager FastBack Server Opcode 0x534 Denial of Service
+auxiliary/scanner/misc/ibm_mq_channel_brute                                               normal     No     IBM WebSphere MQ Channel Name Bruteforce
+auxiliary/scanner/misc/ibm_mq_login                                                       normal     No     IBM WebSphere MQ Login Check
+auxiliary/server/icmp_exfil                                                               normal     No     ICMP Exfiltration Service
+auxiliary/admin/dcerpc/icpr_cert                                                          normal     No     ICPR Certificate Management
+auxiliary/client/iec104/iec104                                                            normal     No     IEC104 Client Utility
+auxiliary/scanner/imap/imap_version                                                       normal     No     IMAP4 Banner Grabber
+auxiliary/scanner/http/ipboard_login                                                      normal     No     IP Board Login Auxiliary Module
+auxiliary/scanner/ip/ipidseq                                                              normal     No     IPID Sequence Scanner
+auxiliary/scanner/ipmi/ipmi_cipher_zero                                  2013-06-20       normal     No     IPMI 2.0 Cipher Zero Authentication Bypass Scanner
+auxiliary/scanner/ipmi/ipmi_dumphashes                                   2013-06-20       normal     No     IPMI 2.0 RAKP Remote SHA1 Password Hash Retrieval
+auxiliary/scanner/ipmi/ipmi_version                                                       normal     No     IPMI Information Discovery
+auxiliary/scanner/discovery/ipv6_multicast_ping                                           normal     No     IPv6 Link Local/Node Local Ping Discovery
+auxiliary/scanner/discovery/ipv6_neighbor                                                 normal     No     IPv6 Local Neighbor Discovery
+auxiliary/scanner/discovery/ipv6_neighbor_router_advertisement                            normal     No     IPv6 Local Neighbor Discovery Using Router Advertisement
+auxiliary/dos/dhcp/isc_dhcpd_clientid                                                     normal     No     ISC DHCP Zero Length ClientID Denial of Service Module
+auxiliary/scanner/misc/cisco_smart_install                                                normal     No     Identify Cisco Smart Install endpoints
+auxiliary/scanner/misc/ibm_mq_enum                                                        normal     No     Identify Queue Manager Name and MQ Version
+auxiliary/scanner/rdp/rdp_scanner                                                         normal     No     Identify endpoints speaking the Remote Desktop Protocol (RDP)
+auxiliary/scanner/scada/indusoft_ntwebserver_fileaccess                                   normal     No     Indusoft WebStudio NTWebServer Remote File Access
+auxiliary/scanner/http/buildmaster_login                                                  normal     No     Inedo BuildMaster Login Scanner
+auxiliary/scanner/http/influxdb_enum                                                      normal     No     InfluxDB Enum Utility
+auxiliary/scanner/http/infovista_enum                                                     normal     No     InfoVista VistaPortal Application Bruteforce Login Utility
+auxiliary/scanner/http/intel_amt_digest_bypass                           2017-05-05       normal     No     Intel AMT Digest Authentication Bypass Scanner
+auxiliary/gather/ie_sandbox_findfiles                                    2016-08-09       normal     No     Internet Explorer Iframe Sandbox File Name Disclosure Vulnerability
+auxiliary/admin/http/intersil_pass_reset                                 2007-09-10       normal     Yes    Intersil (Boa) HTTPd Basic Authentication Password Reset
+auxiliary/admin/http/iomega_storcenterpro_sessionid                                       normal     No     Iomega StorCenter Pro NAS Web Authentication Bypass
+auxiliary/scanner/tftp/ipswitch_whatsupgold_tftp                         2011-12-12       normal     No     IpSwitch WhatsUp Gold TFTP Directory Traversal
+auxiliary/admin/http/jboss_bshdeployer                                                    normal     No     JBoss JMX Console Beanshell Deployer WAR Upload and Deployment
+auxiliary/admin/http/jboss_deploymentfilerepository                                       normal     No     JBoss JMX Console DeploymentFileRepository WAR Upload and Deployment
+auxiliary/admin/http/jboss_seam_exec                                     2010-07-19       normal     No     JBoss Seam 2 Remote Command Execution
+auxiliary/scanner/http/jboss_status                                                       normal     No     JBoss Status Servlet Information Gathering
+auxiliary/scanner/http/jboss_vulnscan                                                     normal     No     JBoss Vulnerability Scanner
+auxiliary/gather/ipcamera_password_disclosure                            2016-08-16       normal     No     JVC/Siemens/Vanderbilt IP-Camera Readfile Password Disclosure
+auxiliary/scanner/misc/java_jmx_server                                   2013-05-22       normal     No     Java JMX Server Insecure Endpoint Code Execution Scanner
+auxiliary/gather/java_rmi_registry                                                        normal     No     Java RMI Registry Interfaces Enumeration
+auxiliary/scanner/misc/java_rmi_server                                   2011-10-15       normal     No     Java RMI Server Insecure Endpoint Code Execution Scanner
+auxiliary/server/jsse_skiptls_mitm_proxy                                 2015-01-20       normal     No     Java Secure Socket Extension (JSSE) SKIP-TLS MITM Proxy
+auxiliary/gather/jenkins_cred_recovery                                                    normal     Yes    Jenkins Domain Credential Recovery
+auxiliary/scanner/jenkins/jenkins_udp_broadcast_enum                                      normal     No     Jenkins Server Broadcast Enumeration
+auxiliary/scanner/http/jenkins_enum                                                       normal     No     Jenkins-CI Enumeration
+auxiliary/scanner/http/jenkins_login                                                      normal     No     Jenkins-CI Login Utility
+auxiliary/scanner/http/jenkins_command                                                    normal     No     Jenkins-CI Unauthenticated Script-Console Scanner
+auxiliary/gather/jetty_web_inf_disclosure                                2021-07-15       normal     Yes    Jetty WEB-INF File Disclosure
+auxiliary/scanner/http/jira_user_enum                                    2020-08-16       normal     No     Jira Users Enumeration
+auxiliary/admin/http/joomla_registration_privesc                         2016-10-25       normal     Yes    Joomla Account Creation and Privilege Escalation
+auxiliary/scanner/http/joomla_bruteforce_login                                            normal     No     Joomla Bruteforce Login Utility
+auxiliary/scanner/http/joomla_pages                                                       normal     No     Joomla Page Scanner
+auxiliary/scanner/http/joomla_plugins                                                     normal     No     Joomla Plugins Scanner
+auxiliary/gather/joomla_com_realestatemanager_sqli                       2015-10-22       normal     Yes    Joomla Real Estate Manager Component Error-Based SQL Injection
+auxiliary/scanner/http/joomla_version                                                     normal     No     Joomla Version Scanner
+auxiliary/gather/joomla_contenthistory_sqli                              2015-10-22       normal     Yes    Joomla com_contenthistory Error-Based SQL Injection
+auxiliary/gather/joomla_weblinks_sqli                                    2014-03-02       normal     Yes    Joomla weblinks-categories Unauthenticated SQL Injection Arbitrary File Read
+auxiliary/admin/networking/juniper_config                                                 normal     No     Juniper Configuration Importer
+auxiliary/dos/tcp/junos_tcp_opt                                                           normal     No     Juniper JunOS Malformed TCP Option
+auxiliary/scanner/ssh/juniper_backdoor                                   2015-12-20       normal     No     Juniper SSH Backdoor Scanner
+auxiliary/scanner/http/jupyter_login                                                      normal     No     Jupyter Login Utility
+auxiliary/dos/windows/games/kaillera                                     2011-07-02       normal     No     Kaillera 0.86 Server Denial of Service
+auxiliary/admin/http/kaseya_master_admin                                 2015-09-23       normal     No     Kaseya VSA Master Administrator Account Creation
+auxiliary/admin/http/katello_satellite_priv_esc                          2014-03-24       normal     No     Katello (Red Hat Satellite) users/update_roles Missing Authorization
+auxiliary/scanner/kerberos/kerberos_login                                                 normal     No     Kerberos Authentication Check Scanner
+auxiliary/gather/kerberos_enumusers                                                       normal     No     Kerberos Domain User Enumeration
+auxiliary/admin/kerberos/forge_ticket                                                     normal     No     Kerberos Silver/Golden Ticket Forging
+auxiliary/admin/kerberos/get_ticket                                                       normal     No     Kerberos TGT/TGS Ticket Requester
+auxiliary/admin/kerberos/inspect_ticket                                                   normal     No     Kerberos Ticket Inspecting
+auxiliary/admin/kerberos/keytab                                                           normal     No     Kerberos keytab utilities
+auxiliary/admin/kerberos/ticket_converter                                                 normal     No     Kerberos ticket converter
+auxiliary/scanner/ssh/detect_kippo                                                        normal     No     Kippo SSH Honeypot Detector
+auxiliary/scanner/http/kodi_traversal                                    2017-02-12       normal     No     Kodi 17.0 Local File Inclusion Vulnerability
+auxiliary/scanner/ftp/konica_ftp_traversal                               2015-09-22       normal     Yes    Konica Minolta FTP Utility 1.00 Directory Traversal Information Disclosure
+auxiliary/gather/konica_minolta_pwd_extract                                               normal     No     Konica Minolta Password Extractor
+auxiliary/scanner/scada/koyo_login                                       2012-01-19       normal     No     Koyo DirectLogic PLC Password Brute Force Utility
+auxiliary/cloud/kubernetes/enum_kubernetes                                                normal     No     Kubernetes Enumeration
+auxiliary/gather/ldap_hashdump                                           2020-07-23       normal     No     LDAP Information Disclosure
+auxiliary/gather/ldap_query                                              2022-05-19       normal     No     LDAP Query and Enumeration Module
+auxiliary/scanner/llmnr/query                                                             normal     No     LLMNR Query
+auxiliary/spoof/llmnr/llmnr_response                                                      normal     No     LLMNR Spoofer
+auxiliary/gather/lansweeper_collector                                                     normal     No     Lansweeper Credential Collector
+auxiliary/scanner/telnet/lantronix_telnet_password                                        normal     No     Lantronix Telnet Password Recovery
+auxiliary/scanner/telnet/lantronix_telnet_version                                         normal     No     Lantronix Telnet Service Banner Detection
+auxiliary/admin/aws/aws_launch_instances                                                  normal     No     Launches Hosts in AWS
+auxiliary/fileformat/odt_badodt                                          2018-05-01       normal     No     LibreOffice 6.03 /Apache OpenOffice 4.1.5 Malicious ODT File Generator
+auxiliary/scanner/http/limesurvey_zip_traversals                         2020-04-02       normal     No     LimeSurvey Zip Path Traversals
+auxiliary/admin/http/limesurvey_file_download                            2015-10-12       normal     No     Limesurvey Unauthenticated File Download
+auxiliary/scanner/http/linknat_vos_traversal                                              normal     No     Linknat Vos Manager Traversal
+auxiliary/scanner/http/linksys_e1500_traversal                                            normal     No     Linksys E1500 Directory Traversal Vulnerability
+auxiliary/admin/http/linksys_e1500_e2500_exec                            2013-02-05       normal     No     Linksys E1500/E2500 Remote Command Execution
+auxiliary/admin/http/linksys_tmunblock_admin_reset_bof                   2014-02-19       normal     No     Linksys WRT120N tmUnblock Stack Buffer Overflow
+auxiliary/admin/http/linksys_wrt54gl_exec                                2013-01-18       normal     No     Linksys WRT54GL Remote Command Execution
+auxiliary/scanner/rsync/modules_list                                                      normal     No     List Rsync Modules
+auxiliary/scanner/http/litespeed_source_disclosure                                        normal     No     LiteSpeed Source Code Disclosure/Download
+auxiliary/scanner/http/log4shell_scanner                                 2021-12-09       normal     No     Log4Shell HTTP Scanner
+auxiliary/scanner/lotus/lotus_domino_login                                                normal     No     Lotus Domino Brute Force Utility
+auxiliary/scanner/lotus/lotus_domino_hashes                                               normal     No     Lotus Domino Password Hash Collector
+auxiliary/scanner/lotus/lotus_domino_version                                              normal     No     Lotus Domino Version
+auxiliary/client/mms/send_mms                                                             normal     No     MMS Client
+auxiliary/scanner/mqtt/connect                                                            normal     No     MQTT Authentication Scanner
+auxiliary/dos/pptp/ms02_063_pptp_dos                                     2002-09-26       normal     No     MS02-063 PPTP Malformed Control Data Kernel Denial of Service
+auxiliary/dos/windows/smtp/ms06_019_exchange                             2004-11-12       normal     No     MS06-019 Exchange MODPROP Heap Overflow
+auxiliary/scanner/http/dir_webdav_unicode_bypass                                          normal     No     MS09-020 IIS6 WebDAV Unicode Auth Bypass Directory Scanner
+auxiliary/scanner/http/ms09_020_webdav_unicode_bypass                                     normal     No     MS09-020 IIS6 WebDAV Unicode Authentication Bypass
+auxiliary/admin/http/iis_auth_bypass                                     2010-07-02       normal     No     MS10-065 Microsoft IIS 5 NTFS Stream Authentication Bypass
+auxiliary/scanner/rdp/ms12_020_check                                                      normal     Yes    MS12-020 Microsoft Remote Desktop Checker
+auxiliary/dos/windows/rdp/ms12_020_maxchannelids                         2012-03-16       normal     No     MS12-020 Microsoft Remote Desktop Use-After-Free DoS
+auxiliary/gather/ms14_052_xmldom                                         2014-09-09       normal     No     MS14-052 Microsoft Internet Explorer XMLDOM Filename Disclosure
+auxiliary/admin/kerberos/ms14_068_kerberos_checksum                      2014-11-18       normal     No     MS14-068 Microsoft Kerberos Checksum Validation Vulnerability
+auxiliary/gather/ie_uxss_injection                                       2015-02-01       normal     No     MS15-018 Microsoft Internet Explorer 10 and 11 Cross-Domain JavaScript Injection
+auxiliary/dos/http/ms15_034_ulonglongadd                                                  normal     Yes    MS15-034 HTTP Protocol Stack Request Handling Denial-of-Service
+auxiliary/scanner/http/ms15_034_http_sys_memory_dump                                      normal     Yes    MS15-034 HTTP Protocol Stack Request Handling HTTP.SYS Memory Information Disclosure
+auxiliary/server/ms15_134_mcl_leak                                       2015-12-08       normal     No     MS15-134 Microsoft Windows Media Center MCL Information Disclosure
+auxiliary/admin/smb/ms17_010_command                                     2017-03-14       normal     No     MS17-010 EternalRomance/EternalSynergy/EternalChampion SMB Remote Windows Command Execution
+auxiliary/scanner/smb/smb_ms17_010                                                        normal     No     MS17-010 SMB RCE Detection
+auxiliary/scanner/mssql/mssql_login                                                       normal     No     MSSQL Login Utility
+auxiliary/scanner/mssql/mssql_hashdump                                                    normal     No     MSSQL Password Hashdump
+auxiliary/scanner/mssql/mssql_ping                                                        normal     No     MSSQL Ping Utility
+auxiliary/scanner/mssql/mssql_schemadump                                                  normal     No     MSSQL Schema Dump
+auxiliary/scanner/mysql/mysql_writable_dirs                                               normal     No     MYSQL Directory Write Test
+auxiliary/scanner/mysql/mysql_file_enum                                                   normal     No     MYSQL File/Directory Enumerator
+auxiliary/scanner/mysql/mysql_hashdump                                                    normal     No     MYSQL Password Hashdump
+auxiliary/scanner/mysql/mysql_schemadump                                                  normal     No     MYSQL Schema Dump
+auxiliary/gather/apple_safari_webarchive_uxss                            2013-02-22       normal     No     Mac OS X Safari .webarchive File Format UXSS
+auxiliary/gather/safari_file_url_navigation                              2014-01-16       normal     No     Mac OS X Safari file:// Redirection Sandbox Escape
+auxiliary/scanner/http/majordomo2_directory_traversal                    2011-03-08       normal     No     Majordomo2 _list_file_get() Directory Traversal
+auxiliary/gather/manageengine_adaudit_plus_xnode_enum                                     normal     Yes    ManageEngine ADAudit Plus Xnode Enumeration
+auxiliary/gather/manageengine_datasecurity_plus_xnode_enum                                normal     Yes    ManageEngine DataSecurity Plus Xnode Enumeration
+auxiliary/admin/http/manage_engine_dc_create_admin                       2014-12-31       normal     No     ManageEngine Desktop Central Administrator Account Creation
+auxiliary/scanner/http/manageengine_desktop_central_login                                 normal     No     ManageEngine Desktop Central Login Utility
+auxiliary/scanner/http/manageengine_deviceexpert_traversal               2012-03-18       normal     No     ManageEngine DeviceExpert 5.6 ScheduleResultViewer FileName Traversal
+auxiliary/scanner/http/manageengine_deviceexpert_user_creds              2014-08-28       normal     No     ManageEngine DeviceExpert User Credentials
+auxiliary/gather/eventlog_cred_disclosure                                2014-11-05       normal     No     ManageEngine Eventlog Analyzer Managed Hosts Administrator Credential Disclosure
+auxiliary/admin/http/manageengine_dir_listing                            2015-01-28       normal     No     ManageEngine Multiple Products Arbitrary Directory Listing
+auxiliary/admin/http/manageengine_file_download                          2015-01-28       normal     No     ManageEngine Multiple Products Arbitrary File Download
+auxiliary/admin/http/netflow_file_download                               2014-11-30       normal     No     ManageEngine NetFlow Analyzer Arbitrary File Download
+auxiliary/admin/http/manageengine_pmp_privesc                            2014-11-08       normal     Yes    ManageEngine Password Manager SQLAdvancedALSearchResult.cc Pro SQL Injection
+auxiliary/scanner/http/manageengine_securitymanager_traversal            2012-10-19       normal     No     ManageEngine SecurityManager Plus 5.5 Directory Traversal
+auxiliary/scanner/http/servicedesk_plus_traversal                        2015-10-03       normal     No     ManageEngine ServiceDesk Plus Path Traversal
+auxiliary/scanner/http/support_center_plus_directory_traversal           2014-01-28       normal     No     ManageEngine Support Center Plus Directory Traversal
+auxiliary/gather/mantisbt_admin_sqli                                     2014-02-28       normal     No     MantisBT Admin SQL Injection Arbitrary File Read
+auxiliary/admin/http/mantisbt_password_reset                             2017-04-16       normal     Yes    MantisBT password reset
+auxiliary/gather/mcafee_epo_xxe                                          2015-01-06       normal     No     McAfee ePolicy Orchestrator Authenticated XXE Credentials Exposure
+auxiliary/scanner/http/mediawiki_svg_fileaccess                                           normal     No     MediaWiki SVG XML Entity Expansion Remote File Access
+auxiliary/gather/memcached_extractor                                                      normal     No     Memcached Extractor
+auxiliary/dos/misc/memcached                                                              normal     No     Memcached Remote Denial of Service
+auxiliary/scanner/memcached/memcached_amp                                2018-02-27       normal     No     Memcached Stats Amplification Scanner
+auxiliary/scanner/memcached/memcached_udp_version                        2003-07-23       normal     No     Memcached UDP Version Scanner
+auxiliary/dos/http/metasploit_httphandler_dos                            2019-09-04       normal     No     Metasploit HTTP(S) handler DoS
+auxiliary/scanner/msf/msf_rpc_login                                                       normal     No     Metasploit RPC Interface Login Utility
+auxiliary/crawler/msfcrawler                                                              normal     No     Metasploit Web Crawler
+auxiliary/scanner/msf/msf_web_login                                                       normal     No     Metasploit Web Interface Login Utility
+auxiliary/scanner/http/meteocontrol_weblog_extractadmin                                   normal     No     Meteocontrol WEBlog Password Extractor
+auxiliary/scanner/http/azure_ad_login                                                     normal     No     Microsoft Azure Active Directory Login Enumeration
+auxiliary/scanner/http/exchange_web_server_pushsubscription              2019-01-21       normal     No     Microsoft Exchange Privilege Escalation Exploit
+auxiliary/gather/exchange_proxylogon_collector                           2021-03-02       normal     No     Microsoft Exchange ProxyLogon Collector
+auxiliary/scanner/http/exchange_proxylogon                               2021-03-02       normal     No     Microsoft Exchange ProxyLogon Scanner
+auxiliary/admin/ms/ms08_059_his2006                                      2008-10-14       normal     No     Microsoft Host Integration Server 2006 Command Execution Vulnerability
+auxiliary/dos/windows/http/ms10_065_ii6_asp_dos                          2010-09-14       normal     No     Microsoft IIS 6.0 ASP Stack Exhaustion Denial of Service
+auxiliary/dos/windows/ftp/iis75_ftpd_iac_bof                             2010-12-21       normal     No     Microsoft IIS FTP Server Encoded Response Overflow Trigger
+auxiliary/dos/windows/ftp/iis_list_exhaustion                            2009-09-03       normal     No     Microsoft IIS FTP Server LIST Stack Exhaustion
+auxiliary/scanner/http/iis_internal_ip                                                    normal     No     Microsoft IIS HTTP Internal IP Disclosure
+auxiliary/scanner/http/iis_shortname_scanner                                              normal     Yes    Microsoft IIS shortname vulnerability scanner
+auxiliary/dos/windows/smb/ms05_047_pnp                                                    normal     No     Microsoft Plug and Play Service Registry Overflow
+auxiliary/scanner/http/rdp_web_login                                     2020-12-23       normal     No     Microsoft RDP Web Client Login Enumeration
+auxiliary/dos/windows/smb/rras_vls_null_deref                            2006-06-14       normal     No     Microsoft RRAS InterfaceAdjustVLSPointers NULL Dereference
+auxiliary/admin/mssql/mssql_exec                                                          normal     No     Microsoft SQL Server Command Execution
+auxiliary/admin/mssql/mssql_enum                                                          normal     No     Microsoft SQL Server Configuration Enumerator
+auxiliary/admin/mssql/mssql_escalate_dbowner                                              normal     No     Microsoft SQL Server Escalate Db_Owner
+auxiliary/admin/mssql/mssql_escalate_execute_as                                           normal     No     Microsoft SQL Server Escalate EXECUTE AS
+auxiliary/admin/mssql/mssql_findandsampledata                                             normal     No     Microsoft SQL Server Find and Sample Data
+auxiliary/admin/mssql/mssql_sql                                                           normal     No     Microsoft SQL Server Generic Query
+auxiliary/admin/mssql/mssql_sql_file                                                      normal     No     Microsoft SQL Server Generic Query from File
+auxiliary/admin/mssql/mssql_idf                                                           normal     No     Microsoft SQL Server Interesting Data Finder
+auxiliary/admin/mssql/mssql_ntlm_stealer                                                  normal     No     Microsoft SQL Server NTLM Stealer
+auxiliary/admin/mssql/mssql_escalate_dbowner_sqli                                         normal     No     Microsoft SQL Server SQLi Escalate Db_Owner
+auxiliary/admin/mssql/mssql_escalate_execute_as_sqli                                      normal     No     Microsoft SQL Server SQLi Escalate Execute AS
+auxiliary/admin/mssql/mssql_ntlm_stealer_sqli                                             normal     No     Microsoft SQL Server SQLi NTLM Stealer
+auxiliary/admin/mssql/mssql_enum_domain_accounts_sqli                                     normal     No     Microsoft SQL Server SQLi SUSER_SNAME Windows Domain Account Enumeration
+auxiliary/admin/mssql/mssql_enum_sql_logins                                               normal     No     Microsoft SQL Server SUSER_SNAME SQL Logins Enumeration
+auxiliary/admin/mssql/mssql_enum_domain_accounts                                          normal     No     Microsoft SQL Server SUSER_SNAME Windows Domain Account Enumeration
+auxiliary/dos/windows/smb/ms06_035_mailslot                              2006-07-11       normal     No     Microsoft SRV.SYS Mailslot Write Corruption
+auxiliary/dos/windows/smb/ms06_063_trans                                                  normal     No     Microsoft SRV.SYS Pipe Transaction No Null
+auxiliary/dos/windows/smb/ms09_001_write                                                  normal     No     Microsoft SRV.SYS WriteAndX Invalid DataOffset
+auxiliary/dos/windows/smb/ms09_050_smb2_negotiate_pidhigh                                 normal     No     Microsoft SRV2.SYS SMB Negotiate ProcessID Function Table Dereference
+auxiliary/dos/windows/smb/ms09_050_smb2_session_logoff                                    normal     No     Microsoft SRV2.SYS SMB2 Logoff Remote Kernel NULL Pointer Dereference
+auxiliary/dos/windows/smb/vista_negotiate_stop                                            normal     No     Microsoft Vista SP0 SMB Negotiate Protocol DoS
+auxiliary/dos/windows/smb/ms10_006_negotiate_response_loop                                normal     No     Microsoft Windows 7 / Server 2008 R2 SMB Client Infinite Loop
+auxiliary/scanner/smb/psexec_loggedin_users                                               normal     No     Microsoft Windows Authenticated Logged In Users Enumeration
+auxiliary/dos/windows/smb/ms11_019_electbowser                                            normal     No     Microsoft Windows Browser Pool DoS
+auxiliary/dos/windows/llmnr/ms11_030_dnsapi                              2011-04-12       normal     No     Microsoft Windows DNSAPI.dll LLMNR Buffer Underrun DoS
+auxiliary/gather/windows_deployment_services_shares                                       normal     No     Microsoft Windows Deployment Services Unattend Gatherer
+auxiliary/scanner/dcerpc/windows_deployment_services                                      normal     No     Microsoft Windows Deployment Services Unattend Retrieval
+auxiliary/dos/windows/browser/ms09_065_eot_integer                       2009-11-10       normal     No     Microsoft Windows EOT Font Table Directory Integer Overflow
+auxiliary/dos/windows/nat/nat_helper                                     2006-10-26       normal     No     Microsoft Windows NAT Helper Denial of Service
+auxiliary/dos/windows/smb/ms10_054_queryfs_pool_overflow                                  normal     No     Microsoft Windows SRV.SYS SrvSmbQueryFsInformation Pool Overflow DoS
+auxiliary/docx/word_unc_injector                                                          normal     No     Microsoft Word UNC Path Injector
+auxiliary/gather/microweber_lfi                                          2022-01-30       normal     Yes    Microweber CMS v1.2.10 Local File Inclusion (Authenticated)
+auxiliary/admin/networking/mikrotik_config                                                normal     No     Mikrotik Configuration Importer
+auxiliary/gather/mikrotik_winbox_fileread                                2018-08-02       normal     No     Mikrotik Winbox Arbitrary File Read
+auxiliary/dos/upnp/miniupnpd_dos                                         2013-03-27       normal     No     MiniUPnPd 1.4 Denial of Service (DoS) Exploit
+auxiliary/dos/mirageos/qubes_mirage_firewall_dos                         2022-12-04       normal     No     Mirage firewall for QubesOS 0.8.0-0.8.3 Denial of Service (DoS) Exploit
+auxiliary/gather/ldap_esc_vulnerable_cert_finder                         2021-06-17       normal     No     Misconfigured Certificate Template Finder
+auxiliary/scanner/scada/modbus_banner_grabbing                                            normal     No     Modbus Banner Grabbing
+auxiliary/scanner/scada/modbusclient                                                      normal     No     Modbus Client Utility
+auxiliary/scanner/scada/modbus_findunitid                                2012-10-28       normal     No     Modbus Unit ID and Station ID Enumerator
+auxiliary/scanner/scada/modbusdetect                                     2011-11-01       normal     No     Modbus Version Scanner
+auxiliary/scanner/mongodb/mongodb_login                                                   normal     No     MongoDB Login Utility
+auxiliary/gather/mongodb_js_inject_collection_enum                       2014-06-07       normal     No     MongoDB NoSQL Collection Enumeration Via Injection
+auxiliary/dos/http/monkey_headers                                        2013-05-30       normal     No     Monkey HTTPD Header Parsing Denial of Service (DoS)
+auxiliary/scanner/motorola/timbuktu_udp                                  2009-09-25       normal     No     Motorola Timbuktu Service Detection
+auxiliary/admin/motorola/wr850g_cred                                     2004-09-24       normal     No     Motorola WR850G v4.03 Credentials
+auxiliary/admin/scada/moxa_credentials_recovery                          2015-07-28       normal     Yes    Moxa Device Credential Retrieval
+auxiliary/scanner/scada/moxa_discover                                                     normal     No     Moxa UDP Device Discovery
+auxiliary/scanner/misc/dvr_config_disclosure                                              normal     No     Multiple DVR Manufacturers Configuration Disclosure
+auxiliary/admin/http/mutiny_frontend_read_delete                         2013-05-15       normal     No     Mutiny 5 Arbitrary File Read and Delete
+auxiliary/gather/mybb_db_fingerprint                                     2014-02-13       normal     Yes    MyBB Database Fingerprint
+auxiliary/scanner/mysql/mysql_authbypass_hashdump                        2012-06-09       normal     No     MySQL Authentication Bypass Password Dump
+auxiliary/admin/mysql/mysql_enum                                                          normal     No     MySQL Enumeration Module
+auxiliary/scanner/mysql/mysql_login                                                       normal     No     MySQL Login Utility
+auxiliary/admin/mysql/mysql_sql                                                           normal     No     MySQL SQL Generic Query
+auxiliary/scanner/mysql/mysql_version                                                     normal     No     MySQL Server Version Enumeration
+auxiliary/gather/natpmp_external_address                                                  normal     No     NAT-PMP External Address Scanner
+auxiliary/scanner/natpmp/natpmp_portscan                                                  normal     No     NAT-PMP External Port Scanner
+auxiliary/admin/natpmp/natpmp_map                                                         normal     No     NAT-PMP Port Mapper
+auxiliary/gather/netgear_password_disclosure                                              normal     Yes    NETGEAR Administrator Password Disclosure
+auxiliary/admin/http/netgear_auth_download                               2016-02-04       normal     No     NETGEAR ProSafe Network Management System 300 Authenticated File Download
+auxiliary/admin/http/netgear_wnr2000_pass_recovery                       2016-12-20       normal     No     NETGEAR WNR2000v5 Administrator Password Recovery
+auxiliary/scanner/http/novell_file_reporter_fsfui_fileaccess             2012-11-16       normal     No     NFR Agent FSFUI Record Arbitrary Remote File Access
+auxiliary/dos/http/novell_file_reporter_heap_bof                         2012-11-16       normal     No     NFR Agent Heap Overflow Vulnerability
+auxiliary/scanner/http/novell_file_reporter_srs_fileaccess               2012-11-16       normal     No     NFR Agent SRS Record Arbitrary Remote File Access
+auxiliary/scanner/nfs/nfsmount                                                            normal     No     NFS Mount Scanner
+auxiliary/gather/nis_bootparamd_domain                                                    normal     No     NIS bootparamd Domain Name Disclosure
+auxiliary/gather/nis_ypserv_map                                                           normal     No     NIS ypserv Map Dumper
+auxiliary/scanner/nntp/nntp_login                                                         normal     No     NNTP Login Utility
+auxiliary/scanner/ntp/ntp_nak_to_the_future                                               normal     No     NTP "NAK to the Future"
+auxiliary/scanner/ntp/ntp_readvar                                                         normal     No     NTP Clock Variables Disclosure
+auxiliary/scanner/ntp/ntp_req_nonce_dos                                  2014-08-25       normal     No     NTP Mode 6 REQ_NONCE DRDoS Scanner
+auxiliary/scanner/ntp/ntp_unsettrap_dos                                  2014-08-25       normal     No     NTP Mode 6 UNSETTRAP DRDoS Scanner
+auxiliary/scanner/ntp/ntp_reslist_dos                                    2014-08-25       normal     No     NTP Mode 7 GET_RESTRICT DRDoS Scanner
+auxiliary/scanner/ntp/ntp_peer_list_dos                                  2014-08-25       normal     No     NTP Mode 7 PEER_LIST DoS Scanner
+auxiliary/scanner/ntp/ntp_peer_list_sum_dos                              2014-08-25       normal     No     NTP Mode 7 PEER_LIST_SUM DoS Scanner
+auxiliary/scanner/ntp/ntp_monlist                                                         normal     No     NTP Monitor List Scanner
+auxiliary/fuzzers/ntp/ntp_protocol_fuzzer                                                 normal     No     NTP Protocol Fuzzer
+auxiliary/dos/ntp/ntpd_reserved_dos                                      2009-10-04       normal     No     NTP.org ntpd Reserved Mode Denial of Service
+auxiliary/admin/http/nuuo_nvrmini_reset                                  2016-08-04       normal     No     NUUO NVRmini 2 / NETGEAR ReadyNAS Surveillance Default Configuration Load and Administrator Password Reset
+auxiliary/scanner/http/nagios_xi_scanner                                                  normal     No     Nagios XI Scanner
+auxiliary/server/dns/native_server                                                        normal     No     Native DNS Server (Example)
+auxiliary/spoof/dns/native_spoofer                                                        normal     No     Native DNS Spoofer (Example)
+auxiliary/server/ldap                                                                     normal     No     Native LDAP Server (Example)
+auxiliary/scanner/nexpose/nexpose_api_login                                               normal     No     NeXpose API Interface Login Utility
+auxiliary/scanner/nessus/nessus_ntp_login                                                 normal     No     Nessus NTP Login Utility
+auxiliary/scanner/nessus/nessus_rest_login                                                normal     No     Nessus RPC Interface Login Utility
+auxiliary/scanner/nessus/nessus_xmlrpc_login                                              normal     No     Nessus XMLRPC Interface Login Utility
+auxiliary/scanner/nessus/nessus_xmlrpc_ping                                               normal     No     Nessus XMLRPC Interface Ping Utility
+auxiliary/scanner/netbios/nbname                                                          normal     No     NetBIOS Information Discovery
+auxiliary/spoof/nbns/nbns_response                                                        normal     No     NetBIOS Name Service Spoofer
+auxiliary/server/netbios_spoof_nat                                       2016-06-14       normal     No     NetBIOS Response "BadTunnel" Brute Force Spoof (NAT Tunnel)
+auxiliary/admin/netbios/netbios_spoof                                                     normal     No     NetBIOS Response Brute Force Spoof (Direct)
+auxiliary/scanner/tftp/netdecision_tftp                                  2009-05-16       normal     No     NetDecision 4.2 TFTP Directory Traversal
+auxiliary/scanner/http/netdecision_traversal                             2012-03-07       normal     No     NetDecision NOCVision Server Directory Traversal
+auxiliary/admin/http/netgear_pnpx_getsharefolderlist_auth_bypass         2021-09-06       normal     Yes    Netgear PNPX_GetShareFolderList Authentication Bypass
+auxiliary/admin/http/netgear_r6700_pass_reset                            2020-06-15       normal     Yes    Netgear R6700v3 Unauthenticated LAN Admin Password Reset
+auxiliary/admin/http/netgear_r7000_backup_cgi_heap_overflow_rce          2021-04-21       normal     Yes    Netgear R7000 backup.cgi Heap Overflow RCE
+auxiliary/scanner/http/netgear_sph200d_traversal                                          normal     No     Netgear SPH200D Directory Traversal Vulnerability
+auxiliary/admin/http/netgear_soap_password_extractor                     2015-02-11       normal     No     Netgear Unauthenticated SOAP Password Extractor
+auxiliary/admin/dcerpc/cve_2020_1472_zerologon                                            normal     Yes    Netlogon Weak Cryptographic Authentication
+auxiliary/scanner/snmp/netopia_enum                                                       normal     No     Netopia 3347 Cable Modem Wifi Enumeration
+auxiliary/gather/eaton_nsm_creds                                         2012-06-26       normal     No     Network Shutdown Module sort_values Credential Dumper
+auxiliary/admin/http/nexpose_xxe_file_read                                                normal     No     Nexpose XXE Arbitrary File Read
+auxiliary/scanner/http/nginx_source_disclosure                                            normal     No     Nginx Source Code Disclosure/Download
+auxiliary/dos/http/nodejs_pipelining                                     2013-10-18       normal     Yes    Node.js HTTP Pipelining Denial of Service
+auxiliary/admin/http/novell_file_reporter_filedelete                                      normal     No     Novell File Reporter Agent Arbitrary File Delete
+auxiliary/scanner/http/groupwise_agents_http_traversal                                    normal     No     Novell Groupwise Agents HTTP Directory Traversal
+auxiliary/scanner/http/zenworks_assetmanagement_getconfig                                 normal     No     Novell ZENworks Asset Management 7.5 Configuration Access
+auxiliary/scanner/http/zenworks_assetmanagement_fileaccess                                normal     No     Novell ZENworks Asset Management 7.5 Remote File Access
+auxiliary/scanner/misc/zenworks_preboot_fileaccess                                        normal     No     Novell ZENworks Configuration Management Preboot Service Remote File Access
+auxiliary/scanner/http/novell_mdm_creds                                                   normal     No     Novell Zenworks Mobile Device Managment Admin Credentials
+auxiliary/admin/edirectory/edirectory_dhost_cookie                                        normal     No     Novell eDirectory DHOST Predictable Session Cookie
+auxiliary/admin/edirectory/edirectory_edirutil                                            normal     No     Novell eDirectory eMBox Unauthenticated File Access
+exploit/windows/nuuo/nuuo_cms_sqli                                       2018-10-11       normal     No     Nuuo Central Management Authenticated SQL Server SQLi
+auxiliary/gather/nuuo_cms_file_download                                  2018-10-11       normal     No     Nuuo Central Management Server Authenticated Arbitrary File Download
+exploit/windows/nuuo/nuuo_cms_fu                                         2018-10-11       manual     No     Nuuo Central Management Server Authenticated Arbitrary File Upload
+auxiliary/gather/nuuo_cms_bruteforce                                     2018-10-11       normal     No     Nuuo Central Management Server User Session Token Bruteforce
+auxiliary/scanner/misc/oki_scanner                                                        normal     No     OKI Printer Default Login Credential Scanner
+auxiliary/scanner/http/owa_ews_login                                                      normal     No     OWA Exchange Web Services (EWS) Login Scanner
+auxiliary/scanner/http/octopusdeploy_login                                                normal     No     Octopus Deploy Login Utility
+auxiliary/gather/office365userenum                                       2018-09-05       normal     No     Office 365 User Enumeration
+auxiliary/scanner/msmail/onprem_enum                                     2018-11-06       normal     No     On premise user enumeration
+auxiliary/scanner/http/onion_omega2_login                                2019-03-27       normal     No     Onion Omega2 Login Brute-Force
+auxiliary/scanner/wproxy/att_open_proxy                                  2017-08-31       normal     No     Open WAN-to-LAN proxy on AT&T routers
+auxiliary/sqli/openemr/openemr_sqli_dump                                 2019-05-17       normal     Yes    OpenEMR 5.0.1 Patch 6 SQLi Dump
+auxiliary/scanner/http/openmind_messageos_login                                           normal     No     OpenMind Message-OS Portal Login Brute Force Utility
+auxiliary/gather/opennms_xxe                                             2015-01-08       normal     No     OpenNMS Authenticated XXE
+auxiliary/server/openssl_altchainsforgery_mitm_proxy                     2015-07-09       normal     No     OpenSSL Alternative Chains Certificate Forgery MITM Proxy
+auxiliary/dos/ssl/dtls_changecipherspec                                  2000-04-26       normal     No     OpenSSL DTLS ChangeCipherSpec Remote DoS
+auxiliary/dos/ssl/dtls_fragment_overflow                                 2014-06-05       normal     No     OpenSSL DTLS Fragment Buffer Overflow DoS
+auxiliary/server/openssl_heartbeat_client_memory                         2014-04-07       normal     No     OpenSSL Heartbeat (Heartbleed) Client Memory Exposure
+auxiliary/scanner/ssl/openssl_heartbleed                                 2014-04-07       normal     Yes    OpenSSL Heartbeat (Heartbleed) Information Leak
+auxiliary/scanner/ssl/openssl_ccs                                        2014-06-05       normal     No     OpenSSL Server-Side ChangeCipherSpec Injection Scanner
+auxiliary/dos/ssl/openssl_aesni                                          2013-02-05       normal     No     OpenSSL TLS 1.1 and 1.2 AES-NI DoS
+auxiliary/scanner/openvas/openvas_omp_login                                               normal     No     OpenVAS OMP Login Utility
+auxiliary/scanner/openvas/openvas_otp_login                                               normal     No     OpenVAS OTP Login Utility
+auxiliary/scanner/openvas/openvas_gsad_login                                              normal     No     OpenVAS gsad Web Interface Login Utility
+auxiliary/admin/http/openbravo_xxe                                       2013-10-30       normal     No     Openbravo ERP XXE Arbitrary File Read
+auxiliary/admin/oracle/oracle_login                                      2008-11-20       normal     No     Oracle Account Discovery
+auxiliary/scanner/oracle/spy_sid                                                          normal     No     Oracle Application Server Spy Servlet SID Enumeration
+auxiliary/gather/oats_downloadservlet_traversal                          2019-04-16       normal     Yes    Oracle Application Testing Suite Post-Auth DownloadServlet Directory Traversal
+auxiliary/sqli/oracle/jvm_os_code_10g                                    2010-02-01       normal     No     Oracle DB 10gR2, 11gR1/R2 DBMS_JVM_EXP_PERMS OS Command Execution
+auxiliary/sqli/oracle/jvm_os_code_11g                                    2010-02-01       normal     No     Oracle DB 11g R1/R2 DBMS_JVM_EXP_PERMS OS Code Execution
+auxiliary/admin/oracle/oracle_index_privesc                              2015-01-21       normal     No     Oracle DB Privilege Escalation via Function-Based Index
+auxiliary/sqli/oracle/droptable_trigger                                  2009-01-13       normal     No     Oracle DB SQL Injection in MDSYS.SDO_TOPO_DROP_FTBL Trigger
+auxiliary/sqli/oracle/dbms_export_extension                              2006-04-26       normal     No     Oracle DB SQL Injection via DBMS_EXPORT_EXTENSION
+auxiliary/sqli/oracle/dbms_cdc_ipublish                                  2008-10-22       normal     No     Oracle DB SQL Injection via SYS.DBMS_CDC_IPUBLISH.ALTER_HOTLOG_INTERNAL_CSOURCE
+auxiliary/sqli/oracle/dbms_cdc_publish                                   2008-10-22       normal     No     Oracle DB SQL Injection via SYS.DBMS_CDC_PUBLISH.ALTER_AUTOLOG_CHANGE_SOURCE
+auxiliary/sqli/oracle/dbms_cdc_publish3                                  2010-10-13       normal     No     Oracle DB SQL Injection via SYS.DBMS_CDC_PUBLISH.CREATE_CHANGE_SET
+auxiliary/sqli/oracle/dbms_cdc_publish2                                  2010-04-26       normal     No     Oracle DB SQL Injection via SYS.DBMS_CDC_PUBLISH.DROP_CHANGE_SOURCE
+auxiliary/sqli/oracle/dbms_cdc_subscribe_activate_subscription           2005-04-18       normal     No     Oracle DB SQL Injection via SYS.DBMS_CDC_SUBSCRIBE.ACTIVATE_SUBSCRIPTION
+auxiliary/sqli/oracle/dbms_metadata_get_granted_xml                      2008-01-05       normal     No     Oracle DB SQL Injection via SYS.DBMS_METADATA.GET_GRANTED_XML
+auxiliary/sqli/oracle/dbms_metadata_get_xml                              2008-01-05       normal     No     Oracle DB SQL Injection via SYS.DBMS_METADATA.GET_XML
+auxiliary/sqli/oracle/dbms_metadata_open                                 2008-01-05       normal     No     Oracle DB SQL Injection via SYS.DBMS_METADATA.OPEN
+auxiliary/sqli/oracle/lt_compressworkspace                               2008-10-13       normal     No     Oracle DB SQL Injection via SYS.LT.COMPRESSWORKSPACE
+auxiliary/sqli/oracle/lt_findricset_cursor                               2007-10-17       normal     No     Oracle DB SQL Injection via SYS.LT.FINDRICSET Evil Cursor Method
+auxiliary/sqli/oracle/lt_mergeworkspace                                  2008-10-22       normal     No     Oracle DB SQL Injection via SYS.LT.MERGEWORKSPACE
+auxiliary/sqli/oracle/lt_removeworkspace                                 2008-10-13       normal     No     Oracle DB SQL Injection via SYS.LT.REMOVEWORKSPACE
+auxiliary/sqli/oracle/lt_rollbackworkspace                               2009-05-04       normal     No     Oracle DB SQL Injection via SYS.LT.ROLLBACKWORKSPACE
+auxiliary/admin/oracle/oraenum                                                            normal     No     Oracle Database Enumeration
+auxiliary/scanner/http/oracle_demantra_file_retrieval                    2014-02-28       normal     No     Oracle Demantra Arbitrary File Retrieval with Authentication Bypass
+auxiliary/scanner/http/oracle_demantra_database_credentials_leak         2014-02-28       normal     No     Oracle Demantra Database Credentials Leak
+auxiliary/scanner/oracle/emc_sid                                                          normal     No     Oracle Enterprise Manager Control SID Discovery
+auxiliary/scanner/http/oracle_ilom_login                                                  normal     No     Oracle ILO Manager Login Brute Force Utility
+auxiliary/admin/oracle/post_exploitation/win32exec                       2007-12-07       normal     No     Oracle Java execCommand (Win32)
+auxiliary/scanner/oracle/oracle_hashdump                                                  normal     No     Oracle Password Hashdump
+auxiliary/scanner/oracle/oracle_login                                                     normal     No     Oracle RDBMS Login Utility
+auxiliary/admin/oracle/ora_ntlm_stealer                                  2009-04-07       normal     No     Oracle SMB Relay Code Execution
+auxiliary/admin/oracle/oracle_sql                                        2007-12-07       normal     No     Oracle SQL Generic Query
+auxiliary/admin/oracle/osb_execqr2                                       2009-08-18       normal     No     Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability
+auxiliary/admin/oracle/osb_execqr3                                       2010-07-13       normal     No     Oracle Secure Backup Authentication Bypass/Command Injection Vulnerability
+auxiliary/admin/oracle/osb_execqr                                        2009-01-14       normal     No     Oracle Secure Backup exec_qr() Command Injection Vulnerability
+auxiliary/scanner/oracle/tnspoison_checker                               2012-04-18       normal     No     Oracle TNS Listener Checker
+auxiliary/admin/oracle/tnscmd                                            2009-02-01       normal     No     Oracle TNS Listener Command Issuer
+auxiliary/admin/oracle/sid_brute                                         2009-01-07       normal     No     Oracle TNS Listener SID Brute Forcer
+auxiliary/scanner/oracle/sid_brute                                                        normal     No     Oracle TNS Listener SID Bruteforce
+auxiliary/scanner/oracle/sid_enum                                        2009-01-07       normal     No     Oracle TNS Listener SID Enumeration
+auxiliary/scanner/oracle/tnslsnr_version                                 2009-01-07       normal     No     Oracle TNS Listener Service Version Query
+auxiliary/admin/oracle/post_exploitation/win32upload                     2005-02-10       normal     No     Oracle URL Download
+auxiliary/scanner/oracle/xdb_sid                                                          normal     No     Oracle XML DB SID Discovery
+auxiliary/scanner/oracle/xdb_sid_brute                                                    normal     No     Oracle XML DB SID Discovery via Brute Force
+auxiliary/scanner/oracle/isqlplus_login                                                   normal     No     Oracle iSQL*Plus Login Utility
+auxiliary/scanner/oracle/isqlplus_sidbrute                                                normal     No     Oracle iSQLPlus SID Check
+auxiliary/scanner/http/owa_iis_internal_ip                               2012-12-17       normal     No     Outlook Web App (OWA) / Client Access Server (CAS) IIS HTTP Internal IP Disclosure
+auxiliary/scanner/http/owa_login                                                          normal     No     Outlook Web App (OWA) Brute Force Utility
+auxiliary/scanner/ftp/pcman_ftp_traversal                                2015-09-28       normal     Yes    PCMan FTP Server 2.0.7 Directory Traversal Information Disclosure
+auxiliary/scanner/pop3/pop3_version                                                       normal     No     POP3 Banner Grabber
+auxiliary/scanner/pop3/pop3_login                                                         normal     No     POP3 Login Utility
+auxiliary/server/pxeexploit                                                               normal     No     PXE Boot Exploit Server
+auxiliary/dos/windows/tftp/pt360_write                                   2008-10-29       normal     No     PacketTrap TFTP Server 2.2.5459.0 DoS
+auxiliary/analyze/crack_aix                                                               normal     No     Password Cracker: AIX
+auxiliary/analyze/crack_databases                                                         normal     No     Password Cracker: Databases
+auxiliary/analyze/crack_linux                                                             normal     No     Password Cracker: Linux
+auxiliary/analyze/crack_mobile                                                            normal     No     Password Cracker: Mobile
+auxiliary/analyze/crack_osx                                                               normal     No     Password Cracker: OSX
+auxiliary/analyze/crack_webapps                                                           normal     No     Password Cracker: Webapps
+auxiliary/analyze/crack_windows                                                           normal     No     Password Cracker: Windows
+auxiliary/scanner/http/glassfish_traversal                               2015-08-08       normal     No     Path Traversal in Oracle GlassFish Server Open Source Edition
+auxiliary/scanner/pcanywhere/pcanywhere_login                                             normal     No     PcAnywhere Login Scanner
+auxiliary/scanner/pcanywhere/pcanywhere_tcp                                               normal     No     PcAnywhere TCP Service Discovery
+auxiliary/scanner/pcanywhere/pcanywhere_udp                                               normal     No     PcAnywhere UDP Service Discovery
+auxiliary/spoof/replay/pcap_replay                                                        normal     No     Pcap Replay Utility
+auxiliary/gather/peplink_bauth_sqli                                                       normal     Yes    Peplink Balance routers SQLi
+auxiliary/scanner/dcerpc/petitpotam                                                       normal     No     PetitPotam
+auxiliary/admin/scada/phoenix_command                                    2015-05-20       normal     No     PhoenixContact PLC Remote START/STOP Command
+auxiliary/scanner/http/phpmyadmin_login                                                   normal     No     PhpMyAdmin Login Scanner
+auxiliary/admin/http/pihole_domains_api_exec                             2021-08-04       normal     Yes    Pi-Hole Top Domains API Authenticated Exec
+auxiliary/dos/windows/http/pi3web_isapi                                  2008-11-13       normal     No     Pi3Web ISAPI DoS
+auxiliary/gather/pimcore_creds_sqli                                      2018-08-13       normal     No     Pimcore Gather Credentials via SQL Injection
+auxiliary/admin/http/scrutinizer_add_user                                2012-07-27       normal     No     Plixer Scrutinizer NetFlow and sFlow Analyzer HTTP Authentication Bypass
+auxiliary/scanner/http/pocketpad_login                                                    normal     No     PocketPAD Login Bruteforce Force Utility
+auxiliary/scanner/misc/poisonivy_control_scanner                                          normal     No     Poison Ivy Command and Control Scanner
+auxiliary/scanner/portmap/portmap_amp                                                     normal     No     Portmapper Amplification Scanner
+auxiliary/admin/http/pfadmin_set_protected_alias                         2017-02-03       normal     Yes    Postfixadmin Protected Alias Deletion Vulnerability
+auxiliary/scanner/postgres/postgres_dbname_flag_injection                                 normal     No     PostgreSQL Database Name Command Line Flag Injection
+auxiliary/scanner/postgres/postgres_login                                                 normal     No     PostgreSQL Login Utility
+auxiliary/admin/postgres/postgres_readfile                                                normal     No     PostgreSQL Server Generic Query
+auxiliary/admin/postgres/postgres_sql                                                     normal     No     PostgreSQL Server Generic Query
+auxiliary/scanner/postgres/postgres_version                                               normal     No     PostgreSQL Version Probe
+auxiliary/scanner/postgres/postgres_hashdump                                              normal     No     Postgres Password Hashdump
+auxiliary/scanner/postgres/postgres_schemadump                                            normal     No     Postgres Schema Dump
+auxiliary/scanner/printer/printer_list_dir                                                normal     No     Printer Directory Listing Scanner
+auxiliary/scanner/printer/printer_env_vars                                                normal     No     Printer Environment Variables Scanner
+auxiliary/scanner/printer/printer_delete_file                                             normal     No     Printer File Deletion Scanner
+auxiliary/scanner/printer/printer_download_file                                           normal     No     Printer File Download Scanner
+auxiliary/scanner/printer/printer_upload_file                                             normal     No     Printer File Upload Scanner
+auxiliary/scanner/printer/printer_ready_message                                           normal     No     Printer Ready Message Scanner
+auxiliary/scanner/printer/printer_version_info                                            normal     No     Printer Version Information Scanner
+auxiliary/scanner/printer/printer_list_volumes                                            normal     No     Printer Volume Listing Scanner
+auxiliary/server/capture/printjob_capture                                                 normal     No     Printjob Capture Service
+auxiliary/admin/smb/psexec_ntdsgrab                                                       normal     No     PsExec NTDS.dit And SYSTEM Hive Download Utility
+exploit/linux/http/pulse_secure_cmd_exec                                 2019-04-24       excellent  Yes    Pulse Secure VPN Arbitrary Command Execution
+auxiliary/gather/pulse_secure_file_disclosure                            2019-04-24       normal     No     Pulse Secure VPN Arbitrary File Disclosure
+auxiliary/gather/qnap_backtrace_admin_hash                               2017-01-31       normal     Yes    QNAP NAS/NVR Administrator Hash Disclosure
+auxiliary/gather/qnap_lfi                                                2019-11-25       normal     Yes    QNAP QTS and Photo Station Local File Inclusion
+auxiliary/scanner/http/rfcode_reader_enum                                                 normal     No     RFCode Reader Web Interface Login / Bruteforce Utility
+auxiliary/scanner/http/rips_traversal                                                     normal     No     RIPS Scanner Directory Traversal
+auxiliary/dos/rpc/rpcbomb                                                                 normal     No     RPC DoS targeting *nix rpcbind/libtirpc
+auxiliary/scanner/http/radware_appdirector_enum                                           normal     No     Radware AppDirector Bruteforce Login Utility
+auxiliary/scanner/misc/raysharp_dvr_passwords                                             normal     No     Ray Sharp DVR Password Retriever
+auxiliary/admin/vnc/realvnc_41_bypass                                    2006-05-15       normal     No     RealVNC NULL Authentication Mode Bypass
+auxiliary/admin/http/cfme_manageiq_evm_pass_reset                        2013-11-12       normal     No     Red Hat CloudForms Management Engine 5.1 miq_policy/explorer SQL Injection
+auxiliary/scanner/redis/redis_server                                                      normal     No     Redis Command Execute Scanner
+auxiliary/gather/redis_extractor                                                          normal     Yes    Redis Extractor
+auxiliary/scanner/redis/file_upload                                      2015-11-11       normal     No     Redis File Upload
+auxiliary/scanner/redis/redis_login                                                       normal     No     Redis Login Utility
+auxiliary/server/regsvr32_command_delivery_server                                         normal     No     Regsvr32.exe (.sct) Command Delivery Server
+auxiliary/scanner/dcerpc/management                                                       normal     No     Remote Management Interface Discovery
+auxiliary/scanner/http/riverbed_steelhead_vcx_file_read                  2017-06-01       normal     No     Riverbed SteelHead VCX File Read
+auxiliary/scanner/rogue/rogue_recv                                                        normal     No     Rogue Gateway Detection: Receiver
+auxiliary/scanner/rogue/rogue_send                                                        normal     No     Rogue Gateway Detection: Sender
+auxiliary/admin/ldap/rbcd                                                                 normal     No     Role Base Constrained Delegation
+auxiliary/scanner/misc/rosewill_rxs3211_passwords                                         normal     No     Rosewill RXS-3211 IP Camera Password Retriever
+auxiliary/scanner/http/rails_mass_assignment                                              normal     No     Ruby On Rails Attributes Mass Assignment Scanner
+auxiliary/gather/rails_doubletap_file_read                                                normal     Yes    Ruby On Rails File Content Disclosure ('doubletap')
+auxiliary/dos/http/webrick_regex                                         2008-08-08       normal     No     Ruby WEBrick::HTTP::DefaultFileHandler DoS
+auxiliary/dos/http/rails_action_view                                     2013-12-04       normal     No     Ruby on Rails Action View MIME Memory Exhaustion
+auxiliary/admin/http/rails_devise_pass_reset                             2013-01-28       normal     No     Ruby on Rails Devise Authentication Password Reset
+auxiliary/dos/http/rails_json_float_dos                                  2013-11-22       normal     No     Ruby on Rails JSON Processor Floating Point Heap Overflow DoS
+auxiliary/scanner/http/rails_json_yaml_scanner                                            normal     No     Ruby on Rails JSON Processor YAML Deserialization Scanner
+auxiliary/scanner/http/rails_xml_yaml_scanner                                             normal     No     Ruby on Rails XML Processor YAML Deserialization Scanner
+auxiliary/scanner/telnet/telnet_ruggedcom                                                 normal     No     RuggedCom Telnet Password Generator
+auxiliary/scanner/http/s40_traversal                                     2011-04-07       normal     No     S40 0.4.2 CMS Directory Traversal Vulnerability
+auxiliary/admin/dcerpc/samr_computer                                                      normal     No     SAMR Computer Management
+auxiliary/scanner/sap/sap_soap_bapi_user_create1                                          normal     No     SAP /sap/bc/soap/rfc SOAP Service BAPI_USER_CREATE1 Function User Creation
+auxiliary/scanner/sap/sap_soap_rfc_ping                                                   normal     No     SAP /sap/bc/soap/rfc SOAP Service RFC_PING Function Service Discovery
+auxiliary/scanner/sap/sap_soap_rfc_read_table                                             normal     No     SAP /sap/bc/soap/rfc SOAP Service RFC_READ_TABLE Function Dump Data
+auxiliary/scanner/sap/sap_soap_rfc_system_info                                            normal     No     SAP /sap/bc/soap/rfc SOAP Service RFC_SYSTEM_INFO Function Sensitive Information Gathering
+auxiliary/scanner/sap/sap_soap_rfc_susr_rfc_user_interface                                normal     No     SAP /sap/bc/soap/rfc SOAP Service SUSR_RFC_USER_INTERFACE Function User Creation
+auxiliary/scanner/sap/sap_soap_rfc_sxpg_call_system_exec                                  normal     No     SAP /sap/bc/soap/rfc SOAP Service SXPG_CALL_SYSTEM Function Command Execution
+auxiliary/scanner/sap/sap_soap_rfc_dbmcli_sxpg_call_system_command_exec                   normal     No     SAP /sap/bc/soap/rfc SOAP Service SXPG_CALL_SYSTEM Function Command Injection
+auxiliary/scanner/sap/sap_soap_rfc_dbmcli_sxpg_command_exec                               normal     No     SAP /sap/bc/soap/rfc SOAP Service SXPG_COMMAND_EXEC Function Command Injection
+auxiliary/scanner/sap/sap_soap_th_saprel_disclosure                                       normal     No     SAP /sap/bc/soap/rfc SOAP Service TH_SAPREL Function Information Disclosure
+auxiliary/scanner/http/sap_businessobjects_user_brute                                     normal     No     SAP BusinessObjects User Bruteforcer
+auxiliary/scanner/http/sap_businessobjects_user_enum                                      normal     No     SAP BusinessObjects User Enumeration
+auxiliary/scanner/http/sap_businessobjects_version_enum                                   normal     No     SAP BusinessObjects Version Detection
+auxiliary/scanner/http/sap_businessobjects_user_brute_web                                 normal     No     SAP BusinessObjects Web User Bruteforcer
+auxiliary/scanner/sap/sap_ctc_verb_tampering_user_mgmt                                    normal     No     SAP CTC Service Verb Tampering User Management
+auxiliary/admin/sap/sap_configservlet_exec_noauth                        2012-11-01       normal     No     SAP ConfigServlet OS Command Execution
+auxiliary/scanner/sap/sap_hostctrl_getcomputersystem                                      normal     No     SAP Host Agent Information Disclosure
+auxiliary/scanner/sap/sap_icf_public_info                                                 normal     No     SAP ICF /sap/public/info Service Sensitive Information Gathering
+auxiliary/admin/sap/sap_igs_xmlchart_xxe                                 2018-03-14       normal     Yes    SAP Internet Graphics Server (IGS) XMLCHART XXE
+auxiliary/scanner/sap/sap_mgmt_con_abaplog                                                normal     No     SAP Management Console ABAP Syslog Disclosure
+auxiliary/scanner/sap/sap_mgmt_con_brute_login                                            normal     No     SAP Management Console Brute Force
+auxiliary/scanner/sap/sap_mgmt_con_extractusers                                           normal     No     SAP Management Console Extract Users
+auxiliary/scanner/sap/sap_mgmt_con_getaccesspoints                                        normal     No     SAP Management Console Get Access Points
+auxiliary/scanner/sap/sap_mgmt_con_getlogfiles                                            normal     No     SAP Management Console Get Logfile
+auxiliary/scanner/sap/sap_mgmt_con_getprocessparameter                                    normal     No     SAP Management Console Get Process Parameters
+auxiliary/scanner/sap/sap_mgmt_con_getprocesslist                                         normal     No     SAP Management Console GetProcessList
+auxiliary/scanner/sap/sap_mgmt_con_instanceproperties                                     normal     No     SAP Management Console Instance Properties
+auxiliary/scanner/sap/sap_mgmt_con_listconfigfiles                                        normal     No     SAP Management Console List Config Files
+auxiliary/scanner/sap/sap_mgmt_con_listlogfiles                                           normal     No     SAP Management Console List Logfiles
+auxiliary/admin/sap/sap_mgmt_con_osexec                                                   normal     No     SAP Management Console OSExecute
+auxiliary/scanner/sap/sap_mgmt_con_version                                                normal     No     SAP Management Console Version Detection
+auxiliary/scanner/sap/sap_mgmt_con_getenv                                                 normal     No     SAP Management Console getEnvironment
+auxiliary/scanner/sap/sap_mgmt_con_startprofile                                           normal     No     SAP Management Console getStartProfile
+auxiliary/admin/maxdb/maxdb_cons_exec                                    2008-01-09       normal     No     SAP MaxDB cons.exe Remote Command Injection
+auxiliary/scanner/sap/sap_smb_relay                                                       normal     No     SAP SMB Relay Abuse
+auxiliary/dos/sap/sap_soap_rfc_eps_delete_file                                            normal     No     SAP SOAP EPS_DELETE_FILE File Deletion
+auxiliary/scanner/sap/sap_soap_rfc_eps_get_directory_listing                              normal     No     SAP SOAP RFC EPS_GET_DIRECTORY_LISTING Directories Information Disclosure
+auxiliary/scanner/sap/sap_soap_rfc_pfl_check_os_file_existence                            normal     No     SAP SOAP RFC PFL_CHECK_OS_FILE_EXISTENCE File Existence Check
+auxiliary/scanner/sap/sap_soap_rfc_rzl_read_dir                                           normal     No     SAP SOAP RFC RZL_READ_DIR_LOCAL Directory Contents Listing
+auxiliary/scanner/sap/sap_soap_rfc_sxpg_command_exec                                      normal     No     SAP SOAP RFC SXPG_COMMAND_EXECUTE
+auxiliary/scanner/sap/sap_soap_rfc_brute_login                                            normal     No     SAP SOAP Service RFC_PING Login Brute Forcer
+auxiliary/scanner/sap/sap_service_discovery                                               normal     No     SAP Service Discovery
+auxiliary/admin/sap/cve_2020_6207_solman_rce                             2020-10-03       normal     No     SAP Solution Manager remote unauthorized OS commands execution
+auxiliary/scanner/sap/sap_icm_urlscan                                                     normal     No     SAP URL Scanner
+auxiliary/admin/sap/cve_2020_6287_ws_add_user                            2020-07-14       normal     Yes    SAP Unauthenticated WebService User Creation
+auxiliary/scanner/sap/sap_web_gui_brute_login                                             normal     No     SAP Web GUI Login Brute Forcer
+auxiliary/scanner/sap/sap_router_info_request                                             normal     No     SAPRouter Admin Request
+auxiliary/scanner/sap/sap_router_portscanner                                              normal     No     SAPRouter Port Scanner
+auxiliary/voip/sip_deregister                                                             normal     No     SIP Deregister Extension
+auxiliary/scanner/sip/options_tcp                                                         normal     No     SIP Endpoint Scanner (TCP)
+auxiliary/scanner/sip/options                                                             normal     No     SIP Endpoint Scanner (UDP)
+auxiliary/voip/sip_invite_spoof                                                           normal     No     SIP Invite Spoof
+auxiliary/scanner/sip/enumerator_tcp                                                      normal     No     SIP Username Enumerator (TCP)
+auxiliary/scanner/sip/enumerator                                                          normal     No     SIP Username Enumerator (UDP)
+auxiliary/scanner/sip/sipdroid_ext_enum                                                   normal     No     SIPDroid Extension Grabber
+auxiliary/fuzzers/smb/smb_create_pipe_corrupt                                             normal     No     SMB Create Pipe Request Corruption
+auxiliary/fuzzers/smb/smb_create_pipe                                                     normal     No     SMB Create Pipe Request Fuzzer
+auxiliary/admin/smb/list_directory                                                        normal     No     SMB Directory Listing Utility
+auxiliary/scanner/smb/smb_enumusers_domain                                                normal     No     SMB Domain User Enumeration
+auxiliary/admin/smb/delete_file                                                           normal     No     SMB File Delete Utility
+auxiliary/admin/smb/download_file                                                         normal     No     SMB File Download Utility
+auxiliary/admin/smb/upload_file                                                           normal     No     SMB File Upload Utility
+auxiliary/scanner/smb/smb_enum_gpp                                                        normal     No     SMB Group Policy Preference Saved Passwords Enumeration
+auxiliary/scanner/smb/smb_login                                                           normal     No     SMB Login Check Scanner
+auxiliary/fuzzers/smb/smb_ntlm1_login_corrupt                                             normal     No     SMB NTLMv1 Login Request Corruption
+auxiliary/fuzzers/smb/smb_negotiate_corrupt                                               normal     No     SMB Negotiate Dialect Corruption
+auxiliary/fuzzers/smb/smb2_negotiate_corrupt                                              normal     No     SMB Negotiate SMB2 Dialect Corruption
+auxiliary/scanner/smb/smb_lookupsid                                                       normal     No     SMB SID User Enumeration (LookupSid)
+auxiliary/admin/smb/check_dir_file                                                        normal     No     SMB Scanner Check File/Directory Utility
+auxiliary/scanner/smb/pipe_auditor                                                        normal     No     SMB Session Pipe Auditor
+auxiliary/scanner/smb/pipe_dcerpc_auditor                                                 normal     No     SMB Session Pipe DCERPC Auditor
+auxiliary/scanner/smb/smb_enumshares                                                      normal     No     SMB Share Enumeration
+auxiliary/fuzzers/smb/smb_tree_connect_corrupt                                            normal     No     SMB Tree Connect Request Corruption
+auxiliary/fuzzers/smb/smb_tree_connect                                                    normal     No     SMB Tree Connect Request Fuzzer
+auxiliary/scanner/smb/smb_enumusers                                                       normal     No     SMB User Enumeration (SAM EnumUsers)
+auxiliary/scanner/smb/smb_version                                                         normal     No     SMB Version Detection
+auxiliary/dos/smb/smb_loris                                              2017-06-29       normal     No     SMBLoris NBSS Denial of Service
+auxiliary/client/sms/send_text                                                            normal     No     SMS Client
+auxiliary/scanner/smtp/smtp_version                                                       normal     No     SMTP Banner Grabber
+auxiliary/scanner/smtp/smtp_ntlm_domain                                                   normal     No     SMTP NTLM Domain Extraction
+auxiliary/scanner/smtp/smtp_relay                                                         normal     No     SMTP Open Relay Detection
+auxiliary/fuzzers/smtp/smtp_fuzzer                                                        normal     No     SMTP Simple Fuzzer
+auxiliary/scanner/smtp/smtp_enum                                                          normal     No     SMTP User Enumeration Utility
+auxiliary/scanner/snmp/snmp_login                                                         normal     No     SNMP Community Login Scanner
+auxiliary/scanner/snmp/snmp_enum                                                          normal     No     SNMP Enumeration Module
+auxiliary/scanner/snmp/snmp_set                                                           normal     No     SNMP Set Module
+auxiliary/scanner/snmp/snmp_enumshares                                                    normal     No     SNMP Windows SMB Share Enumeration
+auxiliary/scanner/snmp/snmp_enumusers                                                     normal     No     SNMP Windows Username Enumeration
+auxiliary/server/socks_proxy                                                              normal     No     SOCKS Proxy Server
+auxiliary/server/socks_unc                                                                normal     No     SOCKS Proxy UNC Path Redirection
+auxiliary/scanner/upnp/ssdp_amp                                                           normal     No     SSDP ssdp:all M-SEARCH Amplification Scanner
+auxiliary/fuzzers/ssh/ssh_version_15                                                      normal     No     SSH 1.5 Version Fuzzer
+auxiliary/fuzzers/ssh/ssh_version_2                                                       normal     No     SSH 2.0 Version Fuzzer
+auxiliary/fuzzers/ssh/ssh_kexinit_corrupt                                                 normal     No     SSH Key Exchange Init Corruption
+auxiliary/scanner/ssh/ssh_login                                                           normal     No     SSH Login Check Scanner
+auxiliary/scanner/ssh/ssh_identify_pubkeys                                                normal     No     SSH Public Key Acceptance Scanner
+auxiliary/scanner/ssh/ssh_login_pubkey                                                    normal     No     SSH Public Key Login Scanner
+auxiliary/scanner/ssh/ssh_enumusers                                                       normal     No     SSH Username Enumeration
+auxiliary/fuzzers/ssh/ssh_version_corrupt                                                 normal     No     SSH Version Corruption
+auxiliary/scanner/ssh/ssh_version                                                         normal     No     SSH Version Scanner
+auxiliary/gather/ssllabs_scan                                                             normal     No     SSL Labs API Client
+auxiliary/scanner/ssl/ssl_version                                        2014-10-14       normal     No     SSL/TLS Version Detection
+auxiliary/scanner/http/svn_wcdb_scanner                                                   normal     No     SVN wc.db Scanner
+auxiliary/scanner/sage/x3_adxsrv_login                                                    normal     No     Sage X3 AdxAdmin Login Scanner
+auxiliary/gather/saltstack_salt_root_key                                 2020-04-30       normal     No     SaltStack Salt Master Server Root Key Disclosure
+auxiliary/admin/smb/samba_symlink_traversal                                               normal     No     Samba Symlink Directory Traversal
+auxiliary/scanner/smb/smb_uninit_cred                                                     normal     Yes    Samba _netr_ServerPasswordSet Uninitialized Credential State
+auxiliary/dos/samba/lsa_addprivs_heap                                                     normal     No     Samba lsa_io_privilege_set Heap Overflow
+auxiliary/dos/samba/lsa_transnames_heap                                                   normal     No     Samba lsa_io_trans_names Heap Overflow
+auxiliary/dos/samba/read_nttrans_ea_list                                                  normal     No     Samba read_nttrans_ea_list Integer Overflow
+auxiliary/gather/samsung_browser_sop_bypass                              2017-11-08       normal     No     Samsung Internet Browser SOP Bypass
+auxiliary/scanner/telnet/satel_cmd_exec                                  2017-04-07       normal     No     Satel Iberia SenNet Data Logger and Electricity Meters Command Injection Vulnerability
+auxiliary/admin/http/scadabr_credential_dump                             2017-05-28       normal     No     ScadaBR Credentials Dumper
+auxiliary/scanner/ssl/bleichenbacher_oracle                              2009-06-17       normal     No     Scanner for Bleichenbacher Oracle in RSA PKCS #1 v1.5
+auxiliary/admin/scada/modicon_stux_transfer                              2012-04-05       normal     No     Schneider Modicon Ladder Logic Upload/Download
+auxiliary/admin/scada/modicon_password_recovery                          2012-01-19       normal     Yes    Schneider Modicon Quantum Password Recovery
+auxiliary/admin/scada/modicon_command                                    2012-04-05       normal     No     Schneider Modicon Remote START/STOP Command
+auxiliary/gather/search_email_collector                                                   normal     No     Search Engine Domain Email Address Collector
+auxiliary/gather/searchengine_subdomains_collector                                        normal     No     Search Engine Subdomains Collector
+auxiliary/spoof/cisco/cdp                                                                 normal     No     Send Cisco Discovery Protocol (CDP) Packets
+auxiliary/dos/smtp/sendmail_prescan                                      2003-09-17       normal     No     Sendmail SMTP Address prescan Memory Corruption
+auxiliary/scanner/http/sentry_cdu_enum                                                    normal     No     Sentry Switched CDU Bruteforce Login Utility
+auxiliary/admin/misc/sercomm_dump_config                                 2013-12-31       normal     No     SerComm Device Configuration Dump
+auxiliary/scanner/misc/sercomm_backdoor_scanner                          2013-12-31       normal     No     SerComm Network Device Backdoor Detection
+auxiliary/scanner/http/sevone_enum                                       2013-06-07       normal     No     SevOne Network Performance Management Application Brute Force Login Utility
+auxiliary/gather/shodan_honeyscore                                                        normal     No     Shodan Honeyscore Client
+auxiliary/gather/shodan_host                                                              normal     No     Shodan Host Port
+auxiliary/gather/shodan_search                                                            normal     No     Shodan Search
+auxiliary/scanner/scada/sielco_winlog_fileaccess                                          normal     No     Sielco Sistemi Winlog Remote File Access
+auxiliary/scanner/scada/profinet_siemens                                                  normal     No     Siemens Profinet Scanner
+auxiliary/dos/scada/siemens_siprotec4                                                     normal     No     Siemens SIPROTEC 4 and SIPROTEC Compact EN100 Ethernet Module - Denial of Service
+auxiliary/fuzzers/ftp/client_ftp                                                          normal     No     Simple FTP Client Fuzzer
+auxiliary/fuzzers/ftp/ftp_pre_post                                                        normal     No     Simple FTP Fuzzer
+auxiliary/scanner/http/simple_webserver_traversal                        2013-01-03       normal     No     Simple Web Server 2.3-RC1 Directory Traversal
+auxiliary/dos/http/slowloris                                             2009-06-17       normal     No     Slowloris Denial of Service Attack
+auxiliary/gather/snare_registry                                                           normal     No     Snare Lite for Windows Registry Access
+auxiliary/scanner/http/sockso_traversal                                  2012-03-14       normal     No     Sockso Music Host Server 1.5 Directory Traversal
+auxiliary/dos/windows/ftp/solarftp_user                                  2011-02-22       normal     No     Solar FTP Server Malformed USER Denial of Service
+auxiliary/dos/windows/tftp/solarwinds                                    2010-05-21       normal     No     SolarWinds TFTP Server 10.4.0.10 Denial of Service
+auxiliary/admin/sunrpc/solaris_kcms_readfile                             2003-01-22       normal     No     Solaris KCMS + TTDB Arbitrary File Read
+auxiliary/dos/solaris/lpd/cascade_delete                                                  normal     No     Solaris LPD Arbitrary File Delete
+auxiliary/gather/solarwinds_orion_sqli                                   2015-02-24       normal     No     Solarwinds Orion AccountManagement.asmx GetAccounts Admin Creation
+auxiliary/dos/http/sonicwall_ssl_format                                  2009-05-29       normal     No     SonicWALL SSL-VPN Format String Vulnerability
+auxiliary/admin/http/sophos_wpa_traversal                                2013-04-03       normal     No     Sophos Web Protection Appliance patience.cgi Directory Traversal
+auxiliary/scanner/http/splunk_web_login                                                   normal     No     Splunk Web Interface Login Utility
+auxiliary/scanner/http/springcloud_traversal                             2019-04-17       normal     No     Spring Cloud Config Server Directory Traversal
+auxiliary/scanner/http/squid_pivot_scanning                                               normal     No     Squid Proxy Port Scanner
+auxiliary/dos/http/squid_range_dos                                       2021-05-27       normal     No     Squid Proxy Range Header DoS
+auxiliary/scanner/http/squiz_matrix_user_enum                            2011-11-08       normal     No     Squiz Matrix User Enumeration Scanner
+auxiliary/gather/suite_crm_export_sqli                                   2022-05-24       normal     Yes    SuiteCRM authenticated SQL injection in export functionality
+auxiliary/scanner/misc/sunrpc_portmapper                                                  normal     No     SunRPC Portmap Program Enumerator
+auxiliary/scanner/http/smt_ipmi_cgi_scanner                              2013-11-06       normal     No     Supermicro Onboard IPMI CGI Vulnerability Scanner
+auxiliary/scanner/http/smt_ipmi_49152_exposure                           2014-06-19       normal     No     Supermicro Onboard IPMI Port 49152 Sensitive File Exposure
+auxiliary/scanner/http/smt_ipmi_static_cert_scanner                      2013-11-06       normal     No     Supermicro Onboard IPMI Static SSL Certificate Scanner
+auxiliary/scanner/http/smt_ipmi_url_redirect_traversal                   2013-11-06       normal     No     Supermicro Onboard IPMI url_redirect.cgi Authenticated Directory Traversal
+auxiliary/admin/http/supra_smart_cloud_tv_rfi                            2019-06-03       normal     No     Supra Smart Cloud TV Remote File Inclusion
+auxiliary/scanner/http/surgenews_user_creds                              2017-06-16       normal     Yes    SurgeNews User Credentials
+auxiliary/scanner/http/sybase_easerver_traversal                         2011-05-25       normal     No     Sybase Easerver 6.3 Directory Traversal
+auxiliary/scanner/http/symantec_brightmail_ldapcreds                     2015-12-17       normal     No     Symantec Messaging Gateway 10 Exposure of Stored AD Password Vulnerability
+auxiliary/scanner/http/symantec_brightmail_logfile                       2012-11-30       normal     No     Symantec Messaging Gateway 9.5 Log File Download Vulnerability
+auxiliary/scanner/http/symantec_web_gateway_login                                         normal     No     Symantec Web Gateway Login Utility
+auxiliary/scanner/http/syncovery_linux_login                                              normal     No     Syncovery For Linux Web-GUI Login Utility
+auxiliary/scanner/http/syncovery_linux_token_cve_2022_36536              2022-09-06       normal     Yes    Syncovery For Linux Web-GUI Session Token Brute-Forcer
+auxiliary/scanner/http/synology_forget_passwd_user_enum                  2011-01-05       normal     No     Synology Forget Password User Enumeration Scanner
+auxiliary/admin/http/sysaid_admin_acct                                   2015-06-03       normal     No     SysAid Help Desk Administrator Account Creation
+exploit/multi/http/sysaid_auth_file_upload                               2015-06-03       excellent  Yes    SysAid Help Desk Administrator Portal Arbitrary File Upload
+auxiliary/admin/http/sysaid_file_download                                2015-06-03       normal     No     SysAid Help Desk Arbitrary File Download
+auxiliary/admin/http/sysaid_sql_creds                                    2015-06-03       normal     No     SysAid Help Desk Database Credentials Disclosure
+auxiliary/dos/windows/ssh/sysax_sshd_kexchange                           2013-03-17       normal     No     Sysax Multi-Server 6.10 SSHD Key Exchange Denial of Service
+auxiliary/scanner/portscan/xmas                                                           normal     No     TCP "XMas" Port Scanner
+auxiliary/scanner/portscan/ack                                                            normal     No     TCP ACK Firewall Scanner
+auxiliary/scanner/portscan/tcp                                                            normal     No     TCP Port Scanner
+auxiliary/dos/tcp/synflood                                                                normal     No     TCP SYN Flooder
+auxiliary/scanner/portscan/syn                                                            normal     No     TCP SYN Port Scanner
+auxiliary/fuzzers/tds/tds_login_corrupt                                                   normal     No     TDS Protocol Login Request Corruption Fuzzer
+auxiliary/fuzzers/tds/tds_login_username                                                  normal     No     TDS Protocol Login Request Username Fuzzer
+auxiliary/scanner/tftp/tftpbrute                                                          normal     No     TFTP Brute Forcer
+auxiliary/server/tftp                                                                     normal     No     TFTP File Server
+auxiliary/admin/tftp/tftp_transfer_util                                                   normal     No     TFTP File Transfer Utility
+auxiliary/scanner/http/tplink_traversal_noauth                                            normal     No     TP-Link Wireless Lite N Access Point Directory Traversal Vulnerability
+auxiliary/scanner/http/tvt_nvms_traversal                                2019-12-12       normal     No     TVT NVMS-1000 Directory Traversal
+auxiliary/admin/http/typo3_news_module_sqli                              2017-04-06       normal     No     TYPO3 News Module SQL Injection
+auxiliary/admin/http/typo3_winstaller_default_enc_keys                                    normal     No     TYPO3 Winstaller Default Encryption Keys
+auxiliary/admin/http/typo3_sa_2009_001                                   2009-01-20       normal     No     TYPO3 sa-2009-001 Weak Encryption Key File Disclosure
+auxiliary/admin/http/typo3_sa_2010_020                                                    normal     No     TYPO3 sa-2010-020 Remote File Disclosure
+auxiliary/dos/http/tautulli_shutdown_exec                                                 normal     No     Tautulli v2.1.9 - Shutdown Denial of Service
+auxiliary/gather/teamtalk_creds                                                           normal     No     TeamTalk Gather Credentials
+auxiliary/server/teamviewer_uri_smb_redirect                                              normal     No     TeamViewer Unquoted URI Handler SMB Redirect
+auxiliary/client/telegram/send_message                                                    normal     No     Telegram Message Client
+auxiliary/scanner/voice/recorder                                                          normal     No     Telephone Line Voice Scanner
+auxiliary/voip/telisca_ips_lock_control                                  2015-12-17       normal     No     Telisca IPS Lock Cisco IP Phone Control
+auxiliary/scanner/telnet/telnet_login                                                     normal     No     Telnet Login Check Scanner
+auxiliary/scanner/telnet/telnet_version                                                   normal     No     Telnet Service Banner Detection
+auxiliary/scanner/telnet/telnet_encrypt_overflow                                          normal     No     Telnet Service Encryption Key ID Overflow Detection
+auxiliary/admin/http/telpho10_credential_dump                            2016-09-02       normal     No     Telpho10 Backup Credentials Dumper
+auxiliary/scanner/teradata/teradata_odbc_login                           2018-03-30       normal     No     Teradata ODBC Login Scanner Module
+auxiliary/admin/teradata/teradata_odbc_sql                               2018-03-29       normal     No     Teradata ODBC SQL Query Module
+auxiliary/scanner/ssh/ssh_enum_git_keys                                                   normal     No     Test SSH Github Access
+auxiliary/scanner/http/thinvnc_traversal                                 2019-10-16       normal     No     ThinVNC Directory Traversal
+auxiliary/admin/tikiwiki/tikidblib                                       2006-11-01       normal     No     TikiWiki Information Disclosure
+auxiliary/scanner/http/titan_ftp_admin_pwd                                                normal     No     Titan FTP Administrative Password Disclosure
+auxiliary/dos/windows/ftp/titan626_site                                  2008-10-14       normal     No     Titan FTP Server 6.26.630 SITE WHO DoS
+auxiliary/scanner/ftp/titanftp_xcrc_traversal                            2010-06-15       normal     No     Titan FTP XCRC Directory Traversal Information Disclosure
+auxiliary/admin/http/tomcat_administration                                                normal     No     Tomcat Administration Tool Default Access
+auxiliary/scanner/http/tomcat_mgr_login                                                   normal     No     Tomcat Application Manager Login Utility
+auxiliary/admin/http/tomcat_utf8_traversal                               2009-01-09       normal     No     Tomcat UTF-8 Directory Traversal Vulnerability
+auxiliary/scanner/http/totaljs_traversal                                 2019-02-18       normal     Yes    Total.js prior to 3.2.4 Directory Traversal
+auxiliary/admin/http/trendmicro_dlp_traversal                            2009-01-09       normal     No     TrendMicro Data Loss Prevention 5.5 Directory Traversal
+auxiliary/admin/officescan/tmlisten_traversal                                             normal     No     TrendMicro OfficeScanNT Listener Traversal Arbitrary File Access
+auxiliary/admin/serverprotect/file                                                        normal     No     TrendMicro ServerProtect File Access
+auxiliary/scanner/http/typo3_bruteforce                                                   normal     No     Typo3 Login Bruteforcer
+auxiliary/admin/http/typo3_sa_2009_002                                   2009-02-10       normal     No     Typo3 sa-2009-002 File Disclosure
+auxiliary/scanner/udp/udp_amplification                                                   normal     No     UDP Amplification Scanner
+auxiliary/scanner/discovery/empty_udp                                                     normal     No     UDP Empty Prober
+auxiliary/scanner/discovery/udp_probe                                                     normal     No     UDP Service Prober
+auxiliary/scanner/discovery/udp_sweep                                                     normal     No     UDP Service Sweeper
+auxiliary/admin/misc/wol                                                                  normal     No     UDP Wake-On-Lan (WOL)
+auxiliary/admin/upnp/soap_portmapping                                                     normal     No     UPnP IGD SOAP Port Mapping Utility
+auxiliary/scanner/upnp/ssdp_msearch                                                       normal     No     UPnP SSDP M-SEARCH Information Discovery
+auxiliary/scanner/vxworks/urgent11_check                                 2019-08-09       normal     No     URGENT/11 Scanner, Based on Detection Tool by Armis
+auxiliary/scanner/snmp/ubee_ddw3611                                                       normal     No     Ubee DDW3611b Cable Modem Wifi Enumeration
+auxiliary/admin/networking/ubiquiti_config                                                normal     No     Ubiquiti Configuration Importer
+auxiliary/scanner/ubiquiti/ubiquiti_discover                                              normal     No     Ubiquiti Discovery Scanner
+auxiliary/admin/http/ulterius_file_download                                               normal     No     Ulterius Server File Download Vulnerability
+auxiliary/gather/hikvision_info_disclosure_cve_2017_7921                 2017-09-23       normal     Yes    Unauthenticated information disclosure such as configuration, credentials and camera snapshots of a vulnerable Hikvision IP Camera
+auxiliary/scanner/scada/pcomclient                                                        normal     No     Unitronics PCOM Client
+auxiliary/admin/scada/pcom_command                                                        normal     No     Unitronics PCOM remote START/STOP/RESET command
+auxiliary/admin/pop2/uw_fileretrieval                                    2000-07-14       normal     No     UoW pop2d Remote File Retrieval Vulnerability
+auxiliary/scanner/http/vcms_login                                                         normal     No     V-CMS Login Utility
+auxiliary/scanner/http/vicidial_multiple_sqli                            2022-04-19       normal     No     VICIdial Multiple Authenticated SQLi
+auxiliary/scanner/vmware/vmauthd_login                                                    normal     No     VMWare Authentication Daemon Login Scanner
+auxiliary/scanner/vmware/vmauthd_version                                                  normal     No     VMWare Authentication Daemon Version Scanner
+auxiliary/scanner/vmware/esx_fingerprint                                                  normal     No     VMWare ESX/ESXi Fingerprint Scanner
+auxiliary/scanner/vmware/vmware_enum_sessions                                             normal     No     VMWare Enumerate Active Sessions
+auxiliary/scanner/vmware/vmware_host_details                                              normal     No     VMWare Enumerate Host Details
+auxiliary/scanner/vmware/vmware_enum_permissions                                          normal     No     VMWare Enumerate Permissions
+auxiliary/scanner/vmware/vmware_enum_users                                                normal     No     VMWare Enumerate User Accounts
+auxiliary/scanner/vmware/vmware_enum_vms                                                  normal     No     VMWare Enumerate Virtual Machines
+auxiliary/admin/vmware/poweroff_vm                                                        normal     No     VMWare Power Off Virtual Machine
+auxiliary/admin/vmware/poweron_vm                                                         normal     No     VMWare Power On Virtual Machine
+auxiliary/scanner/vmware/vmware_screenshot_stealer                                        normal     No     VMWare Screenshot Stealer
+auxiliary/admin/vmware/tag_vm                                                             normal     No     VMWare Tag Virtual Machine
+auxiliary/admin/vmware/terminate_esx_sessions                                             normal     No     VMWare Terminate ESX Login Sessions
+auxiliary/scanner/vmware/vmware_update_manager_traversal                 2011-11-21       normal     No     VMWare Update Manager 4 Directory Traversal
+auxiliary/scanner/vmware/vmware_http_login                                                normal     No     VMWare Web Login Scanner
+auxiliary/scanner/vmware/vmware_server_dir_trav                                           normal     No     VMware Server Directory Traversal Vulnerability
+auxiliary/admin/vmware/vcenter_offline_mdb_extract                       2022-05-10       normal     No     VMware vCenter Extract Secrets from vmdir / vmafd DB File
+auxiliary/admin/vmware/vcenter_forge_saml_token                          2022-04-20       normal     No     VMware vCenter Forge SAML Authentication Credentials
+auxiliary/admin/ldap/vmware_vcenter_vmdir_auth_bypass                    2020-04-09       normal     Yes    VMware vCenter Server vmdir Authentication Bypass
+auxiliary/gather/vmware_vcenter_vmdir_ldap                               2020-04-09       normal     No     VMware vCenter Server vmdir Information Disclosure
+auxiliary/scanner/vnc/vnc_none_auth                                                       normal     No     VNC Authentication None Detection
+auxiliary/scanner/vnc/vnc_login                                                           normal     No     VNC Authentication Scanner
+auxiliary/vsploit/malware/dns/dns_query                                                   normal     No     VSploit DNS Beaconing Emulation
+auxiliary/vsploit/pii/email_pii                                                           normal     No     VSploit Email PII
+auxiliary/vsploit/malware/dns/dns_mariposa                                                normal     No     VSploit Mariposa DNS Query Module
+auxiliary/vsploit/pii/web_pii                                                             normal     No     VSploit Web PII
+auxiliary/vsploit/malware/dns/dns_zeus                                                    normal     No     VSploit Zeus DNS Query Module
+auxiliary/scanner/varnish/varnish_cli_file_read                                           normal     No     Varnish Cache CLI File Read
+auxiliary/scanner/varnish/varnish_cli_login                                               normal     No     Varnish Cache CLI Login Utility
+auxiliary/admin/atg/atg_client                                                            normal     No     Veeder-Root Automatic Tank Gauge (ATG) Administrative Client
+auxiliary/admin/backupexec/registry                                                       normal     No     Veritas Backup Exec Server Registry Access
+auxiliary/admin/backupexec/dump                                                           normal     No     Veritas Backup Exec Windows Remote File Access
+auxiliary/dos/windows/ftp/vicftps50_list                                 2008-10-24       normal     No     Victory FTP Server 5.0 LIST DoS
+auxiliary/voip/cisco_cucdm_call_forward                                                   normal     No     Viproy CUCDM IP Phone XML Services - Call Forwarding Tool
+auxiliary/voip/cisco_cucdm_speed_dials                                                    normal     No     Viproy CUCDM IP Phone XML Services - Speed Dial Attack Tool
+auxiliary/scanner/msmail/host_id                                         2018-11-06       normal     No     Vulnerable domain identification
+auxiliary/scanner/vxworks/wdbrpc_bootline                                                 normal     No     VxWorks WDB Agent Boot Parameter Scanner
+auxiliary/admin/vxworks/wdbrpc_memory_dump                                                normal     No     VxWorks WDB Agent Remote Memory Dump
+auxiliary/admin/vxworks/wdbrpc_reboot                                                     normal     No     VxWorks WDB Agent Remote Reboot
+auxiliary/scanner/vxworks/wdbrpc_version                                                  normal     No     VxWorks WDB Agent Version Scanner
+auxiliary/admin/networking/vyos_config                                                    normal     No     VyOS Configuration Importer
+auxiliary/scanner/http/wangkongbao_traversal                                              normal     No     WANGKONGBAO CNS-1000 and 1100 UTM Directory Traversal
+auxiliary/scanner/smb/impacket/wmiexec                                   2018-03-19       normal     No     WMI Exec
+auxiliary/server/wpad                                                                     normal     No     WPAD.dat File Server
+auxiliary/scanner/wsdd/wsdd_query                                                         normal     No     WS-Discovery Information Discovery
+auxiliary/scanner/telephony/wardial                                                       normal     No     Wardialer
+auxiliary/scanner/http/crawler                                                            normal     No     Web Site Crawler
+auxiliary/scanner/http/joomla_ecommercewd_sqli_scanner                   2015-03-20       normal     No     Web-Dorado ECommerce WD for Joomla! search_category_id SQL Injection Scanner
+auxiliary/admin/smb/webexec_command                                                       normal     No     WebEx Remote Command Execution Utility
+auxiliary/dos/http/webkitplus                                            2018-06-03       normal     No     WebKitGTK+ WebKitFaviconDatabase DoS
+auxiliary/admin/http/webnms_file_download                                2016-07-04       normal     No     WebNMS Framework Server Arbitrary Text File Download
+auxiliary/admin/http/webnms_cred_disclosure                              2016-07-04       normal     No     WebNMS Framework Server Credential Disclosure
+auxiliary/scanner/http/webpagetest_traversal                             2012-07-13       normal     No     WebPageTest Directory Traversal
+auxiliary/admin/webmin/file_disclosure                                   2006-06-30       normal     No     Webmin File Disclosure
+auxiliary/admin/webmin/edit_html_fileaccess                              2012-09-06       normal     No     Webmin edit_html.cgi file Parameter Traversal Arbitrary File Access
+auxiliary/scanner/http/mybook_live_login                                                  normal     No     Western Digital MyBook Live Login Utility
+auxiliary/scanner/http/wildfly_traversal                                 2014-10-22       normal     No     WildFly Directory Traversal
+auxiliary/dos/windows/ftp/winftp230_nlst                                 2008-09-26       normal     No     WinFTP 2.3.0 NLST Denial of Service
+auxiliary/scanner/winrm/winrm_auth_methods                                                normal     No     WinRM Authentication Method Detection
+auxiliary/scanner/winrm/winrm_cmd                                                         normal     No     WinRM Command Runner
+auxiliary/scanner/winrm/winrm_login                                                       normal     No     WinRM Login Utility
+auxiliary/scanner/winrm/winrm_wql                                                         normal     No     WinRM WQL Query Runner
+post/windows/gather/word_unc_injector                                                     normal     No     Windows Gather Microsoft Office Word UNC Path Injector
+auxiliary/dos/windows/http/http_sys_accept_encoding_dos_cve_2021_31166   2021-05-11       normal     No     Windows IIS HTTP Protocol Stack DOS
+auxiliary/fileformat/multidrop                                                            normal     No     Windows SMB Multi Dropper
+auxiliary/gather/windows_secrets_dump                                                     normal     No     Windows Secrets Dump
+auxiliary/dos/wireshark/capwap                                           2014-04-28       normal     No     Wireshark CAPWAP Dissector DoS
+auxiliary/dos/wireshark/cldap                                            2011-03-01       normal     No     Wireshark CLDAP Dissector DOS
+auxiliary/dos/wireshark/ldap                                             2008-03-28       normal     No     Wireshark LDAP Dissector DOS
+auxiliary/dos/wireshark/chunked                                          2007-02-22       normal     No     Wireshark chunked_encoding_dissector Function DOS
+auxiliary/gather/wp_all_in_one_migration_export                          2015-03-19       normal     Yes    WordPress All-in-One Migration Export
+auxiliary/scanner/http/wordpress_login_enum                                               normal     No     WordPress Brute Force and User Enumeration Utility
+auxiliary/scanner/http/wordpress_cp_calendar_sqli                        2015-03-03       normal     No     WordPress CP Multi-View Calendar Unauthenticated SQL Injection Scanner
+auxiliary/scanner/http/wp_chopslider_id_sqli                             2020-05-12       normal     No     WordPress ChopSlider3 id SQLi Scanner
+auxiliary/scanner/http/wp_contus_video_gallery_sqli                      2015-02-24       normal     No     WordPress Contus Video Gallery Unauthenticated SQL Injection Scanner
+auxiliary/scanner/http/wp_dukapress_file_read                                             normal     No     WordPress DukaPress Plugin File Read Vulnerability
+auxiliary/scanner/http/wp_duplicator_file_read                           2020-02-19       normal     No     WordPress Duplicator File Read Vulnerability
+auxiliary/scanner/http/wp_easy_wp_smtp                                   2020-12-06       normal     No     WordPress Easy WP SMTP Password Reset
+auxiliary/scanner/http/wp_email_sub_news_sqli                            2019-11-13       normal     No     WordPress Email Subscribers and Newsletter Hash SQLi Scanner
+auxiliary/scanner/http/wp_gimedia_library_file_read                                       normal     No     WordPress GI-Media Library Plugin Directory Traversal Vulnerability
+auxiliary/admin/http/wp_google_maps_sqli                                 2019-04-02       normal     Yes    WordPress Google Maps Plugin SQL Injection
+auxiliary/scanner/http/wp_loginizer_log_sqli                             2020-10-21       normal     No     WordPress Loginizer log SQLi Scanner
+auxiliary/dos/http/wordpress_long_password_dos                           2014-11-20       normal     No     WordPress Long Password DoS
+auxiliary/scanner/http/wp_mobileedition_file_read                                         normal     No     WordPress Mobile Edition File Read Vulnerability
+auxiliary/scanner/http/wp_mobile_pack_info_disclosure                                     normal     No     WordPress Mobile Pack Information Disclosure Vulnerability
+auxiliary/scanner/http/wp_modern_events_calendar_sqli                    2021-12-13       normal     Yes    WordPress Modern Events Calendar SQLi Scanner
+auxiliary/scanner/http/wp_nextgen_galley_file_read                                        normal     No     WordPress NextGEN Gallery Directory Read Vulnerability
+auxiliary/admin/http/wp_automatic_plugin_privesc                         2021-09-06       normal     Yes    WordPress Plugin Automatic Config Change to RCE
+auxiliary/scanner/http/wordpress_content_injection                       2017-02-01       normal     Yes    WordPress REST API Content Injection
+auxiliary/scanner/http/wp_simple_backup_file_read                                         normal     No     WordPress Simple Backup File Read Vulnerability
+auxiliary/scanner/http/wp_subscribe_comments_file_read                                    normal     No     WordPress Subscribe Comments File Read Vulnerability
+auxiliary/admin/http/wp_symposium_sql_injection                          2015-08-18       normal     Yes    WordPress Symposium Plugin SQL Injection
+auxiliary/scanner/http/wp_total_upkeep_downloader                        2020-12-12       normal     No     WordPress Total Upkeep Unauthenticated Backup Downloader
+auxiliary/dos/http/wordpress_directory_traversal_dos                                      normal     No     WordPress Traversal Directory DoS
+auxiliary/gather/wp_ultimate_csv_importer_user_extract                   2015-02-02       normal     Yes    WordPress Ultimate CSV Importer User Table Extract
+auxiliary/gather/wp_w3_total_cache_hash_extract                                           normal     No     WordPress W3-Total-Cache Plugin 0.9.2.4 (or before) Username and Hash Extract
+auxiliary/admin/http/wp_easycart_privilege_escalation                    2015-02-25       normal     Yes    WordPress WP EasyCart Plugin Privilege Escalation
+auxiliary/admin/http/wp_gdpr_compliance_privesc                          2018-11-08       normal     Yes    WordPress WP GDPR Compliance Plugin Privilege Escalation
+auxiliary/admin/http/wp_wplms_privilege_escalation                       2015-02-09       normal     Yes    WordPress WPLMS Theme Privilege Escalation
+auxiliary/scanner/http/wp_wps_hide_login_revealer                        2021-10-27       normal     No     WordPress WPS Hide Login Login Page Revealer
+auxiliary/scanner/http/wordpress_ghost_scanner                                            normal     No     WordPress XMLRPC GHOST Vulnerability Scanner
+auxiliary/admin/http/wp_custom_contact_forms                             2014-08-07       normal     No     WordPress custom-contact-forms Plugin SQL Upload
+auxiliary/scanner/http/wp_arbitrary_file_deletion                        2018-06-26       normal     No     Wordpress Arbitrary File Deletion
+auxiliary/gather/wp_bookingpress_category_services_sqli                  2022-02-28       normal     Yes    Wordpress BookingPress bookingpress_front_get_category_services SQLi
+auxiliary/scanner/http/wp_bulletproofsecurity_backups                    2021-09-17       normal     No     Wordpress BulletProof Security Backup Disclosure
+auxiliary/scanner/http/wp_learnpress_sqli                                2020-04-29       normal     No     Wordpress LearnPress current_items Authenticated SQLi
+auxiliary/admin/http/wp_masterstudy_privesc                              2022-02-18       normal     Yes    Wordpress MasterStudy Admin Account Creation
+auxiliary/scanner/http/wp_paid_membership_pro_code_sqli                  2023-01-12       normal     Yes    Wordpress Paid Membership Pro code Unauthenticated SQLi
+auxiliary/scanner/http/wordpress_pingback_access                                          normal     No     Wordpress Pingback Locator
+auxiliary/scanner/http/wp_registrationmagic_sqli                         2022-01-23       normal     Yes    Wordpress RegistrationMagic task_ids Authenticated SQLi
+auxiliary/scanner/http/wordpress_scanner                                                  normal     No     Wordpress Scanner
+auxiliary/scanner/http/wp_secure_copy_content_protection_sqli            2021-11-08       normal     Yes    Wordpress Secure Copy Content Protection and Content Locking sccp_id Unauthenticated SQLi
+auxiliary/scanner/http/wordpress_xmlrpc_login                                             normal     No     Wordpress XML-RPC Username/Password Login Scanner
+auxiliary/scanner/http/wordpress_multicall_creds                                          normal     No     Wordpress XML-RPC system.multicall Credential Collector
+auxiliary/dos/http/wordpress_xmlrpc_dos                                  2014-08-06       normal     No     Wordpress XMLRPC DoS
+auxiliary/scanner/x11/open_x11                                                            normal     No     X11 No-Auth Scanner
+auxiliary/gather/xbmc_traversal                                          2012-11-04       normal     No     XBMC Web Server Directory Traversal
+auxiliary/dos/windows/ftp/xmeasy560_nlst                                 2008-10-13       normal     No     XM Easy Personal FTP Server 5.6.0 NLST DoS
+auxiliary/dos/windows/ftp/xmeasy570_nlst                                 2009-03-27       normal     No     XM Easy Personal FTP Server 5.7.0 NLST DoS
+auxiliary/gather/xerox_pwd_extract                                                        normal     No     Xerox Administrator Console Password Extractor
+auxiliary/scanner/snmp/xerox_workcentre_enumusers                                         normal     No     Xerox WorkCentre User Enumeration (SNMP)
+auxiliary/gather/xerox_workcentre_5xxx_ldap                                               normal     No     Xerox Workcentre 5735 LDAP Service Redential Extractor
+auxiliary/gather/xymon_info                                                               normal     No     Xymon Daemon Gather Information
+auxiliary/scanner/http/yaws_traversal                                    2011-11-25       normal     No     Yaws Web Server Directory Traversal
+auxiliary/admin/scada/yokogawa_bkbcopyd_client                           2014-08-09       normal     No     Yokogawa BKBCopyD.exe Client
+auxiliary/dos/scada/yokogawa_logsvr                                      2014-03-10       normal     No     Yokogawa CENTUM CS 3000 BKCLogSvr.exe Heap Buffer Overflow
+auxiliary/scanner/http/zabbix_login                                                       normal     No     Zabbix Server Brute Force Utility
+auxiliary/gather/zabbix_toggleids_sqli                                   2016-08-11       normal     Yes    Zabbix toggle_ids SQL Injection
+auxiliary/scanner/http/zenload_balancer_traversal                        2020-04-10       normal     No     Zen Load Balancer Directory Traversal
+auxiliary/admin/zend/java_bridge                                         2011-03-28       normal     No     Zend Server Java Bridge Design Flaw Remote Code Execution
+auxiliary/gather/zoomeye_search                                                           normal     No     ZoomEye Search
+auxiliary/admin/http/zyxel_admin_password_extractor                                       normal     No     ZyXEL GS1510-16 Password Extractor
+auxiliary/scanner/http/cgit_traversal                                    2018-08-03       normal     No     cgit Directory Traversal
+auxiliary/dos/apple_ios/webkit_backdrop_filter_blur                      2018-09-15       normal     No     iOS Safari Denial of Service with CSS
+auxiliary/scanner/ssh/libssh_auth_bypass                                 2018-10-16       normal     No     libssh Authentication Bypass Scanner
+auxiliary/scanner/mdns/query                                                              normal     No     mDNS Query
+auxiliary/spoof/mdns/mdns_response                                                        normal     No     mDNS Spoofer
+auxiliary/dos/http/marked_redos                                                           normal     No     marked npm module "heading" ReDoS
+auxiliary/sniffer/psnuffle                                                                normal     No     pSnuffle Packet Sniffer
+auxiliary/scanner/rservices/rexec_login                                                   normal     No     rexec Authentication Scanner
+auxiliary/scanner/rservices/rlogin_login                                                  normal     No     rlogin Authentication Scanner
+auxiliary/scanner/rservices/rsh_login                                                     normal     No     rsh Authentication Scanner
+auxiliary/dos/syslog/rsyslog_long_tag                                    2011-09-01       normal     No     rsyslog Long Tag Off-By-Two DoS
+auxiliary/dos/http/ua_parser_js_redos                                                     normal     No     ua-parser-js npm module ReDoS
+auxiliary/gather/vbulletin_getindexablecontent_sqli                      2020-03-12       normal     No     vBulletin /ajax/api/content_infraction/getIndexableContent nodeid Parameter SQL Injection
+auxiliary/admin/http/vbulletin_upgrade_admin                             2013-10-09       normal     No     vBulletin Administrator Account Creation
+auxiliary/gather/vbulletin_vote_sqli                                     2013-03-24       normal     Yes    vBulletin Password Collector via nodeid SQL Injection
+auxiliary/dos/http/ws_dos                                                                 normal     No     ws - Denial of Service
+

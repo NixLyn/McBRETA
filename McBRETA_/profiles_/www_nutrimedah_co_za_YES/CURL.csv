@@ -1,0 +1,31 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 197.221.14.11:80...
+* Connected to www.nutrimedah.co.za (197.221.14.11) port 80 (#0)
+> GET / HTTP/1.1
+> Host: www.nutrimedah.co.za
+> User-Agent: curl/7.87.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 301 Moved Permanently
+< Date: Thu, 09 Mar 2023 20:10:19 GMT
+< Server: Apache
+< Location: https://www.nutrimedah.co.za/
+< Content-Length: 303
+< Content-Type: text/html; charset=iso-8859-1
+< 
+{ [303 bytes data]
+
+100   303  100   303    0     0    845      0 --:--:-- --:--:-- --:--:--   848
+* Connection #0 to host www.nutrimedah.co.za left intact
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.nutrimedah.co.za/">here</a>.</p>
+<hr>
+<address>Apache Server at nutrimedah.co.za Port 80</address>
+</body></html>

