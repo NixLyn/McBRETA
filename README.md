@@ -1,0 +1,2 @@
+# McBRETA
+AutoMated MetaSploit (beta)
