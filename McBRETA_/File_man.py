@@ -48,7 +48,19 @@ class File_Man():
             except Exception as e:
                 print("ERROR_READING_FILE", str(e))
                 return "ERROR_READING_FILE"
-    
+
+    def read_file_str(self, file_name):
+        if file_name:
+            try:
+                with open(file_name, "r") as rf:
+                    data = rf.readlines()
+                    rf.close()
+                return data
+            except Exception as e:
+                print("ERROR_READING_FILE", str(e))
+                return "ERROR_READING_FILE"
+
+
     def write_file(self, file_name, data, delim, rwm):
         print(f"[FILE_NAME]:[IN_Q]:[{str(file_name)}]")
         if "[" in file_name or "]" in file_name:
