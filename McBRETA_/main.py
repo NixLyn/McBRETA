@@ -144,11 +144,32 @@ class TestCase_0():
     def main(self):
         try:
             type_   = input("[TARGET_TYPE]\n[IP/URL]: ")
+            if not type_:
+                type_ = "IP"
             target_ = input("[TAR_VAL]: ")
+            if not target_:
+                print("[MUST_HAVE_TARGET]\n[TRY_AGAIN]\n")
+                time.sleep(1)
+                print("[...]")
+                time.sleep(1)
+                print("[.. ]")
+                time.sleep(1)
+                print("[.  ]")
+                return
             port_  = input("[Re_PORT]: ")
             l_host = input("[L_HOST]: ")
+            if not l_host:
+                l_host = "127.0.0.1"
             l_port = input("[L_PORT]: ")
-            thr_ = input("[THREADING]-[Y/N]: ")
+            if not l_port:
+                l_port = "23"
+            thr_ = input("[THREADING]-[y/N]: ")
+            if not thr_:
+                thr_lvl = "N*0"
+            if "Y" in thr_:
+                thr_lvl = "Y*" + input("[THREAD_LVL]:[INT()]:\n[0]-[NO_THREADS]\n[1]:[TWO_BASE_THREADS]\n[2]:[THREAD_PER_PORT]\n[3]:[THREAD_PER_PROCESS]\n>>[#]:")
+
+            print("\n[SETTING_TAGRET]\n")
             prof_dir, IP_ = self.make_profile(type_, target_, port_, l_host, l_port)
             print("[TAR_DIR]:",str(prof_dir))
             print("[TAR_IP]: ",str(IP_))
@@ -157,7 +178,7 @@ class TestCase_0():
                 tcp_ =self.start_scan(type_, IP_, port_, prof_dir)
                 print("\n************\n[SCANS_COMPLETE]\n")
                 print("[IP_TARGET]:", str(IP_))
-                self.launch_att(l_host, l_port, IP_, prof_dir, type_, tcp_, thr_)
+                self.launch_att(l_host, l_port, IP_, prof_dir, type_, tcp_, thr_lvl)
                 print("[_McBRETA_COMPLETED]\n!*!")
             else:
                 print(f"[E]:[SCAN_NOT_STARTED]")
