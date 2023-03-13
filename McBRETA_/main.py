@@ -6,10 +6,14 @@ from brute_ssh import BruteSSH
 from net_map import NetMap
 from micro_scans import MicroScans
 from meta_fab import MetaFab
+from dir_scan import DirScan_
 
 # SYS_BASE
 import sys
 import threading
+import ipaddress
+import time
+
 
 class TestCase_0():
     def __init__(self, **kw):
@@ -19,27 +23,19 @@ class TestCase_0():
         self.NM         = NetMap()
         self.MS         = MicroScans()
         self.META       = MetaFab()
+        self.DiS        = DirScan_()
 
 
     # ! BUILD PROFILE
-    def make_profile(self, tar_type, tar_val, port_, l_host, l_port):
+    def make_profile(self, tar_type, tar_val, port_, l_host, l_port, f_name):
         try:
             prof_ = "profiles_/"
-
-            print(f"[TAR_TYPE]:[>{str(tar_type)}<]")
-            print(f"[TAR_VAL]:[>{str(tar_val)}<]")
-            print(f"[Re_PORT]:[>{str(port_)}<]")
-            print(f"[L_HOST]:[>{str(l_host)}<]")
-            print(f"[L_PORT]:[>{str(l_port)}<]")
-
 
 
             file_dir = ""
             if "http://" in str(tar_val):
                 print("[DO NOT USE 'HTTP(S)://']")
                 return "HTTP", "ERROR"
-            if "www." in str(file_dir):
-                file_dir = file_dir.replace("www.", "")
 
 
             if "URL" in  tar_type.upper():
@@ -51,12 +47,21 @@ class TestCase_0():
             IP_val = self.MS.dis_lookup(tar_val)
             to_save_ = f"[TAR_TYPE]:[>{str(tar_type)}<]\n[TAR_VAL]:[>{str(tar_val)}<]\n[IP_VAL]:[{str(IP_val)}]\n[Re_PORT]:[>{str(port_)}<]\n[L_HOST]:[>{str(l_host)}<]\n[L_PORT]:[>{str(l_port)}<]"
 
-            file_dir = IP_.replace(".", "_")
+
+            if f_name:
+                file_dir = f_name
+            else:
+                file_dir = IP_.replace(".", "_")
             print(f"[MAIN_FILE_DIR]:[>{str(file_dir)}<]")
+
             make_dir = prof_+file_dir
-            print(f"[DIR_TO_MAKE]:[{make_dir}]")
-            save_at = prof_+file_dir+"/profile.csv"
+            print(f"[TEST_DIR]:[{str(make_dir)}]")
+            make_dir = str(self.FM.check_prof_(make_dir, 0))
+            print(f"[AVAILABLE_DIR]:[{str(make_dir)}]")
+
+            save_at = make_dir+"/profile.csv"
             self.FM.make_dir(make_dir)
+            print(f"\n@@\n[DIR_TO_MAKE]:[{make_dir}]")
             self.FM.write_file(save_at, to_save_, "\n", "a+")
             print("[IP_OF_PROFILE]:",str(IP_))
             return make_dir, IP_
@@ -143,45 +148,71 @@ class TestCase_0():
     # ! MAIN
     def main(self):
         try:
-            type_   = input("[TARGET_TYPE]\n[IP/URL]: ")
-            if not type_:
-                type_ = "IP"
-            target_ = input("[TAR_VAL]: ")
-            if not target_:
-                print("[MUST_HAVE_TARGET]\n[TRY_AGAIN]\n")
-                time.sleep(1)
-                print("[...]")
-                time.sleep(1)
-                print("[.. ]")
-                time.sleep(1)
-                print("[.  ]")
-                return
-            port_  = input("[Re_PORT]: ")
-            l_host = input("[L_HOST]: ")
-            if not l_host:
-                l_host = "127.0.0.1"
-            l_port = input("[L_PORT]: ")
-            if not l_port:
-                l_port = "23"
-            thr_ = input("[THREADING]-[y/N]: ")
-            if not thr_:
-                thr_lvl = "N*0"
-            if "Y" in thr_:
-                thr_lvl = "Y*" + input("[THREAD_LVL]:[INT()]:\n[0]-[NO_THREADS]\n[1]:[TWO_BASE_THREADS]\n[2]:[THREAD_PER_PORT]\n[3]:[THREAD_PER_PROCESS]\n>>[#]:")
+            print("\n----------------------------\n[WELCOME]:[McBreta]:[Off-Sec]\n----------------------------\n")
+            while True:
+                f_name  = input("[FOLDER_NAME]: ")
+                type_   = input("[TARGET_TYPE]\n[IP/URL]: ")
+                if not type_:
+                    type_ = "IP"
+                target_ = input("[TAR_VAL]: ")
+                if not target_:
+                    print("[MUST_HAVE_TARGET]\n[TRY_AGAIN]\n")
+                    time.sleep(1)
+                    print("[...]")
+                    time.sleep(1)
+                    print("[.. ]")
+                    time.sleep(1)
+                    print("[.  ]")
+                    return self.main()
+                port_  = input("[Re_PORT]: ")
+                l_host = input("[L_HOST]: ")
+                if not l_host:
+                    l_host = "127.0.0.1"
+                l_port = input("[L_PORT]: ")
+                if not l_port:
+                    l_port = "23"
+                thr_ = input("[THREADING]-[y/N]: ")
+                if not thr_:
+                    thr_lvl = "N*0"
+                if "Y" in thr_:
+                    thr_lvl = "Y*" + input("[THREAD_LVL]:[INT()]:\n[0]-[NO_THREADS]\n[1]:[TWO_BASE_THREADS]\n[2]:[THREAD_PER_PORT]\n[3]:[THREAD_PER_PROCESS]\n>>[#]:")
 
-            print("\n[SETTING_TAGRET]\n")
-            prof_dir, IP_ = self.make_profile(type_, target_, port_, l_host, l_port)
-            print("[TAR_DIR]:",str(prof_dir))
-            print("[TAR_IP]: ",str(IP_))
-            if "ERROR" not in str(prof_dir):
-                print("[STRATING..]")
-                tcp_ =self.start_scan(type_, IP_, port_, prof_dir)
-                print("\n************\n[SCANS_COMPLETE]\n")
-                print("[IP_TARGET]:", str(IP_))
-                self.launch_att(l_host, l_port, IP_, prof_dir, type_, tcp_, thr_lvl)
-                print("[_McBRETA_COMPLETED]\n!*!")
-            else:
-                print(f"[E]:[SCAN_NOT_STARTED]")
+
+
+
+                print("\n[SETTING_TAGRET]\n")
+                prof_dir, IP_ = self.make_profile(type_, target_, port_, l_host, l_port, f_name)
+                print("[TAR_DIR]:",str(prof_dir))
+                print("[TAR_IP]: ",str(IP_))
+
+                try:
+                    ip_cat = ipaddress.ip_address(IP_)
+                    tar_type = "IP"
+                except:
+                    tar_type = "URL"
+                    print("[URL]->[DIR_SCAN]")
+                    self.DiS.dir_seach(target_, prof_dir)
+
+
+                print("\n************\n[COMPILED_PROFILE]\n")
+                print(f"[TAR_TYPE]:[>{str(tar_type)}<]")
+                print(f"[TAR_VAL]:[>{str(IP_)}<]")
+                print(f"[Re_PORT]:[>{str(port_)}<]")
+                print(f"[L_HOST]:[>{str(l_host)}<]")
+                print(f"[L_PORT]:[>{str(l_port)}<]")
+                print(f"[THREAD_LVL]:[{str(thr_lvl)}]")
+
+
+
+                if "ERROR" not in str(prof_dir):
+                    print("[STRATING..]")
+                    tcp_ =self.start_scan(type_, IP_, port_, prof_dir)
+                    print("\n************\n[SCANS_COMPLETE]\n")
+                    print("[IP_TARGET]:", str(IP_))
+                    self.launch_att(l_host, l_port, IP_, prof_dir, type_, tcp_, thr_lvl)
+                    print("[_McBRETA_COMPLETED]\n!*!")
+                else:
+                    print(f"[E]:[SCAN_NOT_STARTED]")
         except Exception as e:
             print(f"[E]:[TEST_CASE]:[MAIN]:[>{str(e)}<]")
             return False

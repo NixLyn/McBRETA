@@ -10,6 +10,31 @@ class File_Man():
     def __init__(self, **kwargs):
         pass
  
+    def check_prof_(self, f_name, i_):
+        nf_name = ""
+        ff_name = ""
+        print(f"[PROF_NAME]:[{str(f_name)}]")
+        print("[I_]:",str(i_))
+        try:
+            check_f = self.check_dir(f_name)
+            if check_f == False:
+                print("[NEW_PROFIILE]")
+                return f_name
+            else:
+                print("[PROFIILE_EXISTS]")
+                nf_name = f_name+"_"+str(i_)
+                print(f"[TRYING]:[{nf_name}]")
+                ch_dir = self.check_dir(nf_name)
+                if ch_dir == False:
+                    ret_ = nf_name
+                    print("[RET_DIR]:", str(ret_))
+                    return ret_
+                else:
+                    ff_name = self.check_prof_(nf_name, i_)
+                    return ff_name
+        except Exception as e:
+            print(f"[E]:[CHECK_PROF_]:[{str(e)}]")
+
 
     def save_scan(self, f_dir_, scan_, scan_stack):
         try:
@@ -21,7 +46,6 @@ class File_Man():
             self.write_file(file_name_, scan_stack, "\n", "a+")
         except Exception as e:
             print(f"[E]:[SAVE_SCAN]:[>{str(e)}<]")
-
 
     def make_dir(self, path):
         os.mkdir(path)
@@ -59,7 +83,6 @@ class File_Man():
             except Exception as e:
                 print("ERROR_READING_FILE", str(e))
                 return "ERROR_READING_FILE"
-
 
     def write_file(self, file_name, data, delim, rwm):
         print(f"[FILE_NAME]:[IN_Q]:[{str(file_name)}]")

