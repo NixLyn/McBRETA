@@ -1,0 +1,27 @@
+[📛]:[☢️]               # McBreta
+[📅]:[🏁]               #{2023/03/14}
+[📅]:[🌐]               #{}
+
+
+[☢️]:[🌐]               #   {
+                                [1️⃣] ENUM;
+                                [2️⃣] RECON;
+                                [3️⃣] CRACK;
+                                [4️⃣] ESCULATE;
+                            }
+
+
+[🚧]:[❗]:[☢️]               #~# McBRETA
+
+[☑️]:[🔻]:[🟨]:[↪️]               # AUTO_SCAN
+[☑️]:[🔻]:[🟨]:[↪️]               # BRUTES
+[☑️]:[🔻]:[🟨]:[↪️]               # LISTENER_
+[🚧]:[☢️]:[🟨]:[↪️]               # DECRYPTION/PCAP_HANDLER
+[🚧]:[🔻]:[🟨]:[↪️]               # AUXILIARY_CONFIG
+[🚧]:[🔻]:[🟨]:[↪️]               # EXPLOITER_CONFIG
+[🚧]:[🔻]:[🟨]:[↪️]               # PAYLOADER_CONFIG
+
+
+
+
+
