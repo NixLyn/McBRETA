@@ -1,0 +1,75 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 185.41.242.98:80...
+* Connected to 185.41.242.98 (185.41.242.98) port 80 (#0)
+> GET / HTTP/1.1
+> Host: 185.41.242.98
+> User-Agent: curl/7.88.1
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Server: nginx
+< Date: Sun, 19 Mar 2023 21:41:59 GMT
+< Content-Type: text/html; charset=UTF-8
+< Content-Length: 2264
+< Connection: close
+< Refresh: 3; url=https://servebolt.com
+< Cache-Control: private,max-age=900
+< 
+{ [797 bytes data]
+
+100  2264  100  2264    0     0   2949      0 --:--:-- --:--:-- --:--:--  2947
+100  2264  100  2264    0     0   2948      0 --:--:-- --:--:-- --:--:--  2947
+* Closing connection 0
+<!doctype html>
+<!--[if lt IE 7]><html lang="nb-NO" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="nb-NO" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="nb-NO" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="nb-NO" class="no-js"><!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/vnd.microsoft.icon" />
+    <title>Page not found | Servebolt</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/assets/app.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/touch-icon-ipad-retina.png">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <![endif]-->
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41569694-17"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-41569694-17');
+    </script>
+</head>
+<body class="html not-front not-logged-in no-sidebars not-edit i18n-en" >
+<div class="wrap v-align">
+    <main class="main">
+        <div class="row">
+            <div class="columns medium-7 medium-centered large-6 xlarge-6">
+                <div class="logo"></div>
+                <div class="centered 404">
+                    <h3>185.41.242.98</h3>
+                    <p>Let's show you our website!</p>
+                    <ul class="button-list">
+                        <li><a href="https://servebolt.com/" class="button medium border expand">Go to Servebolt</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>

@@ -1,12 +1,13 @@
 # LOCAL
 from File_man import File_Man
 
-# TESTING
+# TOOLS_
 from brute_ssh import BruteSSH
 from net_map import NetMap
 from micro_scans import MicroScans
 from meta_fab import MetaFab
 from dir_scan import DirScan_
+from listen_ import Listen_
 
 # SYS_BASE
 import sys
@@ -24,6 +25,7 @@ class TestCase_0():
         self.MS         = MicroScans()
         self.META       = MetaFab()
         self.DiS        = DirScan_()
+        self.LI         = Listen_()
 
 
     # ! BUILD PROFILE
@@ -145,6 +147,15 @@ class TestCase_0():
         except Exception as e:
             print(f"[E]:[McBRETA]:[MAIN]:[>{str(e)}<]")
 
+    # ! START LISTENING
+    def listen_in(self, addr_, port_, prof_dir):
+        try:
+            threading.Thread(target=self.LI.main, args=(addr_, port_, prof_dir))
+            print("[LiSTENING_STARTED]")
+        except Exception as e:
+            print(f"[E]:[LISTEN_IN]:[{str(e)}]")
+
+
     # ! MAIN
     def main(self):
         try:
@@ -185,9 +196,11 @@ class TestCase_0():
                 print("[TAR_DIR]:",str(prof_dir))
                 print("[TAR_IP]: ",str(IP_))
 
+
                 try:
                     ip_cat = ipaddress.ip_address(IP_)
                     tar_type = "IP"
+
                 except:
                     tar_type = "URL"
                     print("[URL]->[DIR_SCAN]")
@@ -205,14 +218,20 @@ class TestCase_0():
 
 
                 if "ERROR" not in str(prof_dir):
-                    print("[STRATING..]")
+                    print("[STRATING_SCANS]")
                     tcp_ =self.start_scan(type_, IP_, port_, prof_dir)
                     print("\n************\n[SCANS_COMPLETE]\n")
                     print("[IP_TARGET]:", str(IP_))
-                    self.launch_att(l_host, l_port, IP_, prof_dir, type_, tcp_, thr_lvl)
-                    print("[_McBRETA_COMPLETED]\n!*!")
+                    listen_i = input("[RUN_LISTENER]:[Y/n]")
+                    if "N" not in listen_i.upper():
+                        self.listen_in(IP_, tcp_, prof_dir)
+                    att_ = input("[RUN_ATTACK]:[Y/n]")
+                    if "N" not in att_.upper():
+                        self.launch_att(l_host, l_port, IP_, prof_dir, type_, tcp_, thr_lvl)
                 else:
                     print(f"[E]:[SCAN_NOT_STARTED]")
+                print("[_McBRETA_COMPLETED]\n!*!\n\n")
+
         except Exception as e:
             print(f"[E]:[TEST_CASE]:[MAIN]:[>{str(e)}<]")
             return False

@@ -1,0 +1,50 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '185.41.242.0 - 185.41.242.255'
+
+% Abuse contact for '185.41.242.0 - 185.41.242.255' is 'abuse@blixsolutions.no'
+
+inetnum:        185.41.242.0 - 185.41.242.255
+netname:        GB-BLIXLONDON
+descr:          Blix Solutions - London
+country:        GB
+geoloc:         51.509865 -0.118092
+language:       EN
+admin-c:        BLIX-RIPE
+tech-c:         BLIX-RIPE
+status:         ASSIGNED PA
+mnt-by:         BLIX-MNT
+created:        2017-01-28T13:58:07Z
+last-modified:  2018-08-02T09:17:55Z
+source:         RIPE
+
+role:           RIPE MANAGER
+address:        Jerikoveien 26, N-1067 OSLO
+admin-c:        EH752-RIPE
+tech-c:         BLIX
+nic-hdl:        BLIX-RIPE
+abuse-mailbox:  abuse@blixsolutions.no
+mnt-by:         BLIX-MNT
+created:        2012-08-29T12:30:38Z
+last-modified:  2020-08-04T09:12:02Z
+source:         RIPE # Filtered
+
+% Information related to '185.41.242.0/24AS50304'
+
+route:          185.41.242.0/24
+descr:          GB-BLIX
+origin:         AS50304
+mnt-by:         BLIX-MNT
+created:        2017-02-01T00:34:25Z
+last-modified:  2017-02-01T00:34:25Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.106 (ABERDEEN)
+

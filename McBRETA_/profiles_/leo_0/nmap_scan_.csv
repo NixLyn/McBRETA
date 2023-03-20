@@ -1,0 +1,33 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-03-19 23:42 SAST
+Nmap scan report for s1854124298.blix.com (185.41.242.98)
+Host is up (0.11s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 7.4 (protocol 2.0)
+80/tcp   open  http     nginx
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-title: Page not found | Servebolt
+443/tcp  open  ssl/http nginx
+| ssl-cert: Subject: commonName=*.anne-lon.servebolt.cloud
+| Subject Alternative Name: DNS:*.anne-lon.servebolt.cloud, DNS:anne-lon.servebolt.cloud
+| Not valid before: 2022-08-01T00:00:00
+|_Not valid after:  2023-08-01T23:59:59
+|_http-title: Page not found | Servebolt
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_ssl-date: TLS randomness does not represent time
+1022/tcp open  ssh      ProFTPD mod_sftp (protocol 2.0)
+OS fingerprint not ideal because: Host distance (14 network hops) is greater than five
+No OS matches for host
+Network Distance: 4 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   109.66 ms VodafoneMobile.wifi (192.168.0.1)
+2   ...
+3   27.56 ms  172.20.7.1
+4   27.61 ms  s1854124298.blix.com (185.41.242.98)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 45.89 seconds
